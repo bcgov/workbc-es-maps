@@ -392,11 +392,12 @@
     }
 
     //BC ISET
-    var test;
+    var polygon = L.layerGroup();
     var geojson = new L.GeoJSON.AJAX("../data/BCISET.json", {
     middleware: function(data){
-      return L.geoJSON(data, {onEachFeature: onEachFeature, style: ISETStyle });
+      L.geoJSON(data, {onEachFeature: onEachFeature, style: ISETStyle }).addTo(polygon);
     }});
+    console.log(geojson);
     //geojson.on('data:loaded', function(a, b){
     //  console.log(a)
     //  console.log(b)
@@ -406,7 +407,7 @@
     var overlays={
       "ISETs": runLayerIsets,
       "WorkBC Centres": runLayer,
-      "Polygons": geojson
+      "ISETP Agreement Holders": polygon
     }
 
     L.control.layers(null, overlays).addTo(map);
