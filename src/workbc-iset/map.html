@@ -295,13 +295,11 @@
         //$(parent.document).find("#searchResults .container .accordion").empty();
         latlng.layer.fire('click');
         var html = create_html(latlng.layer.feature.properties,0);
-        //top.postMessage(html, 'https://maps-dev.es.workbc.ca');
+        top.postMessage(html, "*");
         //$(parent.document).find("#searchResults .container .accordion").append(html);
       },
     });
     //controlSearch.on('search_locationfound', function(e) {alert(e);e.layer.fire('click');var html = create_html(e.layer.feature.properties,0);$(parent.document).find("#searchResults .container .accordion").append(html);});
-    
-    top.postMessage("hello", "*");
 
     //Search by address or postal code
     var searchControl = L.esri.Geocoding.geosearch({
