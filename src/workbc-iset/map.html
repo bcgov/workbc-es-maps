@@ -449,7 +449,7 @@
       map.setView(result.latlng, 12);
       var closestMetis = L.GeometryUtil.nClosestLayers(map, layerMetis.getLayers(), result.latlng, 1);
       var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
-      $(parent.document).find("#searchResults .container .accordion").empty();
+      //$(parent.document).find("#searchResults .container .accordion").empty();
       for (c in closest) {
         var cur = closest[c].layer.feature.properties;
         //var html = create_html(cur,c);
@@ -602,7 +602,7 @@
           icon: 'fa-exchange fa-lg',
           title: 'Search Addresses',
           onClick: function(btn, map) {
-            $(parent.document).find("#searchResults .container .accordion").empty();
+            //$(parent.document).find("#searchResults .container .accordion").empty();
             map.removeControl(controlSearch);
             searchControl.addTo(map);
           btn.state('hide');
@@ -612,7 +612,7 @@
         icon: 'fa-exchange fa-border fa-lg',
           title: 'Search Features',
           onClick: function(btn, map) {
-            $(parent.document).find("#searchResults .container .accordion").empty();
+            //$(parent.document).find("#searchResults .container .accordion").empty();
             map.removeControl(searchControl);
             controlSearch.addTo(map);
             btn.state('show');
@@ -624,7 +624,7 @@
       esriResults.clearLayers();
       map.setView([50.65, -129.25], 5);
       //console.log($(parent.document).find("#searchResults"));
-      $(parent.document).find("#searchResults .container .accordion").empty();
+      //$(parent.document).find("#searchResults .container .accordion").empty();
     });
     
     var fullscreen = L.easyButton('fa-expand fa-lg',
