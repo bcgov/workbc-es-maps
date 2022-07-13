@@ -273,7 +273,6 @@
       }).addTo(map);
     //Finish KML layer 
 
-    var HTML;
     //Add search for the pins only
     //searches by catcment name
     var controlSearch = new L.Control.Search({
@@ -296,8 +295,7 @@
         //$(parent.document).find("#searchResults .container .accordion").empty();
         latlng.layer.fire('click');
         var html = create_html(latlng.layer.feature.properties,0);
-        HTML = html;
-        //top.postMessage(html, "*");
+        window.postMessage(html, "*");
         //$(parent.document).find("#searchResults .container .accordion").append(html);
       },
     });
@@ -474,7 +472,6 @@
           dashArray: "5,10"
         }).addTo(esriResults);
       }
-      top.postMessage(HTML, "*");
     }
     
     
