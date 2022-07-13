@@ -295,7 +295,7 @@
         //$(parent.document).find("#searchResults .container .accordion").empty();
         latlng.layer.fire('click');
         var html = create_html(latlng.layer.feature.properties,0);
-        postMessage(html, 'https://maps-dev.es.workbc.ca');
+        window.parent.postMessage(html, 'https://maps-dev.es.workbc.ca');
         //$(parent.document).find("#searchResults .container .accordion").append(html);
       },
     });
