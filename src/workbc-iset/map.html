@@ -295,7 +295,7 @@
         //$(parent.document).find("#searchResults .container .accordion").empty();
         latlng.layer.fire('click');
         var html = create_html(latlng.layer.feature.properties,0);
-        window.parent.postMessage(html, 'https://maps-dev.es.workbc.ca');
+        top.postMessage(html, 'https://maps-dev.es.workbc.ca');
         //$(parent.document).find("#searchResults .container .accordion").append(html);
       },
     });
@@ -413,7 +413,7 @@
     middleware: function(data){
       L.geoJSON(data, {onEachFeature: onEachFeature, style: ISETStyle }).addTo(polygon);
     }});
-    console.log(geojson);
+    //console.log(geojson);
     //geojson.on('data:loaded', function(a, b){
     //  console.log(a)
     //  console.log(b)
