@@ -295,7 +295,8 @@
         //$(parent.document).find("#searchResults .container .accordion").empty();
         latlng.layer.fire('click');
         var html = create_html(latlng.layer.feature.properties,0);
-        window.postMessage(html, "*");
+        var targetWindow = window.opener;
+        targetWindow.postMessage(html, "*");
         //$(parent.document).find("#searchResults .container .accordion").append(html);
       },
     });
