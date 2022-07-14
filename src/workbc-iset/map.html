@@ -451,6 +451,7 @@
       var closestMetis = L.GeometryUtil.nClosestLayers(map, layerMetis.getLayers(), result.latlng, 1);
       var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
       //$(parent.document).find("#searchResults .container .accordion").empty();
+      var html;
       for (c in closest) {
         var cur = closest[c].layer.feature.properties;
         //var html = create_html(cur,c);
@@ -461,8 +462,8 @@
           opacity: 1,
           dashArray: "5,10"
         }).addTo(esriResults);
-        var html = create_html(cur,0);
-        top.postMessage(html, "*");
+        html += create_html(cur,0);
+        
       }
       for (c in closestMetis) {
         var cur = closestMetis[c].layer.feature.properties;
@@ -477,6 +478,7 @@
         //var html = create_html(cur,0);
         //top.postMessage(cur, "*");
       }
+      top.postMessage(html, "*");
     }
     
     
