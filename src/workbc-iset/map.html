@@ -475,8 +475,7 @@
           opacity: 1,
           dashArray: "5,10"
         }).addTo(esriResults);
-        //var html = create_html(cur,0);
-        //top.postMessage(cur, "*");
+        html += cur.description
       }
       top.postMessage(html, "*");
     }
