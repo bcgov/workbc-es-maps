@@ -388,7 +388,7 @@
       html += '         </dd>';
       html += '       </dl>';
       html += '       <p class="catchment-area">CATCHMENT AREA: ' + properties.catchmentId + '</p>';
-      }else{
+      }else if(metis){
       html += '       <dl class="clearfix">';
       html += '       <dt class="address">Address:</dt>';
       html += '         <dd>'+ properties.address + '</dd>';
@@ -460,12 +460,13 @@
 
     L.control.layers(null, overlays).addTo(map);
 
-    function findIsets(result){
+    function findIsets(result, iset){
       var isets = new L.GeoJSON.AJAX("../data/BCISET.json", {
         middleware: function(data){
           for (i in data.features){
             if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), data.features[i])){
-              return({acronym: data.features[i].properties.ISET, name: data.features.properties.ISET_NAME})
+              iset.acronym = data.features[i].properties.ISET;
+              iset.name = data.features.properties.ISET_NAME;
             }
           }
         }
@@ -473,7 +474,9 @@
     }
 
     function showResults(result) {
-      var iset = findIsets(result);
+      const iset = {name: "", acronym:""};
+      findIsets(result, iset);
+      console.log(iset);
       esriResults.clearLayers();
       esriResults.addLayer(L.marker(result.latlng));
       map.setView(result.latlng, 12);
