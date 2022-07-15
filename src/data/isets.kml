@@ -56,6 +56,15 @@
 				<Data name="colour">
 					<value>O</value>
 				</Data>
+				<Data name="phone">
+					<value>604-913-7933</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.1347282,49.3252402</coordinates>
@@ -65,14 +74,23 @@
 			<name>Cariboo Chilcotin Aboriginal Training Employment Centre (CCATEC)</name>
 			<address> Office</address>
 			<Snippet maxLines="0"/>
-			<description> Office&lt;br/&gt;205 â€“ 197 North 2nd Avenue&lt;br/&gt;Williams Lake, BC V2G 1Z5&lt;br/&gt;Phone: 250-392-2510&lt;br/&gt;Website: &lt;a href=&quot;https://www.ccatec.com/&quot; target=&quot;_blank&quot;&gt;https://www.ccatec.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:administration@ccatec.com&quot;&gt;administration@ccatec.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description> Office&lt;br/&gt;205 – 197 North 2nd Avenue&lt;br/&gt;Williams Lake, BC V2G 1Z5&lt;br/&gt;Phone: 250-392-2510&lt;br/&gt;Website: &lt;a href=&quot;https://www.ccatec.com/&quot; target=&quot;_blank&quot;&gt;https://www.ccatec.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:administration@ccatec.com&quot;&gt;administration@ccatec.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#CCATEC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>205 â€“ 197 North 2nd Avenue</value>
+					<value>205 – 197 North 2nd Avenue</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
+				</Data>
+				<Data name="phone">
+					<value>250-392-2510</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.ccatec.com/</value>
+				</Data>
+				<Data name="email">
+					<value>administration@ccatec.com</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -92,6 +110,15 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-746-0183</value>
+				</Data>
+				<Data name="website">
+					<value>http://www.csets.com/</value>
+				</Data>
+				<Data name="email">
+					<value>http://www.csets.com/contact-us/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.6997256,48.7701846</coordinates>
@@ -109,6 +136,15 @@
 				</Data>
 				<Data name="colour">
 					<value>B</value>
+				</Data>
+				<Data name="phone">
+					<value>250-793-0367</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.bcafn.ca/first-nations-bc/northeast/doig-river</value>
+				</Data>
+				<Data name="email">
+					<value/>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -128,6 +164,15 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-489-2464 </value>
+				</Data>
+				<Data name="website">
+					<value>https://www.ktunaxa.org/careers/training-job-search/</value>
+				</Data>
+				<Data name="email">
+					<value>info@ktunaxa.org</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-115.7648269,49.5145862</coordinates>
@@ -145,6 +190,15 @@
 				</Data>
 				<Data name="colour">
 					<value>B</value>
+				</Data>
+				<Data name="phone">
+					<value>604-894-2300</value>
+				</Data>
+				<Data name="website">
+					<value>https://lilwat.ca/citizenservices/education/tszil/</value>
+				</Data>
+				<Data name="email">
+					<value>nfo@lilwat.ca</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -164,6 +218,15 @@
 				<Data name="colour">
 					<value>B</value>
 				</Data>
+				<Data name="phone">
+					<value>None</value>
+				</Data>
+				<Data name="website">
+					<value>https://lillooettribalcouncil.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>info@lillooettribalcouncil.ca</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-121.9351858,50.6924177</coordinates>
@@ -182,23 +245,41 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-957-2225</value>
+				</Data>
+				<Data name="website">
+					<value>http://wkntc.org/</value>
+				</Data>
+				<Data name="email">
+					<value>mcfnts@gmail.com</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-126.7531493,52.3720118</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p9">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;380 â€“ 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Office&lt;br/&gt;380 – 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#MNBC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>380 â€“ 13401 108 Ave</value>
+					<value>380 – 13401 108 Ave</value>
 				</Data>
 				<Data name="colour">
 					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>604-557-5851 </value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -218,6 +299,15 @@
 				<Data name="colour">
 					<value>B</value>
 				</Data>
+				<Data name="phone">
+					<value>604-263-3261</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.musqueam.bc.ca/departments/community-services/employment-and-training/</value>
+				</Data>
+				<Data name="email">
+					<value>info@musqueam.bc.ca   </value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.1984771,49.2248585</coordinates>
@@ -236,6 +326,15 @@
 				<Data name="colour">
 					<value>B</value>
 				</Data>
+				<Data name="phone">
+					<value>604-452-3290</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.nquatqua.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>manager@nquatqua.ca</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.4841659,50.5500904</coordinates>
@@ -245,14 +344,23 @@
 			<name>North-East Native Advancing Society (NENAS)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;10328 â€“ 101 Avenue&lt;br/&gt;Fort St. John, BC V1J 2B5&lt;br/&gt;Phone: 250-785-0887 &lt;br/&gt;Website: &lt;a href=&quot;https://www.nenas.org/nenas/&quot; target=&quot;_blank&quot;&gt;https://www.nenas.org/nenas/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:nenas@nenas.org&quot;&gt;nenas@nenas.org&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Office&lt;br/&gt;10328 – 101 Avenue&lt;br/&gt;Fort St. John, BC V1J 2B5&lt;br/&gt;Phone: 250-785-0887 &lt;br/&gt;Website: &lt;a href=&quot;https://www.nenas.org/nenas/&quot; target=&quot;_blank&quot;&gt;https://www.nenas.org/nenas/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:nenas@nenas.org&quot;&gt;nenas@nenas.org&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#NENAS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>10328 â€“ 101 Avenue</value>
+					<value>10328 – 101 Avenue</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
+				</Data>
+				<Data name="phone">
+					<value>250-785-0887 </value>
+				</Data>
+				<Data name="website">
+					<value>https://www.nenas.org/nenas/</value>
+				</Data>
+				<Data name="email">
+					<value>nenas@nenas.org</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -272,6 +380,15 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-723-1331</value>
+				</Data>
+				<Data name="website">
+					<value>https://nuuchahnulth.org/services/employment-training</value>
+				</Data>
+				<Data name="email">
+					<value>NETPManager@nuuchahnulth.org</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-124.8012814,49.2503724</coordinates>
@@ -281,7 +398,7 @@
 			<name>Nisga'a Employment Skills &amp; Training (NEST)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;5012 Tait Avenue&lt;br/&gt;Gitlaxtâ€™aamiks, BC V0J 1A0&lt;br/&gt;Phone: 250-633-2210&lt;br/&gt;Website: &lt;a href=&quot;http://Nisgaaworks.Ca&quot; target=&quot;_blank&quot;&gt;http://Nisgaaworks.Ca&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:Nass@Nisgaaworks.Ca&quot;&gt;Nass@Nisgaaworks.Ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Office&lt;br/&gt;5012 Tait Avenue&lt;br/&gt;Gitlaxt’aamiks, BC V0J 1A0&lt;br/&gt;Phone: 250-633-2210&lt;br/&gt;Website: &lt;a href=&quot;http://Nisgaaworks.Ca&quot; target=&quot;_blank&quot;&gt;http://Nisgaaworks.Ca&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:Nass@Nisgaaworks.Ca&quot;&gt;Nass@Nisgaaworks.Ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#NEST</styleUrl>
 			<ExtendedData>
 				<Data name="address">
@@ -289,6 +406,15 @@
 				</Data>
 				<Data name="colour">
 					<value>G</value>
+				</Data>
+				<Data name="phone">
+					<value>250-633-2210</value>
+				</Data>
+				<Data name="website">
+					<value>http://Nisgaaworks.Ca</value>
+				</Data>
+				<Data name="email">
+					<value>Nass@Nisgaaworks.Ca</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -308,6 +434,15 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-286-3455</value>
+				</Data>
+				<Data name="website">
+					<value>http://www.nviats.com/</value>
+				</Data>
+				<Data name="email">
+					<value>http://www.nviats.com/contact-us</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-125.2480861,50.0271047</coordinates>
@@ -325,6 +460,15 @@
 				</Data>
 				<Data name="colour">
 					<value>G</value>
+				</Data>
+				<Data name="phone">
+					<value>250-769-1977</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.otdc.org/</value>
+				</Data>
+				<Data name="email">
+					<value>otdc@telus.net</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -344,6 +488,15 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-561-1199</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.pgnaeta.bc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>pgnaeta@pgnaeta.bc.ca</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.7323008,53.9144127</coordinates>
@@ -353,14 +506,23 @@
 			<name>Sto:lo Aboriginal Skills and Employment Training (SASET)</name>
 			<address> Office</address>
 			<Snippet maxLines="0"/>
-			<description> Office&lt;br/&gt;Bldg. #8A â€“ 7201 Vedder Rd.&lt;br/&gt;Chilliwack, BC V2R 4G3&lt;br/&gt;Phone: 604-858-3691&lt;br/&gt;Website: &lt;a href=&quot;https://saset.ca/&quot; target=&quot;_blank&quot;&gt;https://saset.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:info@saset.ca&quot;&gt;info@saset.ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description> Office&lt;br/&gt;Bldg. #8A – 7201 Vedder Rd.&lt;br/&gt;Chilliwack, BC V2R 4G3&lt;br/&gt;Phone: 604-858-3691&lt;br/&gt;Website: &lt;a href=&quot;https://saset.ca/&quot; target=&quot;_blank&quot;&gt;https://saset.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:info@saset.ca&quot;&gt;info@saset.ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#SASET</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>Bldg. #8A â€“ 7201 Vedder Rd.</value>
+					<value>Bldg. #8A – 7201 Vedder Rd.</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
+				</Data>
+				<Data name="phone">
+					<value>604-858-3691</value>
+				</Data>
+				<Data name="website">
+					<value>https://saset.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>info@saset.ca</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -380,6 +542,15 @@
 				<Data name="colour">
 					<value>B</value>
 				</Data>
+				<Data name="phone">
+					<value>604-885-2273</value>
+				</Data>
+				<Data name="website">
+					<value>https://shishalh.com/</value>
+				</Data>
+				<Data name="email">
+					<value>https://shishalh.com/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.7493578,49.4741063</coordinates>
@@ -398,13 +569,22 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-554-4556</value>
+				</Data>
+				<Data name="website">
+					<value>https://shuswapnation.org/</value>
+				</Data>
+				<Data name="email">
+					<value>atecreception@shuswapnation.org</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-120.3257875,50.6829137</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p21">
-			<name>Scwâ€™exmx Tribal Council  (STC)</name>
+			<name>Scw’exmx Tribal Council  (STC)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
 			<description>Office&lt;br/&gt;2090 Coutlee Avenue&lt;br/&gt;Merritt, BC V1K 1B8&lt;br/&gt;Phone: 250 378 4235&lt;br/&gt;Website: &lt;a href=&quot;https://www.scwexmxtribal.com/&quot; target=&quot;_blank&quot;&gt;https://www.scwexmxtribal.com/&lt;/a&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -415,6 +595,15 @@
 				</Data>
 				<Data name="colour">
 					<value>B</value>
+				</Data>
+				<Data name="phone">
+					<value>250 378 4235</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.scwexmxtribal.com/</value>
+				</Data>
+				<Data name="email">
+					<value/>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -434,6 +623,15 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>604-943-2112</value>
+				</Data>
+				<Data name="website">
+					<value>http://tsawwassenfirstnation.com/</value>
+				</Data>
+				<Data name="email">
+					<value>http://tsawwassenfirstnation.com/contact-us/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.0977884,49.0378825</coordinates>
@@ -452,13 +650,22 @@
 				<Data name="colour">
 					<value>G</value>
 				</Data>
+				<Data name="phone">
+					<value>250-624-3535</value>
+				</Data>
+				<Data name="website">
+					<value>http://www.tricorp.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>jridley@tricorp.ca</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-130.2696432,54.314031</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p24">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 4 - Kootenays</address>
 			<Snippet maxLines="0"/>
 			<description>Region 4 - Kootenays&lt;br/&gt;240-1113 Baker St&lt;br/&gt;Cranbrook, BC V1C 1A7&lt;br/&gt;Phone: 250-417-3305&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -470,13 +677,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-417-3305</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-115.7654472,49.5121005</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p25">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 7 - North East</address>
 			<Snippet maxLines="0"/>
 			<description>Region 7 - North East&lt;br/&gt;10021 100 Street&lt;br/&gt;Fort St John, BC V1J 3Y5&lt;br/&gt;Phone: 250-787-1957&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -488,13 +704,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-787-1957</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-120.8470932,56.2468426</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p26">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 3 - Thompson &amp; Okanagan</address>
 			<Snippet maxLines="0"/>
 			<description>Region 3 - Thompson &amp; Okanagan&lt;br/&gt;13-1800 Tranquille Rd&lt;br/&gt;Kamloops, BC V2B 3L9&lt;br/&gt;Phone: 250-376-9235&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -506,13 +731,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-376-9235</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-120.3945851,50.7003593</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p27">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 1 - Vancouver Island and Powell River</address>
 			<Snippet maxLines="0"/>
 			<description>Region 1 - Vancouver Island and Powell River&lt;br/&gt;102-3156 Barons Road&lt;br/&gt;Nanaimo, BC V9T 4B5&lt;br/&gt;Phone: 250-753-6271&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -524,13 +758,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-753-6271</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-124.0011851,49.208354</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p28">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 5 - North Central</address>
 			<Snippet maxLines="0"/>
 			<description>Region 5 - North Central&lt;br/&gt;207-513 Ahbau St&lt;br/&gt;Prince George, BC V2M 3R8&lt;br/&gt;Phone: 250-561-2754&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -542,13 +785,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-561-2754</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.7853382,53.9203243</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p29">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Provincial Office</address>
 			<Snippet maxLines="0"/>
 			<description>Provincial Office&lt;br/&gt;107-5668 192nd Street&lt;br/&gt;Surrey, BC V3S 2V7&lt;br/&gt;Phone: 250-561-2754&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -560,13 +812,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-561-2754</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.6900326,49.1055991</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p30">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 2 - Lower Mainland</address>
 			<Snippet maxLines="0"/>
 			<description>Region 2 - Lower Mainland&lt;br/&gt;10757 138 St&lt;br/&gt;Surrey, BC V3T 4K8&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -578,13 +839,22 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>778-395-0385</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.8398796,49.1981037</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p31">
-			<name>MÃ©tis Nation of British Columbia (MNBC)</name>
+			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Region 6 - North West</address>
 			<Snippet maxLines="0"/>
 			<description>Region 6 - North West&lt;br/&gt;304-4546 Park Ave&lt;br/&gt;Terrace, BC V8G 1V4&lt;br/&gt;Phone: 250-615-0035&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -596,6 +866,15 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-615-0035</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-128.5855495,54.5180385</coordinates>
@@ -603,9 +882,9 @@
 		</Placemark>
 		<Placemark id="p32">
 			<name>Aboriginal Community Career Employment Services Society (ACCESS)</name>
-			<address>ACCESS Employment Services â€“ Vancouver Friendship Center</address>
+			<address>ACCESS Employment Services – Vancouver Friendship Center</address>
 			<Snippet maxLines="0"/>
-			<description>ACCESS Employment Services â€“ Vancouver Friendship Center&lt;br/&gt;101-1607 E. Hastings St&lt;br/&gt;Vancouver V6A 4J1&lt;br/&gt;Phone: 604-251-7955&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>ACCESS Employment Services – Vancouver Friendship Center&lt;br/&gt;101-1607 E. Hastings St&lt;br/&gt;Vancouver V6A 4J1&lt;br/&gt;Phone: 604-251-7955&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
@@ -614,6 +893,15 @@
 				<Data name="colour">
 					<value>O</value>
 				</Data>
+				<Data name="phone">
+					<value>604-251-7955</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.0719986,49.2815619</coordinates>
@@ -621,9 +909,9 @@
 		</Placemark>
 		<Placemark id="p33">
 			<name>Aboriginal Community Career Employment Services Society (ACCESS)</name>
-			<address>ACCESS Employment Services â€“Surrey</address>
+			<address>ACCESS Employment Services –Surrey</address>
 			<Snippet maxLines="0"/>
-			<description>ACCESS Employment Services â€“Surrey&lt;br/&gt;10708 136A St&lt;br/&gt;Surrey V3T 5G9&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>ACCESS Employment Services –Surrey&lt;br/&gt;10708 136A St&lt;br/&gt;Surrey V3T 5G9&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
@@ -631,6 +919,15 @@
 				</Data>
 				<Data name="colour">
 					<value>O</value>
+				</Data>
+				<Data name="phone">
+					<value>778-395-0385</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -650,6 +947,15 @@
 				<Data name="colour">
 					<value>O</value>
 				</Data>
+				<Data name="phone">
+					<value>604-687-7480</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.0692884,49.2679051</coordinates>
@@ -667,6 +973,15 @@
 				</Data>
 				<Data name="colour">
 					<value>O</value>
+				</Data>
+				<Data name="phone">
+					<value>604-922-4077</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -686,6 +1001,15 @@
 				<Data name="colour">
 					<value>O</value>
 				</Data>
+				<Data name="phone">
+					<value>604-913-7933</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-123.1347282,49.3252402</coordinates>
@@ -703,6 +1027,15 @@
 				</Data>
 				<Data name="colour">
 					<value>O</value>
+				</Data>
+				<Data name="phone">
+					<value>604-521-5931</value>
+				</Data>
+				<Data name="website">
+					<value>https://accessfutures.com/</value>
+				</Data>
+				<Data name="email">
+					<value>adminassist@access.futures.com</value>
 				</Data>
 			</ExtendedData>
 			<Point>

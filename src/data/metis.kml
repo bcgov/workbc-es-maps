@@ -47,14 +47,23 @@
 			<name>Métis Nation of British Columbia (MNBC)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;380 – 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Office&lt;br/&gt;380 - 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#MNBC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>380 – 13401 108 Ave</value>
+					<value>380 - 13401 108 Ave</value>
 				</Data>
 				<Data name="colour">
 					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>604-557-5851 </value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -74,6 +83,15 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-417-3305</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-115.7654472,49.5121005</coordinates>
@@ -91,6 +109,15 @@
 				</Data>
 				<Data name="colour">
 					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-787-1957</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -110,6 +137,15 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-376-9235</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-120.3945851,50.7003593</coordinates>
@@ -127,6 +163,15 @@
 				</Data>
 				<Data name="colour">
 					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-753-6271</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -146,6 +191,15 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>250-561-2754</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.7853382,53.9203243</coordinates>
@@ -163,6 +217,15 @@
 				</Data>
 				<Data name="colour">
 					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-561-2754</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -182,6 +245,15 @@
 				<Data name="colour">
 					<value>Y</value>
 				</Data>
+				<Data name="phone">
+					<value>778-395-0385</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.8398796,49.1981037</coordinates>
@@ -199,6 +271,15 @@
 				</Data>
 				<Data name="colour">
 					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-615-0035</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
 				</Data>
 			</ExtendedData>
 			<Point>

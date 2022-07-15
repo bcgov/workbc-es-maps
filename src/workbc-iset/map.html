@@ -333,13 +333,23 @@
     //Calls Code in WorkBC Site
     function create_html(properties,c){
       var email = properties.email.split('mailto:')[1];
+      var workbc = properties.name.includes("WorkBC");
+
+      if(workbc){
+        
+      }
+
       var html = '';  
       //html += '<div class="accordion" id="centres">';
       html += '<div class="card" >';
       html += '  <div class="card-header" id="heading'+c+'" style="background-color:#234075">';
       html += '    <div class="mb-0">';
       //Uses WorkBC Function
+      if(workbc){
       html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+'</button>';
+      }else{
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+' - ' +properties.address+'</button>';
+      }
       //Function on HTML on WorkBC Site
       html += '    </div>';
       html += '  </div>';
@@ -351,6 +361,7 @@
       html += '   <div class="row">';
       html += '     <div class="col-sm-6">';
       html += '       <dl class="clearfix">';
+        if(workbc){
       html += '       <dt class="address">Address:</dt>';
       html += '         <dd>'+ properties.address + '</dd>';
       html += '       <dt class="phone">Phone:</dt>';
@@ -375,6 +386,21 @@
       html += '         </dd>';
       html += '       </dl>';
       html += '       <p class="catchment-area">CATCHMENT AREA: ' + properties.catchmentId + '</p>';
+      }else{
+        html += '       <dt class="address">Address:</dt>';
+      html += '         <dd>'+ properties.address + '</dd>';
+      html += '       <dt class="phone">Phone:</dt>';
+      html += '         <dd>'+properties.phone+'</dd>';
+      html += '       <dt class="email">Email:'+'</dt>';
+      html += '         <dd>'+email+'</dd>';
+      html += '       </dl>';
+      html += '     </div>';
+      html += '     <div class="col-sm-6">'
+      html += '       <dt class="web">Website:</dt>';
+      html += '         <dd><a href="'+properties.website+'" target="_blank">'
+      html += '   '+properties.website+'</a></dd>';
+      html += '   '+properties.description.split(properties.description.indexOf('For a full list of offices click'));
+      }
       html += '     </div>';
       html += '   </div>'
       html += ' </div>';
@@ -475,7 +501,7 @@
           opacity: 1,
           dashArray: "5,10"
         }).addTo(esriResults);
-        html += cur.description
+        html += create_html(cur, 4);
       }
       top.postMessage(html, "*");
     }
