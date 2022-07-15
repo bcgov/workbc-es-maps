@@ -332,9 +332,12 @@
     
     //Calls Code in WorkBC Site
     function create_html(properties,c){
-      var email = properties.email.split('mailto:')[1];
       var workbc = properties.name.includes("WorkBC");
       var metis = properties.name.includes("Métis");
+
+      if(workbc || metis){
+        var email = properties.email.split('mailto:')[1];
+      }
 
       var html = '';  
       //html += '<div class="accordion" id="centres">';
