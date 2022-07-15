@@ -334,10 +334,7 @@
     function create_html(properties,c){
       var email = properties.email.split('mailto:')[1];
       var workbc = properties.name.includes("WorkBC");
-
-      if(workbc){
-        
-      }
+      var metis = properties.name.includes("Métis");
 
       var html = '';  
       //html += '<div class="accordion" id="centres">';
@@ -347,8 +344,10 @@
       //Uses WorkBC Function
       if(workbc){
       html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+'</button>';
+      }else if(metis){
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+' - ' +properties.description.substr(0, properties.description.indexOf("<")+1) +'</button>';
       }else{
-      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+' - ' +properties.address+'</button>';
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.acronym+' - ' +properties.name +'</button>';
       }
       //Function on HTML on WorkBC Site
       html += '    </div>';
@@ -360,8 +359,8 @@
       html += ' <div class="card-body">';
       html += '   <div class="row">';
       html += '     <div class="col-sm-6">';
-      html += '       <dl class="clearfix">';
         if(workbc){
+      html += '       <dl class="clearfix">';
       html += '       <dt class="address">Address:</dt>';
       html += '         <dd>'+ properties.address + '</dd>';
       html += '       <dt class="phone">Phone:</dt>';
@@ -387,7 +386,8 @@
       html += '       </dl>';
       html += '       <p class="catchment-area">CATCHMENT AREA: ' + properties.catchmentId + '</p>';
       }else{
-        html += '       <dt class="address">Address:</dt>';
+      html += '       <dl class="clearfix">';
+      html += '       <dt class="address">Address:</dt>';
       html += '         <dd>'+ properties.address + '</dd>';
       html += '       <dt class="phone">Phone:</dt>';
       html += '         <dd>'+properties.phone+'</dd>';
@@ -399,7 +399,7 @@
       html += '       <dt class="web">Website:</dt>';
       html += '         <dd><a href="'+properties.website+'" target="_blank">'
       html += '   '+properties.website+'</a></dd>';
-      html += '   '+properties.description.split(properties.description.indexOf('For a full list of offices click'));
+      html += '   '+properties.description.slice(properties.description.indexOf('For a full list of offices click'));
       }
       html += '     </div>';
       html += '   </div>'
@@ -462,7 +462,7 @@
         middleware: function(data){
           for (i in data.features){
             if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), data.features[i])){
-              console.log(data.features[i].properties.ISET)
+              return({acronym: data.features[i].properties.ISET, name: data.features.properties.ISET_NAME})
             }
           }
         }
@@ -470,7 +470,7 @@
     }
 
     function showResults(result) {
-      findIsets(result);
+      var iset = findIsets(result);
       esriResults.clearLayers();
       esriResults.addLayer(L.marker(result.latlng));
       map.setView(result.latlng, 12);
@@ -503,6 +503,7 @@
         }).addTo(esriResults);
         html += create_html(cur, 4);
       }
+      html += create_html(iset, 5);
       top.postMessage(html, "*");
     }
     

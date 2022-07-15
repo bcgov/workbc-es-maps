@@ -74,11 +74,11 @@
 			<name>Cariboo Chilcotin Aboriginal Training Employment Centre (CCATEC)</name>
 			<address> Office</address>
 			<Snippet maxLines="0"/>
-			<description> Office&lt;br/&gt;205 � 197 North 2nd Avenue&lt;br/&gt;Williams Lake, BC V2G 1Z5&lt;br/&gt;Phone: 250-392-2510&lt;br/&gt;Website: &lt;a href=&quot;https://www.ccatec.com/&quot; target=&quot;_blank&quot;&gt;https://www.ccatec.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:administration@ccatec.com&quot;&gt;administration@ccatec.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description> Office&lt;br/&gt;205 - 197 North 2nd Avenue&lt;br/&gt;Williams Lake, BC V2G 1Z5&lt;br/&gt;Phone: 250-392-2510&lt;br/&gt;Website: &lt;a href=&quot;https://www.ccatec.com/&quot; target=&quot;_blank&quot;&gt;https://www.ccatec.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:administration@ccatec.com&quot;&gt;administration@ccatec.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#CCATEC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>205 � 197 North 2nd Avenue</value>
+					<value>205 - 197 North 2nd Avenue</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -317,11 +317,11 @@
 			<name>North-East Native Advancing Society (NENAS)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;10328 � 101 Avenue&lt;br/&gt;Fort St. John, BC V1J 2B5&lt;br/&gt;Phone: 250-785-0887 &lt;br/&gt;Website: &lt;a href=&quot;https://www.nenas.org/nenas/&quot; target=&quot;_blank&quot;&gt;https://www.nenas.org/nenas/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:nenas@nenas.org&quot;&gt;nenas@nenas.org&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Office&lt;br/&gt;10328 - 101 Avenue&lt;br/&gt;Fort St. John, BC V1J 2B5&lt;br/&gt;Phone: 250-785-0887 &lt;br/&gt;Website: &lt;a href=&quot;https://www.nenas.org/nenas/&quot; target=&quot;_blank&quot;&gt;https://www.nenas.org/nenas/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:nenas@nenas.org&quot;&gt;nenas@nenas.org&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#NENAS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>10328 � 101 Avenue</value>
+					<value>10328 - 101 Avenue</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -371,7 +371,7 @@
 			<name>Nisga'a Employment Skills &amp; Training (NEST)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;5012 Tait Avenue&lt;br/&gt;Gitlaxt�aamiks, BC V0J 1A0&lt;br/&gt;Phone: 250-633-2210&lt;br/&gt;Website: &lt;a href=&quot;http://Nisgaaworks.Ca&quot; target=&quot;_blank&quot;&gt;http://Nisgaaworks.Ca&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:Nass@Nisgaaworks.Ca&quot;&gt;Nass@Nisgaaworks.Ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Office&lt;br/&gt;5012 Tait Avenue&lt;br/&gt;Gitlaxt’aamiks, BC V0J 1A0&lt;br/&gt;Phone: 250-633-2210&lt;br/&gt;Website: &lt;a href=&quot;http://Nisgaaworks.Ca&quot; target=&quot;_blank&quot;&gt;http://Nisgaaworks.Ca&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:Nass@Nisgaaworks.Ca&quot;&gt;Nass@Nisgaaworks.Ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#NEST</styleUrl>
 			<ExtendedData>
 				<Data name="address">
@@ -479,11 +479,11 @@
 			<name>Sto:lo Aboriginal Skills and Employment Training (SASET)</name>
 			<address> Office</address>
 			<Snippet maxLines="0"/>
-			<description> Office&lt;br/&gt;Bldg. #8A � 7201 Vedder Rd.&lt;br/&gt;Chilliwack, BC V2R 4G3&lt;br/&gt;Phone: 604-858-3691&lt;br/&gt;Website: &lt;a href=&quot;https://saset.ca/&quot; target=&quot;_blank&quot;&gt;https://saset.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:info@saset.ca&quot;&gt;info@saset.ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description> Office&lt;br/&gt;Bldg. #8A - 7201 Vedder Rd.&lt;br/&gt;Chilliwack, BC V2R 4G3&lt;br/&gt;Phone: 604-858-3691&lt;br/&gt;Website: &lt;a href=&quot;https://saset.ca/&quot; target=&quot;_blank&quot;&gt;https://saset.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:info@saset.ca&quot;&gt;info@saset.ca&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#SASET</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>Bldg. #8A � 7201 Vedder Rd.</value>
+					<value>Bldg. #8A - 7201 Vedder Rd.</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -557,7 +557,7 @@
 			</Point>
 		</Placemark>
 		<Placemark id="p21">
-			<name>Scw�exmx Tribal Council  (STC)</name>
+			<name>Scw’exmx Tribal Council  (STC)</name>
 			<address>Office</address>
 			<Snippet maxLines="0"/>
 			<description>Office&lt;br/&gt;2090 Coutlee Avenue&lt;br/&gt;Merritt, BC V1K 1B8&lt;br/&gt;Phone: 250 378 4235&lt;br/&gt;Website: &lt;a href=&quot;https://www.scwexmxtribal.com/&quot; target=&quot;_blank&quot;&gt;https://www.scwexmxtribal.com/&lt;/a&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
@@ -639,9 +639,9 @@
 		</Placemark>
 		<Placemark id="p32">
 			<name>Aboriginal Community Career Employment Services Society (ACCESS)</name>
-			<address>ACCESS Employment Services � Vancouver Friendship Center</address>
+			<address>ACCESS Employment Services - Vancouver Friendship Center</address>
 			<Snippet maxLines="0"/>
-			<description>ACCESS Employment Services � Vancouver Friendship Center&lt;br/&gt;101-1607 E. Hastings St&lt;br/&gt;Vancouver V6A 4J1&lt;br/&gt;Phone: 604-251-7955&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>ACCESS Employment Services - Vancouver Friendship Center&lt;br/&gt;101-1607 E. Hastings St&lt;br/&gt;Vancouver V6A 4J1&lt;br/&gt;Phone: 604-251-7955&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
@@ -666,9 +666,9 @@
 		</Placemark>
 		<Placemark id="p33">
 			<name>Aboriginal Community Career Employment Services Society (ACCESS)</name>
-			<address>ACCESS Employment Services �Surrey</address>
+			<address>ACCESS Employment Services -Surrey</address>
 			<Snippet maxLines="0"/>
-			<description>ACCESS Employment Services �Surrey&lt;br/&gt;10708 136A St&lt;br/&gt;Surrey V3T 5G9&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>ACCESS Employment Services -Surrey&lt;br/&gt;10708 136A St&lt;br/&gt;Surrey V3T 5G9&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
