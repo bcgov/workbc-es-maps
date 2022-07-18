@@ -365,7 +365,7 @@
         if(workbc){
       html += '       <dl class="clearfix">';
       html += '       <dt class="address">Address:</dt>';
-      html += '         <dd>'+ properties.address + properties.description.slice(properties.description.indexOf('<br/>')+5).slice(properties.description.indexOf('<br/>')+5).substr(0, properties.description.indexOf("<"))+'</dd>';
+      html += '         <dd>'+ properties.address+'</dd>';
       html += '       <dt class="phone">Phone:</dt>';
       html += '         <dd>'+properties.phone+'</dd>';
       html += '       <dt class="fax">Fax:</dt>';
@@ -460,23 +460,24 @@
 
     L.control.layers(null, overlays).addTo(map);
 
+    let iset = {acronym: "", name: ""};
+
     function findIsets(result){
-      var iset ={acronym: "", name: ""};
       var isets = new L.GeoJSON.AJAX("../data/BCISET.json", {
         middleware: function(data){
           for (i in data.features){
             if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), data.features[i])){
               iset.acronym = data.features[i].properties.ISET;
               iset.name = data.features[i].properties.ISET_NAME;
+              console.log(iset);
             }
           }
         }
       });
-      return iset;
     }
 
     function showResults(result) {
-      var iset = findIsets(result);
+      findIsets(result);
       console.log(iset);
       esriResults.clearLayers();
       esriResults.addLayer(L.marker(result.latlng));

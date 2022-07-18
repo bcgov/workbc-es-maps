@@ -51,7 +51,7 @@
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>108 - 100 Park Royal </value>
+					<value>108 - 100 Park Royal , West Vancouver, BC V7T 1A2</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
@@ -78,7 +78,7 @@
 			<styleUrl>#CCATEC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>205 - 197 North 2nd Avenue</value>
+					<value>205 - 197 North 2nd Avenue, Williams Lake, BC V2G 1Z5</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -105,7 +105,7 @@
 			<styleUrl>#CSETS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>201-5462 Transcanada Hwy</value>
+					<value>201-5462 Transcanada Hwy, Duncan, BC V9L 6W4</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -132,7 +132,7 @@
 			<styleUrl>#DRFN</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>4356 Doig Rd</value>
+					<value>4356 Doig Rd, Rose Prairie, BC, V0C 2H0</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -159,7 +159,7 @@
 			<styleUrl>#KNC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>220 Cranbrook Street North </value>
+					<value>220 Cranbrook Street North , Cranbrook, BC, V1C 3R2</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -186,7 +186,7 @@
 			<styleUrl>#TLC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>125 Lillooet Lake Road</value>
+					<value>125 Lillooet Lake Road, Mount Currie, BC</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -213,7 +213,7 @@
 			<styleUrl>#LTC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>682 Main Street</value>
+					<value>682 Main Street, Lillooet, BC V0K 1V0</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -240,7 +240,7 @@
 			<styleUrl>#MCFNTS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>652 Cliff St</value>
+					<value>652 Cliff St, Bella Coola, British Columbia V0T 1C0</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -267,7 +267,7 @@
 			<styleUrl>#MSTESD</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>6735 Salish Drive</value>
+					<value>6735 Salish Drive, Vancouver, BC V6N 4C4</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -294,7 +294,7 @@
 			<styleUrl>#NFN</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>120 Casper-Charlie Pl </value>
+					<value>120 Casper-Charlie Pl , D'Arcy, BC V0N 1L0</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -321,7 +321,7 @@
 			<styleUrl>#NENAS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>10328 - 101 Avenue</value>
+					<value>10328 - 101 Avenue, Fort St. John, BC V1J 2B5</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -348,7 +348,7 @@
 			<styleUrl>#NETP</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>4090 8 Ave</value>
+					<value>4090 8 Ave, Port Alberni BC V9Y 4S4</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -375,7 +375,7 @@
 			<styleUrl>#NEST</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>5012 Tait Avenue</value>
+					<value>5012 Tait Avenue, Gitlaxt’aamiks, BC V0J 1A0</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -402,7 +402,7 @@
 			<styleUrl>#NVIATS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>1211 Cypress St</value>
+					<value>1211 Cypress St, Campbell River BC V9W 2Z3</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -429,7 +429,7 @@
 			<styleUrl>#OTDC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>101-1865 Dilworth Dr</value>
+					<value>101-1865 Dilworth Dr, Kelowna, BC V1Y 9T1</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -456,7 +456,7 @@
 			<styleUrl>#PGNAETA</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>198 Kingston Street</value>
+					<value>198 Kingston Street, Prince George, BC V2L 1C3</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -483,7 +483,7 @@
 			<styleUrl>#SASET</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>Bldg. #8A - 7201 Vedder Rd.</value>
+					<value>Bldg. #8A - 7201 Vedder Rd., Chilliwack, BC V2R 4G3</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -510,7 +510,7 @@
 			<styleUrl>#SFN</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>5555 Sunshine Coast Highway</value>
+					<value>5555 Sunshine Coast Highway, Sechelt BC V0N 3A0</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -537,7 +537,7 @@
 			<styleUrl>#SNTC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>680 West Athabasca Street</value>
+					<value>680 West Athabasca Street, Kamloops, BC V2H 1C4</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -564,7 +564,7 @@
 			<styleUrl>#STC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>2090 Coutlee Avenue</value>
+					<value>2090 Coutlee Avenue, Merritt, BC V1K 1B8</value>
 				</Data>
 				<Data name="colour">
 					<value>B</value>
@@ -591,7 +591,7 @@
 			<styleUrl>#TFN</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>1926 Tsawwassen Drive</value>
+					<value>1926 Tsawwassen Drive, Tsawwassen, BC V4M 4G2</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -618,7 +618,7 @@
 			<styleUrl>#TRICORP</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>100 Grassy Bay Lane</value>
+					<value>100 Grassy Bay Lane, Prince Rupert, B.C., V8J 3T1</value>
 				</Data>
 				<Data name="colour">
 					<value>G</value>
@@ -645,7 +645,7 @@
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>101-1607 E. Hastings St</value>
+					<value>101-1607 E. Hastings St, Vancouver V6A 4J1</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
@@ -666,13 +666,13 @@
 		</Placemark>
 		<Placemark id="p33">
 			<name>Aboriginal Community Career Employment Services Society (ACCESS)</name>
-			<address>ACCESS Employment Services -Surrey</address>
+			<address>ACCESS Employment Services - Surrey</address>
 			<Snippet maxLines="0"/>
-			<description>ACCESS Employment Services -Surrey&lt;br/&gt;10708 136A St&lt;br/&gt;Surrey V3T 5G9&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>ACCESS Employment Services - Surrey&lt;br/&gt;10708 136A St&lt;br/&gt;Surrey V3T 5G9&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://accessfutures.com/&quot; target=&quot;_blank&quot;&gt;https://accessfutures.com/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto:adminassist@access.futures.com&quot;&gt;adminassist@access.futures.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>10708 136A St</value>
+					<value>10708 136A St, Surrey V3T 5G9</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
@@ -699,7 +699,7 @@
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>1848 Commercial Drive</value>
+					<value>1848 Commercial Drive, Vancouver BC V5N 4A5</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
@@ -726,7 +726,7 @@
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>109-100 Park Royal</value>
+					<value>109-100 Park Royal, West Vancouver V7T 1A3</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
@@ -753,7 +753,7 @@
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>108-100 Park Royal</value>
+					<value>108-100 Park Royal, West Vancouver V7T 1A2</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
@@ -780,7 +780,7 @@
 			<styleUrl>#ACCESS</styleUrl>
 			<ExtendedData>
 				<Data name="address">
-					<value>201-681 Columbia St</value>
+					<value>201-681 Columbia St, New Westminster V3M 1A8</value>
 				</Data>
 				<Data name="colour">
 					<value>O</value>
