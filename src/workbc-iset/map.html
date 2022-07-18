@@ -335,7 +335,7 @@
       var workbc = properties.name.includes("WorkBC");
       var metis = properties.name.includes("Métis");
 
-      if(workbc || metis){
+      if(workbc){
         var email = properties.email.split('mailto:')[1];
       }
 
@@ -348,7 +348,7 @@
       if(workbc){
       html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+'</button>';
       }else if(metis){
-      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+' - ' +properties.description.substr(0, properties.description.indexOf("<")+1) +'</button>';
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+' - ' +properties.description.substr(0, properties.description.indexOf("<")) +'</button>';
       }else{
       html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.acronym+' - ' +properties.name +'</button>';
       }
@@ -365,7 +365,7 @@
         if(workbc){
       html += '       <dl class="clearfix">';
       html += '       <dt class="address">Address:</dt>';
-      html += '         <dd>'+ properties.address + '</dd>';
+      html += '         <dd>'+ properties.address + properties.description.slice(properties.description.indexOf('<br/>')+5).slice(properties.description.indexOf('<br/>')+5).substr(0, properties.description.indexOf("<"))+'</dd>';
       html += '       <dt class="phone">Phone:</dt>';
       html += '         <dd>'+properties.phone+'</dd>';
       html += '       <dt class="fax">Fax:</dt>';
@@ -395,7 +395,7 @@
       html += '       <dt class="phone">Phone:</dt>';
       html += '         <dd>'+properties.phone+'</dd>';
       html += '       <dt class="email">Email:'+'</dt>';
-      html += '         <dd>'+email+'</dd>';
+      html += '         <dd>'+properties.email+'</dd>';
       html += '       </dl>';
       html += '     </div>';
       html += '     <div class="col-sm-6">'
@@ -460,22 +460,23 @@
 
     L.control.layers(null, overlays).addTo(map);
 
-    function findIsets(result, iset){
+    function findIsets(result){
+      var iset ={acronym: "", name: ""};
       var isets = new L.GeoJSON.AJAX("../data/BCISET.json", {
         middleware: function(data){
           for (i in data.features){
             if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), data.features[i])){
               iset.acronym = data.features[i].properties.ISET;
-              iset.name = data.features.properties.ISET_NAME;
+              iset.name = data.features[i].properties.ISET_NAME;
             }
           }
         }
       });
+      return iset;
     }
 
     function showResults(result) {
-      const iset = {name: "", acronym:""};
-      findIsets(result, iset);
+      var iset = findIsets(result);
       console.log(iset);
       esriResults.clearLayers();
       esriResults.addLayer(L.marker(result.latlng));
@@ -484,6 +485,7 @@
       var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
       //$(parent.document).find("#searchResults .container .accordion").empty();
       var html = '';
+      html += '<h3>The 3 closest WorkBC Centers are:</h3>'
       for (c in closest) {
         var cur = closest[c].layer.feature.properties;
         //var html = create_html(cur,c);
@@ -497,6 +499,7 @@
         html += create_html(cur,c);
         
       }
+      html += "<h3>The closest Métis Nation Center is:</h3>"
       for (c in closestMetis) {
         var cur = closestMetis[c].layer.feature.properties;
         //var html = create_html(cur,c);
@@ -509,6 +512,7 @@
         }).addTo(esriResults);
         html += create_html(cur, 4);
       }
+      html += "<h3>The ISET provider is:</h3>"
       html += create_html(iset, 5);
       top.postMessage(html, "*");
     }
