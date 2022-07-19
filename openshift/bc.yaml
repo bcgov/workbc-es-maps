@@ -1,0 +1,41 @@
+kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: workbc-es-maps
+  labels:
+    app: workbc-es-maps
+    app.kubernetes.io/component: workbc-es-maps
+    app.kubernetes.io/instance: workbc-es-maps
+    app.kubernetes.io/name: nginx
+    app.kubernetes.io/part-of: workbc-es-maps-app
+    app.openshift.io/runtime: nginx
+    app.openshift.io/runtime-version: '1.16'
+spec:
+  nodeSelector: null
+  output:
+    to:
+      kind: ImageStreamTag
+      name: 'workbc-es-maps:latest'
+  resources:
+    limits:
+      cpu: '2'
+    requests:
+      cpu: '1'
+  successfulBuildsHistoryLimit: 5
+  failedBuildsHistoryLimit: 5
+  strategy:
+    type: Source
+    sourceStrategy:
+      from:
+        kind: ImageStreamTag
+        namespace: openshift
+        name: 'nginx:1.16'
+  postCommit: {}
+  source:
+    type: Git
+    git:
+      uri: 'https://github.com/bcgov/workbc-es-maps'
+    contextDir: /src
+  triggers:
+    - type: ConfigChange
+  runPolicy: Serial
