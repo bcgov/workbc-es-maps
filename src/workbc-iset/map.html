@@ -446,6 +446,7 @@
     var geojson = new L.GeoJSON.AJAX("../data/BCISET.json", {
     middleware: function(data){
       L.geoJSON(data, {onEachFeature: onEachFeature, style: ISETStyle }).addTo(polygon);
+      searchControl.addTo(map);
     }});
     //console.log(geojson);
     //geojson.on('data:loaded', function(a, b){
@@ -456,6 +457,8 @@
 
     var isetsgroup = L.layerGroup().addLayer(runLayerIsets).addLayer(layerMetis)
     isetsgroup.addTo(map)
+    polygon.addTo(map)
+    polygon.removeFrom(map)
     var overlays={
       "ISETs": isetsgroup,
       "WorkBC Centres": runLayer,
@@ -737,7 +740,6 @@
       return returnValue;
     }
 
-    searchControl.addTo(map);
     //controlSearch.addTo(map);
     
     var stogglebar = L.easyBar([sidebarToggle], {id: 'toggle'}).addTo(map);
