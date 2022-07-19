@@ -456,6 +456,8 @@
 
     var isetsgroup = L.layerGroup().addLayer(runLayerIsets).addLayer(layerMetis)
     isetsgroup.addTo(map)
+    polygon.addTo(map)
+    polygon.removeFrom(map)
     var overlays={
       "ISETs": isetsgroup,
       "WorkBC Centres": runLayer,
