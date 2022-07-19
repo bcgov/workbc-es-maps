@@ -451,7 +451,7 @@
     //});
 
     var isetsgroup = L.layerGroup().addLayer(runLayerIsets).addLayer(layerMetis)
-
+    isetsgroup.addTo(map)
     var overlays={
       "ISETs": isetsgroup,
       "WorkBC Centres": runLayer,
@@ -460,62 +460,84 @@
 
     L.control.layers(null, overlays).addTo(map);
 
-    let iset = {acronym: "", name: ""};
-
-    function findIsets(result){
+    
+    
+    function find(result){
+      var iset = {acronym: "", name: ""};
+      //console.log(map)
+      //console.log(polygon)
+      /*
       var isets = new L.GeoJSON.AJAX("../data/BCISET.json", {
         middleware: function(data){
           for (i in data.features){
+            console.log(data.features[i])
             if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), data.features[i])){
               iset.acronym = data.features[i].properties.ISET;
               iset.name = data.features[i].properties.ISET_NAME;
               console.log(iset);
             }
           }
+
+          
         }
       });
+      */
+        //Get point in polygon
+        polygon.eachLayer(function(layer){
+          //console.log(layer)
+          for (var i in layer._layers){
+            //console.log(layer._layers[i])
+            if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), layer._layers[i].feature)){
+              iset.acronym = layer._layers[i].feature.properties.ISET;
+              iset.name = layer._layers[i].feature.properties.ISET_NAME;
+              //console.log(iset);
+            }
+            
+          }
+        })
+        //Once the for loop is done do the HTML
+        esriResults.clearLayers();
+        esriResults.addLayer(L.marker(result.latlng));
+        map.setView(result.latlng, 12);
+        var closestMetis = L.GeometryUtil.nClosestLayers(map, layerMetis.getLayers(), result.latlng, 1);
+        var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
+        //$(parent.document).find("#searchResults .container .accordion").empty();
+        var html = '';
+        html += '<h3>The 3 closest WorkBC Centers are:</h3>'
+        for (c in closest) {
+          var cur = closest[c].layer.feature.properties;
+          //var html = create_html(cur,c);
+          //$(parent.document).find("#searchResults .container .accordion").append(html);
+          L.polyline([result.latlng, closest[c].latlng], {
+            color: 'blue',
+            weight: 2,
+            opacity: 1,
+            dashArray: "5,10"
+          }).addTo(esriResults);
+          html += create_html(cur,c);
+          
+        }
+        html += "<h3>The closest Métis Nation Center is:</h3>"
+        for (c in closestMetis) {
+          var cur = closestMetis[c].layer.feature.properties;
+          //var html = create_html(cur,c);
+          //$(parent.document).find("#searchResults .container .accordion").append(html);
+          L.polyline([result.latlng, closestMetis[c].latlng], {
+            color: 'blue',
+            weight: 2,
+            opacity: 1,
+            dashArray: "5,10"
+          }).addTo(esriResults);
+          html += create_html(cur, 4);
+        }
+        html += "<h3>The ISET provider is:</h3>"
+        html += create_html(iset, 5);
+        console.log(html)
+        top.postMessage(html, "*");
     }
 
     function showResults(result) {
-      findIsets(result);
-      console.log(iset);
-      esriResults.clearLayers();
-      esriResults.addLayer(L.marker(result.latlng));
-      map.setView(result.latlng, 12);
-      var closestMetis = L.GeometryUtil.nClosestLayers(map, layerMetis.getLayers(), result.latlng, 1);
-      var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
-      //$(parent.document).find("#searchResults .container .accordion").empty();
-      var html = '';
-      html += '<h3>The 3 closest WorkBC Centers are:</h3>'
-      for (c in closest) {
-        var cur = closest[c].layer.feature.properties;
-        //var html = create_html(cur,c);
-        //$(parent.document).find("#searchResults .container .accordion").append(html);
-        L.polyline([result.latlng, closest[c].latlng], {
-          color: 'blue',
-          weight: 2,
-          opacity: 1,
-          dashArray: "5,10"
-        }).addTo(esriResults);
-        html += create_html(cur,c);
-        
-      }
-      html += "<h3>The closest Métis Nation Center is:</h3>"
-      for (c in closestMetis) {
-        var cur = closestMetis[c].layer.feature.properties;
-        //var html = create_html(cur,c);
-        //$(parent.document).find("#searchResults .container .accordion").append(html);
-        L.polyline([result.latlng, closestMetis[c].latlng], {
-          color: 'blue',
-          weight: 2,
-          opacity: 1,
-          dashArray: "5,10"
-        }).addTo(esriResults);
-        html += create_html(cur, 4);
-      }
-      html += "<h3>The ISET provider is:</h3>"
-      html += create_html(iset, 5);
-      top.postMessage(html, "*");
+      find(result)
     }
     
     
