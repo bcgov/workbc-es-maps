@@ -1,0 +1,163 @@
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" type="text/javascript"></script>
+<style type="text/css">.section-statistics .generic-download-button.boxed {
+    background: none repeat scroll 0% 0% #83B8D4;
+}
+
+.section-job-seekers .generic-download-button.new-link-button span {
+    background-image: url('/WorkBC/media/WorkBC/new_window_icon.png') !important;
+background-position:0% 0% !important;
+background-size: contain !important;
+height:32px !important;
+width:32px !important;
+}
+
+.no-backgroundsize .section-job-seekers .generic-download-button.new-link-button span {
+    background-image: url('/WorkBC/media/WorkBC/new_window_icon_ie8.png') !important;
+}
+</style>
+<style type="text/css">/*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css */
+
+#searchResults,::after,::before{box-sizing:border-box;}
+#searchResults p{margin-top:0;margin-bottom:1rem;}
+#searchResults dl{margin-top:0;margin-bottom:1rem;}
+#searchResults dt{font-weight:700;}
+#searchResults dd{margin-bottom:.5rem;margin-left:0;}
+#searchResults a .{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+#searchResults a:hover{color:#0056b3;text-decoration:underline;}
+#searchResults button{border-radius:0;}
+#searchResults button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+#searchResults button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+#searchResults button{overflow:visible;}
+#searchResults button{text-transform:none;}
+#searchResults button,html [type=button]{-webkit-appearance:button;}
+[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+#searchResults .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+#searchResults .container{max-width:540px;}
+}
+@media (min-width:768px){
+#searchResults .container{max-width:720px;}
+}
+@media (min-width:992px){
+#searchResults .container{max-width:960px;}
+}
+@media (min-width:1200px){
+#searchResults .container{max-width:1140px;}
+}
+#searchResults .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+#searchResults .col-sm-6{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:576px){
+#searchResults .col-sm-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+#searchResults .btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+@media screen and (prefers-reduced-motion:reduce){
+#searchResults .btn{transition:none;}
+}
+.btn:focus,.btn:hover{text-decoration:none;}
+.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.btn:disabled{opacity:.65;}
+.btn:not(:disabled):not(.disabled){cursor:pointer;}
+.btn-link{font-weight:400;color:#007bff;background-color:transparent;}
+.btn-link:hover{color:#0056b3;text-decoration:underline;background-color:transparent;border-color:transparent;}
+.btn-link:focus{text-decoration:underline;border-color:transparent;box-shadow:none;}
+.btn-link:disabled{color:#6c757d;pointer-events:none;}
+.collapse:not(.show){display:none;}
+.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem;}
+.card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem;}
+.card-header{padding:.75rem 1.25rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125);}
+.card-header:first-child{border-radius:calc(.25rem - 1px) calc(.25rem - 1px) 0 0;}
+.accordion .card:not(:first-of-type):not(:last-of-type){border-bottom:0;border-radius:0;}
+.accordion .card:not(:first-of-type) .card-header:first-child{border-radius:0;}
+.accordion .card:first-of-type{border-bottom:0;border-bottom-right-radius:0;border-bottom-left-radius:0;}
+.accordion .card:last-of-type{border-top-left-radius:0;border-top-right-radius:0;}
+.clearfix::after{display:block;clear:both;content:"";}
+.mb-0{margin-bottom:0!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+p{orphans:3;widows:3;}
+#searchResults  .container{min-width:992px!important;}
+}
+/*! CSS Used from: https://devextranet.gov.bc.ca/Leaflet/Pages/custom.css */
+a:last-child{border-radius:1px;}
+a:hover{background-color:#f4f4f4;box-shadow:0 0 7px #999!important;}
+#results{position:fixed;left:0;bottom:0;width:100%;background-color:white;color:black;max-height:20%;overflow:auto;z-index:9999;}
+</style>
+<p>Visit the&nbsp;<a href="https://apply.workbc.ca/" target="_blank">WorkBC Online Employment Services portal</a>, where you can communicate directly with WorkBC staff and access a range of services and supports. The new&nbsp;<strong>WorkBC app</strong>, now available for download on your mobile device, has made accessing WorkBC Online Employment Services even more convenient. Download the app today to apply for services, communicate securely with your WorkBC Centre, search the&nbsp;<a href="http://WorkBC.ca">WorkBC.ca</a>&nbsp;job board, and more!<br />
+<br />
+Our Employment Services Centres are here to support you in getting a job and keeping it. Centres offer two main categories of service:</p>
+
+<p>Our Employment Services Centres are here to support you in getting a job and keeping it. Centres offer two main categories of service:</p>
+
+<p>Learn more about <a href="/Employment-Services/WorkBC-Centres/Self-Serve-Services.aspx">Self-Serve Services</a></p>
+
+<p><span style="line-height: 1.6;">Learn more about <a href="/Employment-Services/WorkBC-Centres/Employment-Services.aspx">Employment Services</a></span></p>
+
+<p>WorkBC Centres are located across the Province, to find the WorkBC Centre closest to you follow the instructions below.</p>
+
+<p>1.<span style="white-space:pre"> </span>Using the map below, enter a city, postal code or street address to search for WorkBC Centres in your area.</p>
+
+<p>Note: The nearest three WorkBC Centres will appear in the search results section.</p>
+
+<p>2. Select the WorkBC Centre you would like to continue with from the results displayed.&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note:&nbsp; A list of <a href="/Employment-Services/WorkBC-Centres/WorkBC-Centres-Listing.aspx">WorkBC Centres</a> is also available.</p>
+
+<div class="report-intro" style="padding: 0.5em 1.25em; margin-bottom: 1em;">
+<h3>Centre de services à l&#39;emploi&nbsp;WorkBC Centre</h3>
+
+<p>Pour trouver votre centre local de services à l&#39;emploi WorkBC Centre, veuillez visiter les ressources et les services francophones.</p>
+
+<div class="generic-download-button btn--boxed"><a href="https://workbc.ca/Employment-Services/WorkBC-Centres/Find-Your-WorkBC-CentreFR.aspx" target="_blank">Recherche de services francophones<span> </span></a></div>
+</div>
+
+<p><span style="color: inherit; line-height: 1.5; font-size: 1rem;">Did you know that you could access </span>WorkBC Employment Services<span style="color: inherit; line-height: 1.5; font-size: 1rem;">&nbsp;services online? Learn more at </span><a href="https://workbc.ca/Employment-Services/WorkBC-Centres/Online-Employment-Services.aspx" style="line-height: 1.5; font-size: 1rem; background-color: rgb(233, 235, 240);">Online Employment Services</a></p>
+<iframe allowfullscreen="true" height="512px" src="https://maps.es.workbc.ca/workbc-iset/map.html" width="100%"></iframe><script type="text/javascript">
+jQuery.noConflict();
+    window.addEventListener("message", function(event) {
+        console.log(event)
+        console.log(jQuery)
+        if (event.origin.startsWith("https://maps.es.workbc.ca")) {
+            console.log(event.data)
+            document.getElementById("centres").innerHTML = event.data
+        }
+    });
+</script>
+
+<div id="searchResults">
+<div class="container">
+<div class="accordion" id="centres">&nbsp;</div>
+</div>
+</div>
+
+<table border="0" cellpadding="0" cellspacing="0" style="background:transparent;width:500px;border: 0px">
+	<tbody>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Green Pin" src="/getmedia/be0da052-1540-446f-87d6-e73f287c8f29/pinGreen.png.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">Provide services for First Nations, Métis and Urban Indigenous People(s) in that geographic area</td>
+		</tr>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Blue Pin" src="/getmedia/051f97cc-30e5-4233-81c4-0b22cce4a23e/pinOrange.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">Provide services to Band citizens</td>
+		</tr>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Metis Pin" src="/getmedia/a821dad9-e298-4647-be5e-08c91b5da2f7/pinYellow.png.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">Provide services to Métis citizens</td>
+		</tr>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Orange pin" src="/getmedia/37c41c25-abe6-4230-8d46-c547c300adbe/pinLightBlue.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">Provides career services to Indigenous People(s) in the lower mainland who are Status, Non status, Metis and Inuit.</td>
+		</tr>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Orange pin" src="/getmedia/0315844a-a73d-41b0-9d2c-a112a1bedc2f/pin.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">WorkBC Centre</td>
+		</tr>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Orange pin" src="/getmedia/033a6c5a-d9a4-4eb6-b57c-85d7c289ca83/pin_as.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">WorkBC Apprentice Services</td>
+		</tr>
+		<tr>
+			<td style="border: 0px; background-color: transparent; text-align: start" width="15%"><img alt="Orange pin" src="/getmedia/99c97194-b085-4bb8-a4a3-182ebf0d2a96/pin_ats.aspx?width=28&amp;height=36" style="width: 28px; height: 36px;" /></td>
+			<td style="border: 0px; background-color: transparent; text-align: start">WorkBC Assistive Technology Services</td>
+		</tr>
+	</tbody>
+</table>

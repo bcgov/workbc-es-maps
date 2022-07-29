@@ -1,0 +1,1275 @@
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" type="text/javascript"></script>
+<style type="text/css">table td {
+		background-color: rgba(0, 0, 0, 0);
+		text-align: center !important;
+	}
+</style>
+<script type="text/javascript">
+    jQuery("document").ready(function(){
+        if(window.location.hash) {
+            var elem = window.location.hash;
+            jQuery('html,body').animate({
+                scrollTop: jQuery(elem + "_j").offset().top-65
+                }, 1000);
+            jQuery(window.location.hash).slideToggle()
+            return false;
+        }
+    })
+</script>
+<style type="text/css">.dont-break-out {
+
+		/* These are technically the same, but use both */
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+
+		-ms-word-break: break-all;
+		/* This is the dangerous one in WebKit, as it breaks things wherever */
+		word-break: break-all;
+		/* Instead use this non-standard one: */
+		word-break: break-word;
+
+		/* Adds a hyphen where the word breaks, if supported (No Blink) */
+		-ms-hyphens: auto;
+		-moz-hyphens: auto;
+		-webkit-hyphens: auto;
+		hyphens: auto;
+
+	}
+
+	<style type="text/css">
+	/*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css */
+
+	#searchResults,
+	::after,
+	::before {
+		box-sizing: border-box;
+	}
+
+	#searchResults p {
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+
+	#searchResults dl {
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+
+	#searchResults dt {
+		font-weight: 700;
+	}
+
+	#searchResults dd {
+		margin-bottom: .5rem;
+		margin-left: 0;
+	}
+
+	#searchResults a . {
+		color: #007bff;
+		text-decoration: none;
+		background-color: transparent;
+		-webkit-text-decoration-skip: objects;
+	}
+
+	#searchResults a:hover {
+		color: #0056b3;
+		text-decoration: underline;
+	}
+
+	#searchResults button {
+		border-radius: 0;
+	}
+
+	#searchResults button:focus {
+		outline: 1px dotted;
+		outline: 5px auto -webkit-focus-ring-color;
+	}
+
+	#searchResults button {
+		margin: 0;
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+	#searchResults button {
+		overflow: visible;
+	}
+
+	#searchResults button {
+		text-transform: none;
+	}
+
+	#searchResults button,
+	html [type=button] {
+		-webkit-appearance: button;
+	}
+
+	[type=button]::-moz-focus-inner,
+	button::-moz-focus-inner {
+		padding: 0;
+		border-style: none;
+	}
+
+	#searchResults .container {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	@media (min-width:576px) {
+		#searchResults .container {
+			max-width: 540px;
+		}
+	}
+
+	@media (min-width:768px) {
+		#searchResults .container {
+			max-width: 720px;
+		}
+	}
+
+	@media (min-width:992px) {
+		#searchResults .container {
+			max-width: 960px;
+		}
+	}
+
+	@media (min-width:1200px) {
+		#searchResults .container {
+			max-width: 1140px;
+		}
+	}
+
+	#searchResults .row {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	#searchResults .col-sm-6 {
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	@media (min-width:576px) {
+		#searchResults .col-sm-6 {
+			-ms-flex: 0 0 50%;
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+	}
+
+	#searchResults .btn {
+		display: inline-block;
+		font-weight: 400;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		border: 1px solid transparent;
+		padding: .375rem .75rem;
+		font-size: 1rem;
+		line-height: 1.5;
+		border-radius: .25rem;
+		transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	}
+
+	@media screen and (prefers-reduced-motion:reduce) {
+		#searchResults .btn {
+			transition: none;
+		}
+	}
+
+	.btn:focus,
+	.btn:hover {
+		text-decoration: none;
+	}
+
+	.btn:focus {
+		outline: 0;
+		box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+	}
+
+	.btn:disabled {
+		opacity: .65;
+	}
+
+	.btn:not(:disabled):not(.disabled) {
+		cursor: pointer;
+	}
+
+	.btn-link {
+		font-weight: 400;
+		color: #007bff;
+		background-color: transparent;
+	}
+
+	.btn-link:hover {
+		color: #0056b3;
+		text-decoration: underline;
+		background-color: transparent;
+		border-color: transparent;
+	}
+
+	.btn-link:focus {
+		text-decoration: underline;
+		border-color: transparent;
+		box-shadow: none;
+	}
+
+	.btn-link:disabled {
+		color: #6c757d;
+		pointer-events: none;
+	}
+
+	.collapse:not(.show) {
+		display: none;
+	}
+
+	.card {
+		position: relative;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		min-width: 0;
+		word-wrap: break-word;
+		background-color: #fff;
+		background-clip: border-box;
+		border: 1px solid rgba(0, 0, 0, .125);
+		border-radius: .25rem;
+	}
+
+	.card-body {
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		padding: 1.25rem;
+	}
+
+	.card-header {
+		padding: .75rem 1.25rem;
+		margin-bottom: 0;
+		background-color: rgba(0, 0, 0, .03);
+		border-bottom: 1px solid rgba(0, 0, 0, .125);
+	}
+
+	.card-header:first-child {
+		border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+	}
+
+	.accordion .card:not(:first-of-type):not(:last-of-type) {
+		border-bottom: 0;
+		border-radius: 0;
+	}
+
+	.accordion .card:not(:first-of-type) .card-header:first-child {
+		border-radius: 0;
+	}
+
+	.accordion .card:first-of-type {
+		border-bottom: 0;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	.accordion .card:last-of-type {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+	.clearfix::after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+
+	.mb-0 {
+		margin-bottom: 0 !important;
+	}
+
+	@media print {
+
+		*,
+		::after,
+		::before {
+			text-shadow: none !important;
+			box-shadow: none !important;
+		}
+
+		a:not(.btn) {
+			text-decoration: underline;
+		}
+
+		p {
+			orphans: 3;
+			widows: 3;
+		}
+
+		#searchResults .container {
+			min-width: 992px !important;
+		}
+	}
+
+	/*! CSS Used from: https://devextranet.gov.bc.ca/Leaflet/Pages/custom.css */
+	a:last-child {
+		border-radius: 1px;
+	}
+
+	a:hover {
+		background-color: #f4f4f4;
+		box-shadow: 0 0 7px #999 !important;
+	}
+
+	#results {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: white;
+		color: black;
+		max-height: 20%;
+		overflow: auto;
+		z-index: 9999;
+	}
+</style>
+<div class="container">
+<div class="accordion" id="centres">
+<div class="card">
+<div class="card-header" id="heading1" style="background-color:#234075">
+<div class="mb-0" id="ACCESS_j"><button aria-controls="ACCESS'" aria-expanded="false" class="btn btn-link" data-target="#ACCESS" data-toggle="collapse" onclick="jQuery('#ACCESS').slideToggle();" style="color:white" type="button">Aboriginal Community Career Employment Services Society (ACCESS)</button></div>
+</div>
+
+<div aria-labelledby="heading1" class="collapse" data-parent="#centres" id="ACCESS" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="/getmedia/4e5f0a3b-2abd-4142-86ba-4a0c5680c35a/ACCESS.png.aspx?width=147&amp;height=75" style="width: 147px; height: 75px;" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>ACCESS Essential Skills for Aboriginal Futures (ESAF)</strong><br />
+			201-681 Columbia St, New Westminster V3M 1A8<br />
+			604-521-5931<br />
+			<a class="dont-break-out" href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+			<td style="width:50%;"><strong>ACCESS Employment Services &ndash; Vancouver Friendship Center</strong><br />
+			101-1607 E. Hastings St, Vancouver V6A 4J1<br />
+			604-251-7955<br />
+			<a class="dont-break-out" href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>ACCESS Administration office </strong><br />
+			108-100 Park Royal, West Vancouver V7T 1A2<br />
+			604-913-7933<br />
+			<a href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+			<td style="width:50%;"><strong>ACCESS Trades Training and Apprenticeship</strong><br />
+			109-100 Park Royal, West Vancouver V7T 1A3<br />
+			604-922-4077<br />
+			<a href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>ACCESS Employment Services &ndash; Surrey</strong><br />
+			10708 136A St, Surrey V3T 5G9<br />
+			778-395-0385<br />
+			<a href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+			<td style="width:50%;"><strong>ACCESS BladeRunners &amp; Employment Services</strong><br />
+			1848 Commercial Drive, Vancouver BC V5N 4A5<br />
+			604-687-7480<br />
+			<a href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>ACCESS Programs</strong><br />
+			108-100 Park Royal, West Vancouver V7T 1A2<br />
+			604-913-7933<br />
+			<a href="http://www.accessfutures.com" target="_blank">http://www.accessfutures.com</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<!--
+			<div aria-labelledby="heading1" class="collapse" data-parent="#centres" id="collapse1" style="display:none">
+				<div class="card-body">
+					<table>
+						<tbody>
+							<tr>
+								<td colspan="2"><img alt=""
+									src="/getmedia/4e5f0a3b-2abd-4142-86ba-4a0c5680c35a/ACCESS.png.aspx?width=147&amp;height=75"
+									style="width: 147px; height: 75px;" /></td>
+							</tr>
+							<tr>
+								<td><strong>ACCESS - Contact</strong><br />
+									Lynn White<br /> 
+									604-913-7933 <br />
+									<a href="mailto:lwhite@accessfutures.com">lwhite@accessfutures.com</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			--></div>
+
+<div class="card">
+<div class="card-header" id="heading2" style="background-color:#234075">
+<div class="mb-0" id="CCATEC_j"><button aria-controls="CCATEC'" aria-expanded="false" class="btn btn-link" data-target="#CCATEC" data-toggle="collapse" onclick="jQuery('#CCATEC').slideToggle();" style="color:white" type="button">Cariboo Chilcotin Aboriginal Training Education Centre (CCATEC)</button></div>
+</div>
+
+<div aria-labelledby="heading2" class="collapse" data-parent="#centres" id="CCATEC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="/getmedia/667e884e-93d1-4e34-b38f-28e92cb2a990/CCATEC-Logo.png.aspx?width=63&amp;height=85" style="width: 63px; height: 85px" /></td>
+		</tr>
+		<tr>
+			<td><strong>Cariboo Chilcotin Aboriginal Training Education Centre</strong><br />
+			205-197 North 2nd Avenue, Williams Lake V2G 1Z5<br />
+			250-392-2510<br />
+			<a class="dont-break-out" href="http://www.ccatec.com" target="_blank">http://www.ccatec.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading3" style="background-color:#234075">
+<div class="mb-0" id="CSETS_j"><button aria-controls="CSETS'" aria-expanded="false" class="btn btn-link" data-target="#CSETS" data-toggle="collapse" onclick="jQuery('#CSETS').slideToggle();" style="color:white" type="button">Coast Salish Employment &amp; Training Society (CSETS)</button></div>
+</div>
+
+<div aria-labelledby="heading3" class="collapse" data-parent="#centres" id="CSETS" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="/getmedia/9411c6b6-d404-49a7-99cb-3198eab906fd/CSETS.png.aspx" style="width: 94px; height: 80px;" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Halalt First Nation</strong><br />
+			7973 Chemainus Rd, Chemainus V0R 1K5<br />
+			250-246-4736<br />
+			<a class="dont-break-out" href="https://halalt.org/organization/job-coach/" target="_blank">https://halalt.org/organization/job-coach/</a></td>
+			<td style="width:50%;"><strong>CSETS Main Office</strong><br />
+			201-5462 Trans-Canada Hwy, Duncan V9L 6W4<br />
+			250-746-0183<br />
+			<a href="http://csets.com" target="_blank">http://csets.com</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Quw&#39;utsun Employment and Training</strong><br />
+			5744 Allenby Rd, Duncan V9L 5J1<br />
+			250-715-1022<br />
+			<a class="dont-break-out" href="http://www.cowichantribes.com/member-services/social-development/quwutsun-employment-and-training/" target="_blank">http://www.cowichantribes.com/member-services/social-development/quwutsun-employment-and-training/</a></td>
+			<td style="width:50%;"><strong>Hiiye&#39;yu Lelum Society House of Friendship</strong><br />
+			106-5462 Trans Canada Hwy, Duncan V9L 6W4<br />
+			250-748-2242<br />
+			<a class="dont-break-out" href="https://www.hofduncan.org/employment-training" target="_blank">https://www.hofduncan.org/employment-training</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Stz&#39;uminus First Nation Employment Services </strong><br />
+			12611A Trans Canada Highway, Ladysmith V9G 1M5<br />
+			250-245-7155 ext 234<br />
+			<a class="dont-break-out" href="http://www.stzuminus.com/employment/employment-services/" target="_blank">http://www.stzuminus.com/employment/employment-services/</a></td>
+			<td style="width:50%;"><strong>Snuneymuxw First Nation</strong><br />
+			668 Centre St, Nanaimo V9R 4Z4<br />
+			250-740-2300<br />
+			<a class="dont-break-out" href="https://www.snuneymuxw.ca/administration/education-department" target="_blank">https://www.snuneymuxw.ca/administration/education-department</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Tillicum Lelum Aboriginal Friendship Centre</strong><br />
+			927 Haliburton St, Nanaimo V9R 6N4<br />
+			250-753-8291<br />
+			<a class="dont-break-out" href="http://www.tillicumlelum.ca/programs-services/education/" target="_blank">http://www.tillicumlelum.ca/programs-services/education/</a></td>
+			<td style="width:50%;"><strong>Songhees Employment and Learning Centre</strong><br />
+			1100 Admirals Rd, Victoria V9A 2P6<br />
+			250-386-1043<br />
+			<a class="dont-break-out" href="https://www.songheesnation.ca/services/education-services" target="_blank">https://www.songheesnation.ca/services/education-services</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Victoria Native Friendship Centre</strong><br />
+			231 Regina Ave, Victoria V8Z 1J6<br />
+			250-384-3211<br />
+			<a class="dont-break-out" href="http://www.vnfc.ca/programs-services/career-employment-and-education-resources" target="_blank">http://www.vnfc.ca/programs-services/career-employment-and-education-resources</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="DRFN_j"><button aria-controls="DRFN'" aria-expanded="false" class="btn btn-link" data-target="#DRFN" data-toggle="collapse" onclick="jQuery('#DRFN').slideToggle();" style="color:white" type="button">Doig River First Nations (DRFN)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="DRFN" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img src="https://via.placeholder.com/75x75?text=Doig River FN" /></td>
+		</tr>
+		<tr>
+			<td><strong>Office</strong><br />
+            4356 Doig Rd Rose Prairie, BC, V0C 2H0<br />
+			250-793-0367<br />
+			<a href="https://www.bcafn.ca/first-nations-bc/northeast/doig-river" target="_blank">https://www.bcafn.ca/first-nations-bc/northeast/doig-river</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="KNC_j"><button aria-controls="KNC'" aria-expanded="false" class="btn btn-link" data-target="#KNC" data-toggle="collapse" onclick="jQuery('#KNC').slideToggle();" style="color:white" type="button">Ktunaxa Nation Council (KNC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="KNC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="/getmedia/a9dea845-07ca-4d67-9ef0-91a8aa79f398/KNC.jpg.aspx?width=186&amp;height=70" /></td>
+		</tr>
+		<tr>
+			<td><strong>KNC Employment Service Centre</strong><br />
+			220 Cranbrook Street N, Cranbrook V1C 3W3<br />
+			250-489-2464<br />
+			<a class="dont-break-out" href="http://www.ktunaxa.org/careers/training-job-search" target="_blank">http://www.ktunaxa.org/careers/training-job-search</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="TLC_j"><button aria-controls="TLC'" aria-expanded="false" class="btn btn-link" data-target="#TLC" data-toggle="collapse" onclick="jQuery('#TLC').slideToggle();" style="color:white" type="button">Lil&#39;wat Nation (TLC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="TLC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="https://www.workbc.ca/getmedia/205d851f-f031-464c-9b4f-e0fc7bf9df50/Lilwat.aspx?height=100" /></td>
+		</tr>
+		<tr>
+			<td><strong>Lil&#39;wat Employment and Training Resource Centre</strong><br />
+			2032 Highway 99, P.O. Box 602, Mount Currie V0N 2K0<br />
+			604-967-6036<br />
+			<a href="https://lilwat.ca/liiwat-employment-and-training-resource-centre/" target="_blank">https://lilwat.ca/liiwat-employment-and-training-resource-centre/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="LTC_j"><button aria-controls="LTC'" aria-expanded="false" class="btn btn-link" data-target="#LTC" data-toggle="collapse" onclick="jQuery('#LTC').slideToggle();" style="color:white" type="button">Lillooet Tribal Council (LTC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="LTC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="LTC Logo" src="https://www.workbc.ca/getmedia/ad53139b-5286-4cb8-a865-f0f383488e28/LTC_LOGO.aspx?height=115" /></td>
+		</tr>
+		<tr>
+			<td><strong>Administrative office</strong><br />
+			682 Main Street, Lillooet V0K 1V0<br />
+			<a href="https://lillooettribalcouncil.ca/" target="_blank">https://lillooettribalcouncil.ca/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading5" style="background-color:#234075">
+<div class="mb-0" id="MCFNTS_j"><button aria-controls="MCFNTS'" aria-expanded="false" class="btn btn-link" data-target="#MCFNTS" data-toggle="collapse" onclick="jQuery('#MCFNTS').slideToggle();" style="color:white" type="button">Mid Coast First Nations Training Society (MCFNTS)</button></div>
+</div>
+
+<div aria-labelledby="heading5" class="collapse" data-parent="#centres" id="MCFNTS" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img src="/getmedia/acfa7dab-9b50-4b54-b685-d15eb1f306f8/MCFNTS.aspx" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>MCFNTS Bella Bella</strong><br />
+			85 Waglisla Street, P.O. Box 941, Bella Bella V0T 1Z0<br />
+			250-957-2225<br />
+			<a class="dont-break-out" href="http://www.mcfnts.ca/" target="_blank">http://www.mcfnts.ca/</a></td>
+			<td style="width:50%;"><strong>MCFNTS Bella Coola</strong><br />
+			P.O. Box 471, Bella Coola V0T 1C0<br />
+			250-799-5151<br />
+			<a class="dont-break-out" href="http://www.mcfnts.ca/" target="_blank">http://www.mcfnts.ca/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="MNBC_j"><button aria-controls="MNBC'" aria-expanded="false" class="btn btn-link" data-target="#MNBC" data-toggle="collapse" onclick="jQuery('#MNBC').slideToggle();" style="color:white" type="button">Métis Nation of British Columbia (MNBC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="MNBC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="https://www.workbc.ca/getmedia/7ebfa939-41fc-4153-a565-54a01ae76ac9/METIS.aspx?height=100" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Region 4 - Kootenays</strong><br />
+			240-1113 Baker St, Cranbrook V1C 1A7<br />
+			250-417-3305<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+			<td style="width:50%;"><strong>Region 7 - North East</strong><br />
+			10021 100 Street, Fort St John V1J 3Y5<br />
+			250-787-1957<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Region 3 - Thompson &amp; Okanagan</strong><br />
+			13-1800 Tranquille Rd, Kamloops V2B 3L9<br />
+			250-376-9235<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+			<td style="width:50%;"><strong>Region 1 - Vancouver Island and Powell River</strong><br />
+			102-3156 Barons Road, Nanaimo V9T 4B5<br />
+			250-753-6271<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Region 5 - North Central</strong><br />
+			207-513 Ahbau St, Prince George V2M 3R8<br />
+			250-561-2754<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+			<td style="width:50%;"><strong>Provincial Office</strong><br />
+			107-5668 192nd Street, Surrey V3S 2V7<br />
+			250-561-2754<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Region 2 - Lower Mainland</strong><br />
+			10757 138 St, Surrey V3T 4K8<br />
+			778-395-0385<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+			<td style="width:50%;"><strong>Region 6 - North West</strong><br />
+			304-4546 Park Ave, Terrace V8G 1V4<br />
+			250-615-0035<br />
+			<a class="dont-break-out" href="https://www.mnbc.ca/directory/view/342-ministry-of-employment-training" target="_blank">https://www.mnbc.ca/directory/view/342-ministry-of-employment-training</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="MSTESD_j"><button aria-controls="MSTESD'" aria-expanded="false" class="btn btn-link" data-target="#MSTESD" data-toggle="collapse" onclick="jQuery('#MSTESD').slideToggle();" style="color:white" type="button">Musqueam, Squamish, Tsleil Waututh Employment and Services Department (MSTESD)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="MSTESD" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="MSTESD Logo" src="https://www.workbc.ca/getmedia/2b3c8399-0bd5-4efc-b43e-de28a2f9abcb/MIB.aspx?height=125" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Squamish Nation Employment and Training</strong><br />
+			320 Seymour Blvd, North Vancouver V7L 4J5<br />
+			604-980-4553<br />
+			<a class="dont-break-out" href="https://lilwat.ca/citizenservices/" target="_blank">https://lilwat.ca/citizenservices/</a></td>
+			<td style="width:50%;"><strong>Tsleil-Waututh Nation Skills Centre</strong><br />
+			817 West 1st Street, North Vancouver V7P 1A4<br />
+			604-985-1765<br />
+			<a class="dont-break-out" href="https://www.twnskillscentre.com/" target="_blank">https://www.twnskillscentre.com/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Musqueam Employment and Training</strong><br />
+			6735 Salish Drive, Vancouver V6N 4C4<br />
+			604-263-3261<br />
+			<a class="dont-break-out" href="https://www.musqueam.bc.ca/departments/community-services/employment-and-training/" target="_blank">https://www.musqueam.bc.ca/departments/community-services/employment-and-training/</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="NFN_j"><button aria-controls="NFN'" aria-expanded="false" class="btn btn-link" data-target="#NFN" data-toggle="collapse" onclick="jQuery('#NFN').slideToggle();" style="color:white" type="button">N&#39;Quatqua Band (NFN)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="NFN" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="https://via.placeholder.com/175x75?text=N'Quatqua" /></td>
+		</tr>
+		<tr>
+			<td><strong>Administrative office</strong><br />
+			120 Casper-Charlie Pl , D&#39;Arcy V0N 1L0<br />
+			604-452-3290<br />
+			<a href="https://www.nquatqua.ca/" target="_blank">https://www.nquatqua.ca/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="NENAS_j"><button aria-controls="NENAS'" aria-expanded="false" class="btn btn-link" data-target="#NENAS" data-toggle="collapse" onclick="jQuery('#NENAS').slideToggle();" style="color:white" type="button">North-East Native Advancing Society (NENAS)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="NENAS" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="/getmedia/b144a3f9-9617-46c0-8132-860a5e8a7916/NENAS.aspx?width=195&amp;height=115" /></td>
+		</tr>
+		<tr>
+			<td><strong>NENAS First Nations/Inuit Employment &amp; Training Centre</strong><br />
+			10328 101st Avenue, Fort St. John V1J 2B5<br />
+			250-785-0887<br />
+			<a href="http://www.nenas.org/" target="_blank">http://www.nenas.org/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="NETP_j"><button aria-controls="NETP'" aria-expanded="false" class="btn btn-link" data-target="#NETP" data-toggle="collapse" onclick="jQuery('#NETP').slideToggle();" style="color:white" type="button">Nuu-chah-nulth Employment and Training Program (NETP)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="NETP" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="/getmedia/0b82d77f-63a0-4723-ad50-420acfca8287/NETP.aspx?height=70" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>NETP Northern Region</strong><br />
+			100 Ouwatin Road, Gold River V0P 1G0<br />
+			250-283-2012<br />
+			<a class="dont-break-out" href="https://nuuchahnulth.org/services/employment-training" target="_blank">https://nuuchahnulth.org/services/employment-training</a></td>
+			<td style="width:50%;"><strong>NETP Southern Region</strong><br />
+			4090 8th Avenue, Port Alberni V9Y 4S4<br />
+			250-723-1331<br />
+			<a class="dont-break-out" href="https://nuuchahnulth.org/services/employment-training" target="_blank">https://nuuchahnulth.org/services/employment-training</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>NETP Central Region</strong><br />
+			4-1636 Peninsula Road, Ucluelet V0R 3A0<br />
+			250-726-7347<br />
+			<a class="dont-break-out" href="https://nuuchahnulth.org/services/employment-training" target="_blank">https://nuuchahnulth.org/services/employment-training</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="NEST_j"><button aria-controls="NEST'" aria-expanded="false" class="btn btn-link" data-target="#NEST" data-toggle="collapse" onclick="jQuery('#NEST').slideToggle();" style="color:white" type="button">Nisga&#39;a Employment Skills &amp; Training (NEST)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="NEST" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="NEST Logo" src="https://www.workbc.ca/getmedia/0b598bd9-3775-4d9e-9ea5-0e4cdee5461d/NEST.aspx?height=100" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>NEST Main Office</strong><br />
+			5012 Tait Avenue, Gitlaxt&#39;aamiks V0J 1A0<br />
+			250-633-2210<br />
+			<a cla="dont-break-out" href="http://nisgaaworks.ca/" target="_blank">http://nisgaaworks.ca/</a></td>
+			<td style="width:50%;"><strong>NEST Prince Rupert</strong><br />
+			301-860 3rd Ave West, Prince Rupert V8J 1M6<br />
+			250-627-1595 ext 230<br />
+			<a cla="dont-break-out" href="http://nisgaaworks.ca/" target="_blank">http://nisgaaworks.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>NEST Terrace</strong><br />
+			101-4441 Lakelse Ave, Terrace V8G 1P1<br />
+			250-635-8050<br />
+			<a cla="dont-break-out" href="http://nisgaaworks.ca/" target="_blank">http://nisgaaworks.ca/</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="NVIATS_j"><button aria-controls="NVIATS'" aria-expanded="false" class="btn btn-link" data-target="#NVIATS" data-toggle="collapse" onclick="jQuery('#NVIATS').slideToggle();" style="color:white" type="button">North Vancouver Island Aboriginal Training Society (NVIATS)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="NVIATS" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="NVIATS LOGO" src="/getmedia/8fc217e8-d83b-42cb-929f-2f348516743b/NVIATS.aspx?height=165" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>NVIATS Northern Office</strong><br />
+			331 Larch Street, Alert Bay V0N 1A0<br />
+			250-974-2908<br />
+			<a class="dont-break-out" href="http://www.nviats.com/" target="_blank">http://www.nviats.com/</a></td>
+			<td style="width:50%;"><strong>NVIATS Southern Office</strong><br />
+			1211 Cypress Street, Campbell River V9W 2Z3<br />
+			250-286-3455<br />
+			<a class="dont-break-out" href="http://www.nviats.com/" target="_blank">http://www.nviats.com/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>NVIATS Port Hardy Office</strong><br />
+			129-8950 Granville St, Port Hardy V0N 2P0<br />
+			250-949-3029<br />
+			<a class="dont-break-out" href="http://www.nviats.com/" target="_blank">http://www.nviats.com/</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="OTDC_j"><button aria-controls="OTDC'" aria-expanded="false" class="btn btn-link" data-target="#OTDC" data-toggle="collapse" onclick="jQuery('#OTDC').slideToggle();" style="color:white" type="button">Okanagan Training and Development Council (OTDC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="OTDC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="/getmedia/9cf67b6d-5a15-4e48-8964-1c85c1287c60/OTDC.aspx?width=125&amp;height=125" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC Upper Similkameen Indian Band</strong><br />
+			P.O. Box 220, Hedley V0X 1K0<br />
+			250-292-8733<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;"><strong>OTDC Administrative Office</strong><br />
+			101-1865 Dilworth Drive, Suite 339, Kelowna V1Y 9T1<br />
+			250-769-1977<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC Ki-Low-Na Friendship Centre Employment Services</strong><br />
+			442 Leon Avenue, Kelowna V1Y 6J3<br />
+			250-763-4905 ext 221<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;"><strong>OTDC Lower Similkameen Indian Band</strong><br />
+			P.O. Box 100, Keremeos V0X 1N0<br />
+			250-499-5528 ext 125<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC Osoyoos Indian Band Employment and Training Department</strong><br />
+			1155 Sen Pok Chin Boulevard, Oliver V0H 1T8<br />
+			250-498-3444 ext 3027<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;"><strong>OTDC Penticton Indian Band Employment</strong><br />
+			RR#2, S80, C19, Penticton V2A 6J7<br />
+			250-770-3210<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC North Okanagan Friendship Centre (NOFC)</strong><br />
+			2904 29th Ave., Vernon V1T 1Y7<br />
+			250-542-1247 ext 2<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;"><strong>OTDC Okanagan Indian Band Employment</strong><br />
+			12420 Westside Rd, Vernon V1H 2A4<br />
+			250-558-3706 ext 219<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC First Nations Employment Services</strong><br />
+			2904 29th Avenue, Vernon V1T 1Y7<br />
+			778-475-5584<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;"><strong>OTDC Westbank First Nation</strong><br />
+			1900 Quail Lane, Westbank V4T 2H3<br />
+			250-768-0227 ext 220<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC West Kootenay</strong><br />
+			,<br />
+			250-709-0255<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;"><strong>OTDC Selkirk College Aboriginal Services</strong><br />
+			,<br />
+			250-365-1357<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>OTDC Penticton Itinerant Service</strong><br />
+			,<br />
+			250-550-6701<br />
+			<a class="dont-break-out" href="https://www.otdc.org" target="_blank">www.otdc.org</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="PGNAETA_j"><button aria-controls="PGNAETA'" aria-expanded="false" class="btn btn-link" data-target="#PGNAETA" data-toggle="collapse" onclick="jQuery('#PGNAETA').slideToggle();" style="color:white" type="button">Prince George Nechako Aboriginal Employment &amp; Training Association (PGNAETA)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="PGNAETA" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="/getmedia/55c251ad-3192-47b8-9922-c2a1f7dc7405/PGNAETA.aspx?height=125" /></td>
+		</tr>
+		<tr>
+			<td><strong>Prince George Nechako Aboriginal Employment &amp; Training Association (PGNAETA) </strong><br />
+			198 Kingston Street, Prince George V2L 1C3<br />
+			250-561-1199<br />
+			<a href="http://pgnaeta.bc.ca/" target="_blank">http://pgnaeta.bc.ca/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="SASET_j"><button aria-controls="SASET'" aria-expanded="false" class="btn btn-link" data-target="#SASET" data-toggle="collapse" onclick="jQuery('#SASET').slideToggle();" style="color:white" type="button">Sto:lo Aboriginal Skills and Employment Training (SASET)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="SASET" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="/getmedia/445bdf25-dfb4-46ce-bc2c-30e8b2d152a2/SASET.aspx?height=125" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Abbotsford EAS</strong><br />
+			101-2296 McCullum Rd, Abbotsford V2S 3P4<br />
+			<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Sumas EAS Outreach</strong><br />
+			3092 Sumas Mtn Rd, Abbotsford V3G 2J2<br />
+			604-852-4041<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Agassiz-Harrison EAS</strong><br />
+			7086 Pioneer Ave, Agassiz V0M 1A3<br />
+			604-703-5275<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Seabird Island EAS</strong><br />
+			2895 Chowat Rd, Agassiz V0M 1A0<br />
+			604-796-2177<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Sts&#39;ailes EAS</strong><br />
+			4690 Salish Way, Agassiz V0M 1A1<br />
+			604-796-5536<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Boston Bar EAS</strong><br />
+			P.O. Box 369, 45971 Hicks Rd, Boston Bar<br />
+			604-858-3961<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>SASET Main Office</strong><br />
+			Bldg. #8A-7201 Vedder Rd., Chilliwack V2R 4G3<br />
+			604-858-3691<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Skwah EAS Outreach</strong><br />
+			615 Wellington Ave, Chilliwack V2P 2E6<br />
+			604-869-2627<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Squiala EAS Outreach</strong><br />
+			45005 Squiala Rd, Chilliwack V2P 7Z9<br />
+			604-792-3000<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Tzeachten EAS Outreach</strong><br />
+			45855 Promontory Road, Chilliwack V2R 4E2<br />
+			604-858-3888<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Shxwha:y Village</strong><br />
+			44680 Schweyey Road, Chilliwack V2R 5M5<br />
+			604-792-9316<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Soowahlie EAS Outreach</strong><br />
+			4172 Soowahlie Rd, Cultus Lake V2R 4Y2<br />
+			604-869-2627<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Leq&#39;a:mel EAS Outreach</strong><br />
+			43101 Leq&#39;a:mel Way, Derroche V0M 1G0<br />
+			604-826-7976<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Chawathil EAS Outreach</strong><br />
+			4-60814 Lougheed Highway, Hope V0X 1L3<br />
+			604-869-9994<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Free Rein-Hope EAS</strong><br />
+			895 Third Ave, Hope V0X 1L0<br />
+			604-869-2279<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Shxw&#39;owhamel EAS Outreach</strong><br />
+			55700A St.Elmo Rd, Hope V0X 1L2<br />
+			604-869-2627<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Scowlitz FN</strong><br />
+			44314 Lougheed Hwy, Lake Errock V0M 1N0<br />
+			604-826-5813<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Kwantlen FN</strong><br />
+			23690 Gabriel Lane, Langley V1M 2R4<br />
+			604-888-2488<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Matsqui EAS Outreach</strong><br />
+			31989 Harris Rd, Matsqui V4X 1W2<br />
+			604-826-6145<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Mission Friendship Center</strong><br />
+			33150 A First Ave, Mission V2V 1G4<br />
+			604-826-0626<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Katzie EAS Outreach</strong><br />
+			19700 A. Salish Rd, Pitt Meadows V3Y 2W3<br />
+			604-465-8961 ext 58<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;"><strong>Cheam Outreach</strong><br />
+			52161 Victor Drive, Rosedale V0X 1X1<br />
+			604-794-7927<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>Spuzzum EAS</strong><br />
+			36500 Main Rd, Spuzzum V0K 2S0<br />
+			604-869-2627<br />
+			<a href="http://www.saset.ca/" target="_blank">http://www.saset.ca/</a></td>
+			<td style="width:50%;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="SFN_j"><button aria-controls="SFN'" aria-expanded="false" class="btn btn-link" data-target="#SFN" data-toggle="collapse" onclick="jQuery('#SFN').slideToggle();" style="color:white" type="button">shishalh First Nations (SFN)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="SFN" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="https://via.placeholder.com/175x75?text=Sechelt" /></td>
+		</tr>
+		<tr>
+			<td><strong>Sechelt First Nation</strong><br />
+			5555 Sunshine Coast Highway, Sechelt V0N 3A1<br />
+			604-885-2273<br />
+			<a href="https://shishalh.com" target="_blank">https://shishalh.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="SNTC_j"><button aria-controls="SNTC'" aria-expanded="false" class="btn btn-link" data-target="#SNTC" data-toggle="collapse" onclick="jQuery('#SNTC').slideToggle();" style="color:white" type="button">Shuswap Nation Tribal Council (formerly Central Interior Partners in Human Resource Development) (SNTC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="SNTC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="" src="/getmedia/8240bbf9-67e6-458a-83c9-dc679f7cff2c/SNTC.aspx?width=170&amp;height=130" /></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>SNTC Ashcroft ASETS Office</strong><br />
+			411 Brink St, Ashcroft V0K 1A0<br />
+			250-453-0093<br />
+			<a class="dont-break-out" href="http://shuswapnation.org/training-employment/" target="_blank">http://shuswapnation.org/training-employment/</a></td>
+			<td style="width:50%;"><strong>SNTC Chase ASETS Office</strong><br />
+			734 1st Ave, Chase V0E 1M0<br />
+			250-679-2348<br />
+			<a class="dont-break-out" href="http://shuswapnation.org/training-employment/" target="_blank">http://shuswapnation.org/training-employment/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>SNTC Kamloops ATEC Office</strong><br />
+			144 Briar Ave, Kamloops V2B 1C1<br />
+			250-554-4556<br />
+			<a class="dont-break-out" href="http://shuswapnation.org/training-employment/" target="_blank">http://shuswapnation.org/training-employment/</a></td>
+			<td style="width:50%;"><strong>SNTC Lillooet ASETS Office</strong><br />
+			#201-76 5th Ave, Lillooet V0K 1V0<br />
+			250-256-0293<br />
+			<a class="dont-break-out" href="http://shuswapnation.org/training-employment/" target="_blank">http://shuswapnation.org/training-employment/</a></td>
+		</tr>
+		<tr>
+			<td style="width:50%;"><strong>SNTC Lytton ASETS Office</strong><br />
+			1-243 Main Street, Lytton V0K 1Z0<br />
+			250-256-0293<br />
+			<a class="dont-break-out" href="http://shuswapnation.org/training-employment/" target="_blank">http://shuswapnation.org/training-employment/</a></td>
+			<td style="width:50%;"><strong>SNTC Merritt ASETS Office</strong><br />
+			2051 D Voght St, Merritt V1K 1B8<br />
+			250-378-0126<br />
+			<a class="dont-break-out" href="http://shuswapnation.org/training-employment/" target="_blank">http://shuswapnation.org/training-employment/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="STC_j"><button aria-controls="STC'" aria-expanded="false" class="btn btn-link" data-target="#STC" data-toggle="collapse" onclick="jQuery('#STC').slideToggle();" style="color:white" type="button">Scw&rsquo;exmx Tribal Council (STC)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="STC" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="https://via.placeholder.com/75x75?text=STC" /></td>
+		</tr>
+		<tr>
+			<td><strong>Administrative office</strong><br />
+			2090 Coutlee Avenue, Merritt V1K 1B8<br />
+			250 378 4235<br />
+			<a href="https://www.scwexmxtribal.com/" target="_blank">https://www.scwexmxtribal.com/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="TFN_j"><button aria-controls="TFN'" aria-expanded="false" class="btn btn-link" data-target="#TFN" data-toggle="collapse" onclick="jQuery('#TFN').slideToggle();" style="color:white" type="button">Tsawwassen First Nation (TFN)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="TFN" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="/getmedia/8e3a31e0-9c33-4b28-9601-0fae5bb3f81d/TFN.aspx?width=195&amp;height=70" /></td>
+		</tr>
+		<tr>
+			<td><strong>Tsawwassen First Nation</strong><br />
+			1926 Tsawwassen Dr N, Tsawwassen V4M 4G4<br />
+			604-948-5240<br />
+			<a href="http://tsawwassenfirstnation.com" target="_blank">http://tsawwassenfirstnation.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" id="heading4" style="background-color:#234075">
+<div class="mb-0" id="TRICORP_j"><button aria-controls="TRICORP'" aria-expanded="false" class="btn btn-link" data-target="#TRICORP" data-toggle="collapse" onclick="jQuery('#TRICORP').slideToggle();" style="color:white" type="button">Tribal Resources Investment Corporation (TRICORP)</button></div>
+</div>
+
+<div aria-labelledby="heading4" class="collapse" data-parent="#centres" id="TRICORP" style="display:none">
+<div class="card-body">
+<table>
+	<tbody>
+		<tr>
+			<td><img alt="" src="/getmedia/fe3490a9-f2c8-4fcf-9bcd-98f93824707c/TRICORP.aspx?width=186&amp;height=105" /></td>
+		</tr>
+		<tr>
+			<td><strong>Tribal Resources Investment Corporation </strong><br />
+			100 Grassy Bay Lane, Prince Rupert V8J 3T1<br />
+			250-624-3535<br />
+			<a href="http://www.tricorp.ca/" target="_blank">http://www.tricorp.ca/</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
