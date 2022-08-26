@@ -97,7 +97,7 @@
     
         <p>The map can be set to fullscreen by clicking on the <i class="fas fa-expand-alt fa-lg"></i> icon.</p>
 
-        <p>By clicking on the <i class="fas fa-layer-group fa-lg"></i> icon you can toggle layers on and off.</p>
+        <p>By clicking on the <i class="fas fa-layer-group fa-lg"></i> icon you can toggle layers on and off to isolate only WorkBC or ISET Service Providers.</p>
     </div>
     
     <div id="searchResults">
@@ -201,10 +201,33 @@
     //End Icons
 
     //Run the kml layer
-    var runLayer = omnivore.kml("../data/workbc.kml")
+    var runLayer = omnivore.kml("../data/workbc-no-ats-as.kml")
       .on('ready',function(){
         map.fitBounds(runLayer.getBounds());
         runLayer.eachLayer(function(layer){
+          //Assign icon based on style URL
+          if (layer.feature.properties.styleUrl == "#WorkBCCentres"){
+            if (layer instanceof L.Marker){
+              layer.setIcon(servicesIcon);
+            }
+          } else if (layer.feature.properties.styleUrl == "#AS"){
+            layer.setIcon(ASIcon)
+          }else {
+            if (layer instanceof L.Marker){
+              layer.setIcon(ATSIcon);
+            }
+          }   
+          
+          layer.bindPopup("<h3>" + layer.feature.properties.name + "</h3>" + layer.feature.properties.description);
+        });
+      }).addTo(map);
+    //Finish KML layer
+
+    //Run the kml layer
+    var atsAsLayer = omnivore.kml("../data/ats-as.kml")
+      .on('ready',function(){
+        map.fitBounds(atsAsLayer.getBounds());
+        atsAsLayer.eachLayer(function(layer){
           //Assign icon based on style URL
           if (layer.feature.properties.styleUrl == "#WorkBCCentres"){
             if (layer instanceof L.Marker){
@@ -280,7 +303,7 @@
         });
       }).addTo(map);
     //Finish KML layer 
-
+      
     //Add search for the pins only
     //searches by catcment name
     var controlSearch = new L.Control.Search({
@@ -433,7 +456,7 @@
       // does this feature have a property named popupContent?
       //console.log(feature)
       if (feature.properties && feature.properties.ISET) {
-        layer.bindPopup(feature.properties.ISET);
+        layer.bindPopup('<a href=https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#'+feature.properties.ISET+' target="_blank">' + feature.properties.ISET + '</a>');
       }
     }
 
@@ -464,13 +487,15 @@
     //geojson.addTo(map);
     //});
 
-    var isetsgroup = L.layerGroup().addLayer(runLayerIsets).addLayer(layerMetis)
-    isetsgroup.addTo(map)
-    polygon.addTo(map)
-    polygon.removeFrom(map)
+    var isetsgroup = L.layerGroup().addLayer(runLayerIsets).addLayer(layerMetis);
+    var workbcgroup = L.layerGroup().addLayer(runLayer).addLayer(atsAsLayer);
+    isetsgroup.addTo(map);
+    workbcgroup.addTo(map);
+    polygon.addTo(map);
+    polygon.removeFrom(map);
     var overlays={
       "ISETs": isetsgroup,
-      "WorkBC Centres": runLayer,
+      "WorkBC Centres": workbcgroup,
       "ISETP Agreement Holders": polygon
     }
 
@@ -519,6 +544,21 @@
         var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
         //$(parent.document).find("#searchResults .container .accordion").empty();
         var html = '';
+        html += "<h3>The ISET provider is:</h3>"
+        html += create_html(iset, 5);
+        html += "<h3>The closest Métis Nation Center is:</h3>"
+        for (c in closestMetis) {
+          var cur = closestMetis[c].layer.feature.properties;
+          //var html = create_html(cur,c);
+          //$(parent.document).find("#searchResults .container .accordion").append(html);
+          L.polyline([result.latlng, closestMetis[c].latlng], {
+            color: 'blue',
+            weight: 2,
+            opacity: 1,
+            dashArray: "5,10"
+          }).addTo(esriResults);
+          html += create_html(cur, 4);
+        }
         html += '<h3>The 3 closest WorkBC Centers are:</h3>'
         for (c in closest) {
           var cur = closest[c].layer.feature.properties;
@@ -533,21 +573,6 @@
           html += create_html(cur,c);
           
         }
-        html += "<h3>The closest Métis Nation Center is:</h3>"
-        for (c in closestMetis) {
-          var cur = closestMetis[c].layer.feature.properties;
-          //var html = create_html(cur,c);
-          //$(parent.document).find("#searchResults .container .accordion").append(html);
-          L.polyline([result.latlng, closestMetis[c].latlng], {
-            color: 'blue',
-            weight: 2,
-            opacity: 1,
-            dashArray: "5,10"
-          }).addTo(esriResults);
-          html += create_html(cur, 4);
-        }
-        html += "<h3>The ISET provider is:</h3>"
-        html += create_html(iset, 5);
         console.log(html)
         top.postMessage(html, "*");
     }

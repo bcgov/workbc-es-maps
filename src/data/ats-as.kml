@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+	<Document id="spreadsheet_to_kml" xmlns="http://www.opengis.net/kml/2.2">
+		<open>1</open>
+		<Snippet maxLines="0"/>
+		<description>Ministry of Social Development Mashup</description>
+		<Style id="ATS">
+			<IconStyle>
+				<Icon>
+					<href>https://www.workbc.ca/getmedia/99c97194-b085-4bb8-a4a3-182ebf0d2a96/pin_ats.aspx</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="AS">
+			<IconStyle>
+				<Icon>
+					<href>https://www.workbc.ca/getmedia/033a6c5a-d9a4-4eb6-b57c-85d7c289ca83/pin_as.aspx</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="WorkBCCentres">
+			<IconStyle>
+				<Icon>
+					<href>https://www.workbc.ca/getmedia/0315844a-a73d-41b0-9d2c-a112a1bedc2f/pin.aspx</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+	
+			
+		<Placemark id="p45">
+			<name>WorkBC Apprentice Services - Coquitlam</name>
+			<address>A1410 - 1250 Pinetree Way, Coquitlam, BC V2B 7X2</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Apprentice Services - Coquitlam&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 46&lt;/em&gt;</description>
+			<styleUrl>#AS</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Apprentice Services - Coquitlam</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Apprentice Services (AS)</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>46</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Apprentice Services (AS)</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Apprentice Services - Coquitlam</value>
+				</Data>
+				<Data name="address">
+					<value>A1410 - 1250 Pinetree Way, Coquitlam, BC V2B 7X2</value>
+				</Data>
+				<Data name="phone">
+					<value>1-844-428-4730</value>
+				</Data>
+				<Data name="fax">
+					<value>1-844-428-4731</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:apprenticeservices@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>N</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:00 am to 7:00 pm Monday to Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 am to 5:00 pm Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 2:00 pm Saturday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.7925384,49.2881777</coordinates>
+			</Point>
+		</Placemark>	
+	
+		<Placemark id="p46">
+			<name>WorkBC Assistive Technology Services - Burnaby</name>
+			<address>400-3999 Henning Drive, Burnaby, BC V6C 6P9</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Burnaby.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Burnaby&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<styleUrl>#ATS</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Assistive Technology Services - Burnaby</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>47</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Assistive Technology Services - Burnaby</value>
+				</Data>
+				<Data name="address">
+					<value>400-3999 Henning Drive, Burnaby, BC V6C 6P9</value>
+				</Data>
+				<Data name="phone">
+					<value>1-844-453-5506</value>
+				</Data>
+				<Data name="fax">
+					<value>604-473-9364</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:ats@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/ATS/Burnaby.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>N</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday to Wednesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 7:30 pm Thursday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 3:00 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Saturday, Sundays and Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0151612,49.2657589</coordinates>
+			</Point>
+		</Placemark>	
+	
+		
+	
+		<Placemark id="p82">
+			<name>WorkBC Assistive Technology Services - Nanaimo</name>
+			<address>305-155 Skinner Street, Nanaimo, BC V9R 5E8</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Nanaimo.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Nanaimo&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<styleUrl>#ATS</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Assistive Technology Services - Nanaimo</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>47</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>2</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Assistive Technology Services - Nanaimo</value>
+				</Data>
+				<Data name="address">
+					<value>305-155 Skinner Street, Nanaimo, BC V9R 5E8</value>
+				</Data>
+				<Data name="phone">
+					<value>1-844-453-5506</value>
+				</Data>
+				<Data name="fax">
+					<value>604-473-9364</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:ats@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/ATS/Nanaimo.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>N</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday to Wednesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 7:30 pm Thursday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 3:00 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Saturday, Sundays and Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.9385319,49.1669227</coordinates>
+			</Point>
+		</Placemark>	
+	
+		<Placemark id="p100">
+			<name>WorkBC Assistive Technology Services - Kelowna</name>
+			<address>202-437 Glenmore Road, Kelowna, BC V1V 1Y5</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Kelowna.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Kelowna&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<styleUrl>#ATS</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Assistive Technology Services - Kelowna</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>47</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>3</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Assistive Technology Services - Kelowna</value>
+				</Data>
+				<Data name="address">
+					<value>202-437 Glenmore Road, Kelowna, BC V1V 1Y5</value>
+				</Data>
+				<Data name="phone">
+					<value>1-844-453-5506</value>
+				</Data>
+				<Data name="fax">
+					<value>604-473-9364</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:ats@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/ATS/Kelowna.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>N</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday to Wednesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 7:30 pm Thursday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 3:00 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Saturday, Sundays and Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.4460224,49.9145524</coordinates>
+			</Point>
+		</Placemark>	
+	
+		<Placemark id="p106">
+			<name>WorkBC Assistive Technology Services - Victoria</name>
+			<address>817A Fort Street, Victoria, BC  V8W 1H6</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Victoria.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 4&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<styleUrl>#ATS</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Assistive Technology Services - Victoria</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>47</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Assistive Technology Services</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>4</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Assistive Technology Services - Victoria</value>
+				</Data>
+				<Data name="address">
+					<value>817A Fort Street, Victoria, BC  V8W 1H6</value>
+				</Data>
+				<Data name="phone">
+					<value>1-844-453-5506</value>
+				</Data>
+				<Data name="fax">
+					<value>604-473-9364</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:ats@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/ATS/Victoria.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>N</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday to Wednesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 7:30 pm Thursday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 3:00 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Saturday, Sundays and Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.3617047,48.4241897</coordinates>
+			</Point>
+		</Placemark>	
+	
+	</Document>
+</kml>
