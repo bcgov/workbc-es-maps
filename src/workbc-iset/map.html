@@ -501,7 +501,13 @@
 
     L.control.layers(null, overlays).addTo(map);
 
-    
+    map.on('overlayremove', function(layer) {
+      console.log(layer)
+      if (layer.name == "WorkBC Centres" || layer.name == "ISETs"){
+        esriResults.clearLayers();
+        map.setView([50.65, -129.25], 5);
+      }
+    })
     
     function find(result){
       var iset = {acronym: "", name: ""};
@@ -544,36 +550,42 @@
         var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
         //$(parent.document).find("#searchResults .container .accordion").empty();
         var html = '';
-        html += "<h3>The ISET provider is:</h3>"
-        html += create_html(iset, 5);
-        html += "<h3>The closest Métis Nation Center is:</h3>"
-        for (c in closestMetis) {
-          var cur = closestMetis[c].layer.feature.properties;
-          //var html = create_html(cur,c);
-          //$(parent.document).find("#searchResults .container .accordion").append(html);
-          L.polyline([result.latlng, closestMetis[c].latlng], {
-            color: 'blue',
-            weight: 2,
-            opacity: 1,
-            dashArray: "5,10"
-          }).addTo(esriResults);
-          html += create_html(cur, 4);
+        if (map.hasLayer(runLayerIsets) || map.hasLayer(polygon)){
+          html += "<h3>The ISET provider is:</h3>"
+          html += create_html(iset, 5);
+          html += "<h3>The closest Métis Nation Center is:</h3>"
+          for (c in closestMetis) {
+            var cur = closestMetis[c].layer.feature.properties;
+            //var html = create_html(cur,c);
+            //$(parent.document).find("#searchResults .container .accordion").append(html);
+            if (map.hasLayer(runLayerIsets)){
+              L.polyline([result.latlng, closestMetis[c].latlng], {
+                color: 'blue',
+                weight: 2,
+                opacity: 1,
+                dashArray: "5,10"
+              }).addTo(esriResults);
+            }
+            html += create_html(cur, 4);
+          }
         }
-        html += '<h3>The 3 closest WorkBC Centers are:</h3>'
-        for (c in closest) {
-          var cur = closest[c].layer.feature.properties;
-          //var html = create_html(cur,c);
-          //$(parent.document).find("#searchResults .container .accordion").append(html);
-          L.polyline([result.latlng, closest[c].latlng], {
-            color: 'blue',
-            weight: 2,
-            opacity: 1,
-            dashArray: "5,10"
-          }).addTo(esriResults);
-          html += create_html(cur,c);
-          
+        if (map.hasLayer(runLayer)){
+          html += '<h3>The 3 closest WorkBC Centers are:</h3>'
+          for (c in closest) {
+            var cur = closest[c].layer.feature.properties;
+            //var html = create_html(cur,c);
+            //$(parent.document).find("#searchResults .container .accordion").append(html);
+            L.polyline([result.latlng, closest[c].latlng], {
+              color: 'blue',
+              weight: 2,
+              opacity: 1,
+              dashArray: "5,10"
+            }).addTo(esriResults);
+            html += create_html(cur,c);
+            
+          }
         }
-        console.log(html)
+        //console.log(html)
         top.postMessage(html, "*");
     }
 
@@ -612,6 +624,7 @@
                     alert("Error: Search Result outside of BC.");
                     return;
                   } else {
+                    console.log(overlays)
                     showResults(result);                 
                   }
                 });
@@ -633,6 +646,7 @@
                     alert("Error: Search Result outside of BC.");
                     return;
                   } else {
+                    console.log(overlays)
                     showResults(result);                 
                   }
                 });            
@@ -730,6 +744,7 @@
     var resetMap = L.easyButton( 'fas fa-globe-americas fa-lg', function(){
       esriResults.clearLayers();
       map.setView([50.65, -129.25], 5);
+      top.postMessage("", "*");
       //console.log($(parent.document).find("#searchResults"));
       //$(parent.document).find("#searchResults .container .accordion").empty();
     });
