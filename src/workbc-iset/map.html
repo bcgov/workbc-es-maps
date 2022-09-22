@@ -433,7 +433,7 @@
       html += '       <dt class="web">Website:</dt>';
       html += '         <dd><a href="'+properties.website+'" target="_blank">'
       html += '   '+properties.website+'</a></dd>';
-      html += '     <div>See <a href="https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC" target="_blank" >full list of Métis Nation Centre of BC offices</a>.</div>';
+      html += '     <div>See <a href="https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC" target="_blank" >full list of Métis Nation of BC offices</a>.</div>';
       }else{
       html += '     </div>';
       html += '     <div>';
@@ -553,7 +553,7 @@
         if (map.hasLayer(runLayerIsets) || map.hasLayer(polygon)){
           html += "<h3>The ISET provider is:</h3>"
           html += create_html(iset, 5);
-          html += "<h3>The closest Métis Nation Centre is:</h3>"
+          html += "<h3>The closest Métis Nation office is:</h3>"
           for (c in closestMetis) {
             var cur = closestMetis[c].layer.feature.properties;
             //var html = create_html(cur,c);
