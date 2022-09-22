@@ -553,7 +553,7 @@
         if (map.hasLayer(runLayerIsets) || map.hasLayer(polygon)){
           html += "<h3>The ISET provider is:</h3>"
           html += create_html(iset, 5);
-          html += "<h3>The closest Métis Nation Center is:</h3>"
+          html += "<h3>The closest Métis Nation Centre is:</h3>"
           for (c in closestMetis) {
             var cur = closestMetis[c].layer.feature.properties;
             //var html = create_html(cur,c);
@@ -570,7 +570,7 @@
           }
         }
         if (map.hasLayer(runLayer)){
-          html += '<h3>The 3 closest WorkBC Centers are:</h3>'
+          html += '<h3>The 3 closest WorkBC Centres are:</h3>'
           for (c in closest) {
             var cur = closest[c].layer.feature.properties;
             //var html = create_html(cur,c);
