@@ -1,0 +1,808 @@
+<html>
+    <head>
+      <meta charset=utf-8 />
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <title>Map</title>
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    
+        <!-- Load Leaflet from CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin="">
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+          integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+          crossorigin=""></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          
+        <!-- Custom buttons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+    
+    
+        <!-- Load Esri Leaflet from CDN -->
+        <script src="https://unpkg.com/esri-leaflet@2.2.3/dist/esri-leaflet.js"
+        integrity="sha512-YZ6b5bXRVwipfqul5krehD9qlbJzc6KOGXYsDjU9HHXW2gK57xmWl2gU6nAegiErAqFXhygKIsWPKbjLPXVb2g=="
+        crossorigin=""></script>
+    
+        <!-- Load Esri Leaflet Geocoder from CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.2.13/dist/esri-leaflet-geocoder.css"
+        integrity="sha512-v5YmWLm8KqAAmg5808pETiccEohtt8rPVMGQ1jA6jqkWVydV5Cuz3nJ9fQ7ittSxvuqsvI9RSGfVoKPaAJZ/AQ=="
+        crossorigin="">
+        <script src="https://unpkg.com/esri-leaflet-geocoder@2.2.13/dist/esri-leaflet-geocoder.js"
+        integrity="sha512-zdT4Pc2tIrc6uoYly2Wp8jh6EPEWaveqqD3sT0lf5yei19BC1WulGuh5CesB0ldBKZieKGD7Qyf/G0jdSe016A=="
+        crossorigin=""></script>
+    
+        <!-- KML Plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-plugins/3.0.3/layer/vector/KML.js" integrity="sha256-uVVAprftV7Qt2wzXkpeUS5CiJh6pc6xb5r6+jfXl/sc=" crossorigin="anonymous"></script>
+        <!-- omnivore -->
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!--search -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/src/leaflet-search.min.css" >
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/src/leaflet-search.min.js" ></script>
+    
+        <!-- sidebar -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-sidebar@0.2.0/src/L.Control.Sidebar.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-sidebar@0.2.0/src/L.Control.Sidebar.min.js"></script>
+    
+        <!-- Geometry -->
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-geometryutil@0.9.0/src/leaflet.geometryutil.min.js"></script>
+    
+        <!-- Fullscreen -->
+        <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' >
+    
+        <!-- Jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    
+        <!-- Bootstrap 
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+        <!-- Turf -->
+        <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+
+        <!-- custom CSS -->
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <!-- Spin JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/1.2.5/spin.min.js" integrity="sha512-9XtFFIsRnHUAdYNI2dFN6s55AZXEuTy3GjERLbhjq9BPlXq9KX/ZThxaSD0YnYyR9QqMd820LljpKMaBZIemTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Leaflet Spin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.Spin/1.1.2/leaflet.spin.min.js" integrity="sha512-0XwHwDvBg9jLZlGiwMYZkDM88lmMWazxvreRDE9liyaBZXmKRV5rB50hsyatczCVjCumGl0gpet2EEoHvBLmcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+      <style>
+        body { margin:0; padding:0; }
+        #map { position: absolute; top:0; bottom:0; right:0; left:0; }
+      </style>
+    </head>
+    <body>
+    
+    <div id="map"></div>
+    
+    <div id="sidebar">
+      <h1>How to use the map</h1>
+        <p>You can search by city, postal code or address. Just start typing and select from the dropdown options. 
+    
+        <p>You can reset the map by clicking on 
+        the <i class="fas fa-globe-americas fa-lg"></i> icon.</p>
+    
+        <p>The map can be set to fullscreen by clicking on the <i class="fas fa-expand-alt fa-lg"></i> icon.</p>
+
+    </div>
+    
+    <div id="searchResults">
+      <div class="container">
+        <div class="accordion" id="centres"></div>
+      </div>
+    </div>
+    
+    <script>
+      var firstSuggestion;
+      var bcBounds = new L.LatLngBounds([44,-140],[63,-109]);
+     // var corner1 = L.latlLng(47.768,-145.590);
+      //var corner2 = L.latlLng(60.283,-103.403);
+      //var searchBounds = L.LatlngBounds([47.768,-145.590],[60.283,-103.403]);
+      var corner1 = L.latLng(47.768,-145.590),
+      corner2 = L.latLng(60.283,-103.403),
+      bounds = L.latLngBounds(corner1, corner2);
+    
+      var map = L.map("map", {
+        minZoom: 5,
+      }).setView([50.65, -124.25], 5);
+    
+      L.esri.tiledMapLayer({
+      url: 'https://maps.gov.bc.ca/arcserver/rest/services/Province/web_mercator_cache/MapServer',
+      /*attribution: 'ESRI',*/
+      maxZoom: 17
+    }).addTo(map);
+    
+      //console.log(map.getCenter());
+    
+    /* Don't allow dragging outside BC */
+      map.setMaxBounds(bcBounds);
+      map.on('drag',function(){
+        map.panInsideBounds(bcBounds,{animate: false});
+      });
+    
+    
+    //Icons
+    var servicesIcon = L.icon({
+        iconSize: [28,36],
+        iconUrl: '../pins/servicesIcon.png',
+        shadowSize: [68, 95],
+        shadowAnchor: [22, 94]
+    });
+    
+    var ASIcon = L.icon({
+      iconSize: [28,36],
+      iconUrl: '../pins/ASIcon.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94]
+    })
+    
+    var ATSIcon = L.icon({
+      iconSize: [28,36],
+      iconUrl: '../pins/ATSIcon.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+    
+    var ACCESS = L.icon({
+      iconSize: [28, 36],
+      iconUrl: 'pins/ACCESS.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+
+    var pinBlue = L.icon({
+      iconSize: [30, 39],
+      iconUrl: '../pins/pinBlue.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+
+    var pinLightBlue = L.icon({
+      iconSize: [30, 39],
+      iconUrl: '../pins/pinLightBlue.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+
+    var pinYellow = L.icon({
+      iconSize: [30, 39],
+      iconUrl: '../pins/pinYellow.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+
+    var pinOrange = L.icon({
+      iconSize: [30, 39],
+      iconUrl: '../pins/pinOrange.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+
+    var pinGreen = L.icon({
+      iconSize: [30, 39],
+      iconUrl: '../pins/pinGreen.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94],
+    })
+    //End Icons
+
+    //Run the kml layer
+    var runLayer = omnivore.kml("../data/workbc-no-ats-as.kml")
+      .on('ready',function(){
+        map.fitBounds(runLayer.getBounds());
+        runLayer.eachLayer(function(layer){
+          //Assign icon based on style URL
+          if (layer.feature.properties.styleUrl == "#WorkBCCentres"){
+            if (layer instanceof L.Marker){
+              layer.setIcon(servicesIcon);
+            }
+          } else if (layer.feature.properties.styleUrl == "#AS"){
+            layer.setIcon(ASIcon)
+          }else {
+            if (layer instanceof L.Marker){
+              layer.setIcon(ATSIcon);
+            }
+          }   
+          
+          layer.bindPopup("<h3>" + layer.feature.properties.name + "</h3>" + layer.feature.properties.description);
+        });
+      }).addTo(map);
+    //Finish KML layer
+
+    //Run the kml layer
+    var atsAsLayer = omnivore.kml("../data/ats-as.kml")
+      .on('ready',function(){
+        map.fitBounds(atsAsLayer.getBounds());
+        atsAsLayer.eachLayer(function(layer){
+          //Assign icon based on style URL
+          if (layer.feature.properties.styleUrl == "#WorkBCCentres"){
+            if (layer instanceof L.Marker){
+              layer.setIcon(servicesIcon);
+            }
+          } else if (layer.feature.properties.styleUrl == "#AS"){
+            layer.setIcon(ASIcon)
+          }else {
+            if (layer instanceof L.Marker){
+              layer.setIcon(ATSIcon);
+            }
+          }   
+          
+          layer.bindPopup("<h3>" + layer.feature.properties.name + "</h3>" + layer.feature.properties.description);
+        });
+      }).addTo(map);
+    //Finish KML layer
+      
+      
+    var layerMetis = omnivore.kml("../data/metis.kml")
+      .on('ready',function(){
+        map.fitBounds(layerMetis.getBounds());
+        layerMetis.eachLayer(function(layer){
+          if (layer instanceof L.Marker){
+            layer.setIcon(pinYellow);
+            layer.bindPopup("<h3>" + layer.feature.properties.name + "</h3>" + layer.feature.properties.description);
+          }
+        }) 
+      });
+
+    //Run the kml layer
+    var runLayerIsets = omnivore.kml("../data/isets-no-metis.kml")
+      .on('ready', function () {
+        map.fitBounds(runLayerIsets.getBounds());
+        runLayerIsets.eachLayer(function (layer) {
+          //Assign icon based on style URL
+          if (layer instanceof L.Marker) {
+            if (layer.feature.properties.colour === "G") {
+              layer.setIcon(pinGreen);
+              if (layer.feature.properties.name === "North-East Native Advancing Society (NENAS)") {
+                layer.setZIndexOffset(500)
+              }
+            } else if (layer.feature.properties.colour === "Y") {
+              layer.setIcon(pinYellow);
+            } else if (layer.feature.properties.colour === "O") {
+              layer.setIcon(pinLightBlue);
+              layer.setZIndexOffset(50)
+            } else if (layer.feature.properties.colour === "B") {
+              layer.setIcon(pinOrange);
+            }
+          }
+          /*
+          if (layer.feature.properties.name == "ACCESS"){
+            if (layer instanceof L.Marker){
+              layer.setIcon(ACCESS);
+            }
+          } else if (layer.feature.properties.name == "CSETS"){
+            if (layer instanceof L.Marker){
+              layer.setIcon(CSETS);
+            }
+          }
+          
+          } else if (layer.feature.properties.styleUrl == "#AS"){
+            layer.setIcon(ASIcon)
+          }else {
+            if (layer instanceof L.Marker){
+              layer.setIcon(ATSIcon);
+            }
+          }
+          */
+          //Add the features we want to the popup
+          layer.bindPopup("<h3>" + layer.feature.properties.name + "</h3>" + layer.feature.properties.description);
+        });
+      });
+    //Finish KML layer 
+      
+    //Add search for the pins only
+    //searches by catcment name
+    var controlSearch = new L.Control.Search({
+      layer: runLayer,
+      initial: false,
+      propertyName: 'catchmentName',
+      zoom: 14,
+      circleLocation: false,
+      autoType: false,
+      autoCollapse: true,
+      minLength: 1,
+      textPlaceholder: 'Search by Centre',
+      collapsed: false,
+      marker: false,
+      moveToLocation: function(latlng, title, map){
+        if(this.options.zoom)
+          this._map.setView(latlng,this.options.zoom);
+        else
+          this._map.panTo(latlng);
+        //$(parent.document).find("#searchResults .container .accordion").empty();
+        latlng.layer.fire('click');
+        var html = create_html(latlng.layer.feature.properties,0);
+        //var targetWindow = window.opener;
+        //targetWindow.postMessage(html, "*");
+        //$(parent.document).find("#searchResults .container .accordion").append(html);
+      },
+    });
+    //controlSearch.on('search_locationfound', function(e) {alert(e);e.layer.fire('click');var html = create_html(e.layer.feature.properties,0);$(parent.document).find("#searchResults .container .accordion").append(html);});
+    
+    //Search by address or postal code
+    var searchControl = L.esri.Geocoding.geosearch({
+      position: 'topleft',
+      expanded: true,
+      collapseAfterResult: false,
+      placeholder: 'Search by city, postal code or address',
+      searchBounds: bounds,
+      allowMultipleResult: false,
+      zoomToResult: false,
+      providers: [
+        L.esri.Geocoding.arcgisOnlineProvider({
+          countries: ['CANADA'],
+          //categories: ['city','postal','address'],
+        })
+      ],
+    });
+    
+    $("#map > div.leaflet-control-container > div.leaflet-top.leaflet-left").click(function(){
+      sidebar.hide();
+      sidebarToggle.state('open-sidebar');
+    });
+    
+    $("#map > div.leaflet-control-container > div.leaflet-top.leaflet-left").keydown(function(e){
+      if ($(".geocoder-control-suggestion")[0] != null){
+        firstSuggestion = $(".geocoder-control-suggestion")[0].textContent;
+      }
+    });
+    
+    //Calls Code in WorkBC Site
+    function create_html(properties,c){
+      var workbc = properties.name.includes("WorkBC");
+      var metis = properties.name.includes("Métis");
+
+      if(workbc){
+        var email = properties.email.split('mailto:')[1];
+      }
+
+      var html = '';  
+      //html += '<div class="accordion" id="centres">';
+      html += '<div class="card" >';
+      html += '  <div class="card-header" id="heading'+c+'" style="background-color:#234075">';
+      html += '    <div class="mb-0">';
+      //Uses WorkBC Function
+      if(workbc){
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+'</button>';
+      }else if(metis){
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.name+' - ' +properties.description.substr(0, properties.description.indexOf("<")) +'</button>';
+      }else{
+      html += '      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse'+c+'" aria-expanded="false" aria-controls="collapse'+c+'"  onClick="jQuery(\'#collapse'+c+'\').slideToggle();" style="color:white">'+properties.acronym+' - ' +properties.name +'</button>';
+      }
+      //Function on HTML on WorkBC Site
+      html += '    </div>';
+      html += '  </div>';
+      //collapsible part
+      
+      html += '<div id="collapse'+c+'" class="collapse" aria-labelledby="heading'+c+'+" data-parent="#centres" style="display:none">'
+      ;
+      html += ' <div class="card-body">';
+      html += '   <div class="row">';
+      html += '     <div class="col-sm-6">';
+        if(workbc){
+      html += '       <dl class="clearfix">';
+      html += '       <dt class="address">Address:</dt>';
+      html += '         <dd>'+ properties.address+'</dd>';
+      html += '       <dt class="phone">Phone:</dt>';
+      html += '         <dd>'+properties.phone+'</dd>';
+      html += '       <dt class="fax">Fax:</dt>';
+      html += '         <dd>'+properties.fax+'</dd>';
+      html += '       <dt class="email">Email:'+'</dt>';
+      html += '         <dd>'+email+'</dd>';
+      html += '       </dl>';
+      html += '       <p class="store-front">STORE FRONT (SF): '+properties.storefrontId + '</p>';
+      html += '     </div>';
+      html += '     <div class="col-sm-6">'
+      html += '       <dt class="web">Website:</dt>';
+      html += '         <dd><a href="'+properties.website+'" target="_blank">'
+      html += '   '+properties.website+'</a></dd>';
+      html += '       <dl class="clearfix">';
+      html += '       <dt class="hours">Hours:</dt>';
+      html += '         <dd>'+properties.hours1;
+      html += '           <br>'+properties.hours2;
+      html += '           <br>'+properties.hours3;
+      html += '           <br>'+properties.hours4;
+      html += '         </dd>';
+      html += '       </dl>';
+      html += '       <p class="catchment-area">CATCHMENT AREA: ' + properties.catchmentId + '</p>';
+      }else if(metis){
+      html += '       <dl class="clearfix">';
+      html += '       <dt class="address">Address:</dt>';
+      html += '         <dd>'+ properties.address + '</dd>';
+      html += '       <dt class="phone">Phone:</dt>';
+      html += '         <dd>'+properties.phone+'</dd>';
+      html += '       <dt class="email">Email:'+'</dt>';
+      html += '         <dd>'+properties.email+'</dd>';
+      html += '       </dl>';
+      html += '     </div>';
+      html += '     <div class="col-sm-6">'
+      html += '       <dt class="web">Website:</dt>';
+      html += '         <dd><a href="'+properties.website+'" target="_blank">'
+      html += '   '+properties.website+'</a></dd>';
+      html += '     <div>See <a href="https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC" target="_blank" >full list of Métis Nation of BC offices</a>.</div>';
+      }else{
+      html += '     </div>';
+      html += '     <div>';
+      html += '     Please refer to the <a href=https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#'+properties.acronym+' target="_blank">full list of program offices for this ISET provider</a> in your area.'
+      }
+      html += '     </div>';
+      html += '   </div>'
+      html += ' </div>';
+      html += '</div>';
+      html += '</div>'
+      
+     
+    
+      return html;
+    }
+    
+    var esriResults = L.layerGroup().addTo(map);
+
+    function onEachFeature(feature, layer) {
+      // does this feature have a property named popupContent?
+      //console.log(feature)
+      if (feature.properties && feature.properties.ISET) {
+        layer.bindPopup('<a href=https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#'+feature.properties.ISET+' target="_blank">' + feature.properties.ISET + '</a>');
+      }
+    }
+
+    function ISETStyle(feature) {
+        switch (feature.properties.color) {
+            case 0: return {color: "#a57bb8", "weight" : 4, opacity: 1.2};
+            case 1: return {color: "#93c178", "weight" : 4, opacity: 1.2};
+            case 2: return {color: "#b27c60", "weight" : 4, opacity: 1.2};
+            case 3: return {color: "#6ba3ab", "weight" : 4, opacity: 1.2};
+            //cfbbd8 // purple
+            //bfdcae //green
+
+        }
+    }
+
+    //BC ISET
+    var polygon = L.layerGroup();
+    var geojson = new L.GeoJSON.AJAX("../data/BCISET.json", {
+    middleware: function(data){
+      L.geoJSON(data, {onEachFeature: onEachFeature, style: ISETStyle }).addTo(polygon);
+      map.spin(false)
+      searchControl.addTo(map);
+    }});
+    //console.log(geojson);
+    //geojson.on('data:loaded', function(a, b){
+    //  console.log(a)
+    //  console.log(b)
+    //geojson.addTo(map);
+    //});
+
+    //var isetsgroup = L.layerGroup().addLayer(runLayerIsets).addLayer(layerMetis);
+    var workbcgroup = L.layerGroup().addLayer(runLayer).addLayer(atsAsLayer);
+    //isetsgroup.addTo(map);
+    workbcgroup.addTo(map);
+    polygon.addTo(map);
+    polygon.removeFrom(map);
+    var overlays={
+      //"ISETs": isetsgroup,
+      "WorkBC Centres": workbcgroup,
+      "ISETP Agreement Holders": polygon
+    }
+
+   //L.control.layers(null, overlays).addTo(map);
+
+    map.on('overlayremove', function(layer) {
+      console.log(layer)
+      if (layer.name == "WorkBC Centres" || layer.name == "ISETs"){
+        esriResults.clearLayers();
+        map.setView([50.65, -129.25], 5);
+      }
+    })
+    
+    function find(result){
+      var iset = {acronym: "", name: ""};
+      //console.log(map)
+      //console.log(polygon)
+      /*
+      var isets = new L.GeoJSON.AJAX("../data/BCISET.json", {
+        middleware: function(data){
+          for (i in data.features){
+            console.log(data.features[i])
+            if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), data.features[i])){
+              iset.acronym = data.features[i].properties.ISET;
+              iset.name = data.features[i].properties.ISET_NAME;
+              console.log(iset);
+            }
+          }
+
+          
+        }
+      });
+      */
+        //Get point in polygon
+        polygon.eachLayer(function(layer){
+          //console.log(layer)
+          for (var i in layer._layers){
+            //console.log(layer._layers[i])
+            if(turf.booleanPointInPolygon(turf.point([result.latlng.lng, result.latlng.lat]), layer._layers[i].feature)){
+              iset.acronym = layer._layers[i].feature.properties.ISET;
+              iset.name = layer._layers[i].feature.properties.ISET_NAME;
+              //console.log(iset);
+            }
+            
+          }
+        })
+        //Once the for loop is done do the HTML
+        esriResults.clearLayers();
+        esriResults.addLayer(L.marker(result.latlng));
+        map.setView(result.latlng, 12);
+        //var closestMetis = L.GeometryUtil.nClosestLayers(map, layerMetis.getLayers(), result.latlng, 1);
+        var closest = L.GeometryUtil.nClosestLayers(map, runLayer.getLayers(), result.latlng, 3);
+        //$(parent.document).find("#searchResults .container .accordion").empty();
+        var html = '';
+        /*
+        if (map.hasLayer(runLayerIsets) || map.hasLayer(polygon)){
+          html += "<h3>The ISET provider is:</h3>"
+          html += create_html(iset, 5);
+          html += "<h3>The closest Métis Nation office is:</h3>"
+          for (c in closestMetis) {
+            var cur = closestMetis[c].layer.feature.properties;
+            //var html = create_html(cur,c);
+            //$(parent.document).find("#searchResults .container .accordion").append(html);
+            if (map.hasLayer(runLayerIsets)){
+              L.polyline([result.latlng, closestMetis[c].latlng], {
+                color: 'blue',
+                weight: 2,
+                opacity: 1,
+                dashArray: "5,10"
+              }).addTo(esriResults);
+            }
+            html += create_html(cur, 4);
+          }
+        }
+        */
+        if (map.hasLayer(runLayer)){
+          html += '<h3>The 3 closest WorkBC Centres are:</h3>'
+          for (c in closest) {
+            var cur = closest[c].layer.feature.properties;
+            //var html = create_html(cur,c);
+            //$(parent.document).find("#searchResults .container .accordion").append(html);
+            L.polyline([result.latlng, closest[c].latlng], {
+              color: 'blue',
+              weight: 2,
+              opacity: 1,
+              dashArray: "5,10"
+            }).addTo(esriResults);
+            html += create_html(cur,c);
+            
+          }
+        }
+        //console.log(html)
+        top.postMessage(html, "*");
+    }
+
+    function showResults(result) {
+      find(result)
+    }
+    
+    
+    searchControl.on('results',function(data){
+      $(".geocoder-control-input").attr("placeholder",data.text);
+      if (data.results.length > 0){
+        //console.log(data.results);
+        var firstPostal = data.results[0].text.charAt(0);
+        //console.log(!data.results[0].properties.Place_addr.includes("British Columbia"));
+        if (!data.results[0].properties.Place_addr.includes("British Columbia")){
+          //console.log(data.results)
+          //console.log(data.results[0].properties.LongLabel.includes("British Columbia"));
+          ////console.log(!data.results[0].LongLabel.includes("CAN"));
+          if (!data.results[0].properties.Place_addr.includes("British Columbia") && !data.results[0].text.includes("British Columbia")){
+            //console.log("results out of BC or wrong result in text option 1");
+            //console.log(data);
+            if (data.text)
+            L.esri.Geocoding.suggest().text(data.text).within(bounds).run(function(err,resp){
+              //console.log(resp);
+              var suggestion = resp.suggestions[0].text;
+              if (err){
+                //console.log("in err");
+                if (firstSuggestion == undefined){
+                  alert("Error: Please try again");
+                  return;
+                }
+                L.esri.Geocoding.geocode().text(firstSuggestion).within(bounds).run(function(err, response){
+                  //console.log(response.results[0]);
+                  var result = response.results[0];
+                  if (!result.text.includes("British Columbia") && !result.properties.Place_addr.includes("British Columbia")){
+                    alert("Error: Search Result outside of BC.");
+                    return;
+                  } else {
+                    console.log(overlays)
+                    showResults(result);                 
+                  }
+                });
+              } else {
+                //console.log(suggestion);
+                if (!suggestion.includes("British Columbia")){
+                  for (var i=0; i < 5; i++){
+                    if (resp.suggestions[i].text.includes("British Columbia")){
+                      suggestion = resp.suggestions[i].text;
+                      //console.log(suggestion);
+                      break;
+                    }
+                  }          
+                }
+                L.esri.Geocoding.geocode().text(suggestion).within(bounds).run(function(err, response){
+                  //console.log(response.results[0]);
+                  var result = response.results[0];
+                  if (!result.text.includes("British Columbia") && !result.properties.Place_addr.includes("British Columbia")){
+                    alert("Error: Search Result outside of BC.");
+                    return;
+                  } else {
+                    console.log(overlays)
+                    showResults(result);                 
+                  }
+                });            
+              }
+    
+            });
+            return;
+          }
+        }
+      //No results on first search, based only on text  
+      } else {
+        //console.log("no results on text option 2")
+        //console.log(firstSuggestion);
+        L.esri.Geocoding.suggest().text(data.text).within(bounds).run(function(err,resp){
+          //console.log(resp);
+          var suggestion = resp.suggestions[0].text;
+          if (err){
+            //console.log("in err");
+            if (firstSuggestion == undefined){
+              alert("Error: Please try again");
+              return;
+            }
+            L.esri.Geocoding.geocode().text(firstSuggestion).within(bounds).run(function(err, response){
+              //console.log(response.results[0]);
+              var result = response.results[0];
+    
+              alert("Error: Search Result outside of BC.");
+              if (!result.text.includes("British Columbia") && !result.properties.Place_addr.includes("British Columbia")){
+                return;
+              } else {
+                showResults(result);                 
+              }
+            });
+          } else {
+            //console.log(suggestion);
+            if (!suggestion.includes("British Columbia")){
+              for (var i=0; i < 5; i++){
+                if (resp.suggestions[i].text.includes("British Columbia")){
+                  suggestion = resp.suggestions[i].text;
+                  //console.log(suggestion);
+                  break;
+                }
+              }          
+            }
+            //console.log(suggestion);
+            L.esri.Geocoding.geocode().text(suggestion).within(bounds).run(function(err, response){
+              //console.log(response.results[0]);
+              var result = response.results[0];
+              if (!result.text.includes("British Columbia") && !result.properties.Place_addr.includes("British Columbia")){
+                alert("Error: Search Result outside of BC.");
+                return;
+              } else {
+                showResults(result);                 
+              }
+            });            
+          }
+    
+        });
+        return;
+      }
+      //This should only occur when it is not a postal
+      //and when the result found is inside BC, else either of the other two
+      //options will execute
+      //console.log(" no if option 3");
+      //console.log(data);
+      //console.log(data.results[0].text);
+      showResults(data.results[0]);
+    
+    });
+
+    var globalsearchToggle = new L.easyButton({
+        states: [{
+          stateName: 'show',
+          icon: 'fa-exchange fa-lg',
+          title: 'Search Addresses',
+          onClick: function(btn, map) {
+            //$(parent.document).find("#searchResults .container .accordion").empty();
+            map.removeControl(controlSearch);
+            searchControl.addTo(map);
+          btn.state('hide');
+            }
+          },{
+          stateName: 'hide',
+        icon: 'fa-exchange fa-border fa-lg',
+          title: 'Search Features',
+          onClick: function(btn, map) {
+            //$(parent.document).find("#searchResults .container .accordion").empty();
+            map.removeControl(searchControl);
+            controlSearch.addTo(map);
+            btn.state('show');
+          }
+        }]
+      });
+    
+    var resetMap = L.easyButton( 'fas fa-globe-americas fa-lg', function(){
+      esriResults.clearLayers();
+      map.setView([50.65, -129.25], 5);
+      top.postMessage("", "*");
+      //console.log($(parent.document).find("#searchResults"));
+      //$(parent.document).find("#searchResults .container .accordion").empty();
+    });
+    
+    var fullscreen = L.easyButton( 'fas fa-expand-alt fa-lg',
+      function(){
+        map.toggleFullscreen();
+      }, 'title', {
+        position: 'topright',
+    });
+
+    var sidebar = L.control.sidebar('sidebar', { autoPan: false, closeButton: false });
+    sidebar.addTo(map);
+    
+    var sidebarToggle = L.easyButton({
+          states: [{
+                  stateName: 'open-sidebar',   // name the state
+                  icon:      'fas fa-question fa-lg',          // and define it's properties
+                  title:     'Show Sidebar', // like it's title
+                  onClick: function(btn, map) {  // and it's callback
+                      sidebar.show();
+                      btn.state('close-sidebar'); // change state on click!
+                  }
+              }, {
+                  stateName: 'close-sidebar',
+                  icon:      'fas fa-times fa-lg',
+                  title:     'Hide Sidebar',
+                  onClick: function(btn, map) {
+                      sidebar.hide();
+                      btn.state('open-sidebar');
+                  }
+          }],
+        id: 'menu',
+     });
+    String.prototype.includes = function (str) {
+      var returnValue = false;
+    
+      if (this.indexOf(str) !== -1) {
+        returnValue = true;
+      }
+    
+      return returnValue;
+    }
+
+    //controlSearch.addTo(map);
+    
+    var stogglebar = L.easyBar([sidebarToggle], {id: 'toggle'}).addTo(map);
+    
+    resetMap.addTo(map);
+    
+    //globalsearchToggle.addTo(map);
+    
+    fullscreen.addTo(map);
+    
+    //Map loading
+    map.spin(true)
+    
+    </script>
+    
+    </body>
+    </html>
