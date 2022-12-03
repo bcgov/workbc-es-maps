@@ -45,9 +45,9 @@
 		</Style>
 		<Placemark id="p9">
 			<name>Métis Nation of British Columbia (MNBC)</name>
-			<address>Office</address>
+			<address>Region 2 - Lower Mainland</address>
 			<Snippet maxLines="0"/>
-			<description>Office&lt;br/&gt;380 - 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<description>Region 2 - Lower Mainland&lt;br/&gt;380 - 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
 			<styleUrl>#MNBC</styleUrl>
 			<ExtendedData>
 				<Data name="address">
@@ -57,7 +57,7 @@
 					<value>Y</value>
 				</Data>
 				<Data name="phone">
-					<value>604-557-5851 </value>
+					<value>604-557-5851</value>
 				</Data>
 				<Data name="website">
 					<value>https://www.mnbc.ca/</value>
@@ -68,6 +68,114 @@
 			</ExtendedData>
 			<Point>
 				<coordinates>-122.8502541,49.1990923</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p10">
+			<name>Métis Nation of British Columbia (MNBC)</name>
+			<address>Provincial Office</address>
+			<Snippet maxLines="0"/>
+			<description>Provincial Office&lt;br/&gt;380 - 13401 108 Ave&lt;br/&gt;Surrey, B.C., V3T 5T3&lt;br/&gt;Phone: 604-557-5851 &lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<styleUrl>#MNBC</styleUrl>
+			<ExtendedData>
+				<Data name="address">
+					<value>380 - 13401 108 Ave, Surrey, B.C., V3T 5T3</value>
+				</Data>
+				<Data name="colour">
+					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>1-800-940-1150</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.8502541,49.1990923</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p25">
+			<name>Métis Nation of British Columbia (MNBC)</name>
+			<address>Region 7 - North East</address>
+			<Snippet maxLines="0"/>
+			<description>Region 7 - North East&lt;br/&gt;9904 - 94th Street&lt;br/&gt;Fort St John, BC V1J 0M7&lt;br/&gt;Phone: 250-787-1957&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<styleUrl>#MNBC</styleUrl>
+			<ExtendedData>
+				<Data name="address">
+					<value>9904 - 94th Street, Fort St John, V1J 0M7</value>
+				</Data>
+				<Data name="colour">
+					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-787-1957</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.836469,56.2455413</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p28">
+			<name>Métis Nation of British Columbia (MNBC)</name>
+			<address>Region 5 - North Central</address>
+			<Snippet maxLines="0"/>
+			<description>Region 5 - North Central&lt;br/&gt;2455 Quebec St&lt;br/&gt;Prince George, BC V2L 1W5&lt;br/&gt;Phone: 250-561-2754&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<styleUrl>#MNBC</styleUrl>
+			<ExtendedData>
+				<Data name="address">
+					<value>455 Quebec St, Prince George, V2L 1W5</value>
+				</Data>
+				<Data name="colour">
+					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-561-2754</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.7472239,53.9157943</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p31">
+			<name>Métis Nation of British Columbia (MNBC)</name>
+			<address>Region 6 - North West</address>
+			<Snippet maxLines="0"/>
+			<description>Region 6 - North West&lt;br/&gt;#102 - 4650 Lazelle Avenue&lt;br/&gt;Terrace, BC V8G 1S6&lt;br/&gt;Phone: 250-615-0035&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<styleUrl>#MNBC</styleUrl>
+			<ExtendedData>
+				<Data name="address">
+					<value>#102 - 4650 Lazelle Avenue, Terrace, V8G 1S6</value>
+				</Data>
+				<Data name="colour">
+					<value>Y</value>
+				</Data>
+				<Data name="phone">
+					<value>250-615-0035</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.mnbc.ca/</value>
+				</Data>
+				<Data name="email">
+					<value>https://www.mnbc.ca/about/contact/</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-128.5909283,54.5178136</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p24">
@@ -95,33 +203,6 @@
 			</ExtendedData>
 			<Point>
 				<coordinates>-115.7654472,49.5121005</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="p25">
-			<name>Métis Nation of British Columbia (MNBC)</name>
-			<address>Region 7 - North East</address>
-			<Snippet maxLines="0"/>
-			<description>Region 7 - North East&lt;br/&gt;10021 100 Street&lt;br/&gt;Fort St John, BC V1J 3Y5&lt;br/&gt;Phone: 250-787-1957&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
-			<styleUrl>#MNBC</styleUrl>
-			<ExtendedData>
-				<Data name="address">
-					<value>10021 100 Street, Fort St John, BC V1J 3Y5</value>
-				</Data>
-				<Data name="colour">
-					<value>Y</value>
-				</Data>
-				<Data name="phone">
-					<value>250-787-1957</value>
-				</Data>
-				<Data name="website">
-					<value>https://www.mnbc.ca/</value>
-				</Data>
-				<Data name="email">
-					<value>https://www.mnbc.ca/about/contact/</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-120.8470932,56.2468426</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="p26">
@@ -176,114 +257,6 @@
 			</ExtendedData>
 			<Point>
 				<coordinates>-124.0011851,49.208354</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="p28">
-			<name>Métis Nation of British Columbia (MNBC)</name>
-			<address>Region 5 - North Central</address>
-			<Snippet maxLines="0"/>
-			<description>Region 5 - North Central&lt;br/&gt;207-513 Ahbau St&lt;br/&gt;Prince George, BC V2M 3R8&lt;br/&gt;Phone: 250-561-2754&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
-			<styleUrl>#MNBC</styleUrl>
-			<ExtendedData>
-				<Data name="address">
-					<value>207-513 Ahbau St, Prince George, BC V2M 3R8</value>
-				</Data>
-				<Data name="colour">
-					<value>Y</value>
-				</Data>
-				<Data name="phone">
-					<value>250-561-2754</value>
-				</Data>
-				<Data name="website">
-					<value>https://www.mnbc.ca/</value>
-				</Data>
-				<Data name="email">
-					<value>https://www.mnbc.ca/about/contact/</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-122.7853382,53.9203243</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="p29">
-			<name>Métis Nation of British Columbia (MNBC)</name>
-			<address>Provincial Office</address>
-			<Snippet maxLines="0"/>
-			<description>Provincial Office&lt;br/&gt;107-5668 192nd Street&lt;br/&gt;Surrey, BC V3S 2V7&lt;br/&gt;Phone: 250-561-2754&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
-			<styleUrl>#MNBC</styleUrl>
-			<ExtendedData>
-				<Data name="address">
-					<value>107-5668 192nd Street, Surrey, BC V3S 2V7</value>
-				</Data>
-				<Data name="colour">
-					<value>Y</value>
-				</Data>
-				<Data name="phone">
-					<value>250-561-2754</value>
-				</Data>
-				<Data name="website">
-					<value>https://www.mnbc.ca/</value>
-				</Data>
-				<Data name="email">
-					<value>https://www.mnbc.ca/about/contact/</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-122.6900326,49.1055991</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="p30">
-			<name>Métis Nation of British Columbia (MNBC)</name>
-			<address>Region 2 - Lower Mainland</address>
-			<Snippet maxLines="0"/>
-			<description>Region 2 - Lower Mainland&lt;br/&gt;10757 138 St&lt;br/&gt;Surrey, BC V3T 4K8&lt;br/&gt;Phone: 778-395-0385&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
-			<styleUrl>#MNBC</styleUrl>
-			<ExtendedData>
-				<Data name="address">
-					<value>10757 138 St, Surrey, BC V3T 4K8</value>
-				</Data>
-				<Data name="colour">
-					<value>Y</value>
-				</Data>
-				<Data name="phone">
-					<value>778-395-0385</value>
-				</Data>
-				<Data name="website">
-					<value>https://www.mnbc.ca/</value>
-				</Data>
-				<Data name="email">
-					<value>https://www.mnbc.ca/about/contact/</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-122.8398796,49.1981037</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="p31">
-			<name>Métis Nation of British Columbia (MNBC)</name>
-			<address>Region 6 - North West</address>
-			<Snippet maxLines="0"/>
-			<description>Region 6 - North West&lt;br/&gt;304-4546 Park Ave&lt;br/&gt;Terrace, BC V8G 1V4&lt;br/&gt;Phone: 250-615-0035&lt;br/&gt;Website: &lt;a href=&quot;https://www.mnbc.ca/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;https://www.mnbc.ca/about/contact/&quot; target=&quot;_blank&quot;&gt;https://www.mnbc.ca/about/contact/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#MNBC&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
-			<styleUrl>#MNBC</styleUrl>
-			<ExtendedData>
-				<Data name="address">
-					<value>304-4546 Park Ave, Terrace, BC V8G 1V4</value>
-				</Data>
-				<Data name="colour">
-					<value>Y</value>
-				</Data>
-				<Data name="phone">
-					<value>250-615-0035</value>
-				</Data>
-				<Data name="website">
-					<value>https://www.mnbc.ca/</value>
-				</Data>
-				<Data name="email">
-					<value>https://www.mnbc.ca/about/contact/</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-128.5855495,54.5180385</coordinates>
 			</Point>
 		</Placemark>
 	</Document>
