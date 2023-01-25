@@ -47,7 +47,7 @@
 			<name>WorkBC Centre - Courtenay</name>
 			<address>103 - 555 4th Street, Courtenay, BC  V9N 1H3</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Vancouver-Island-Coast/Courtenay.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Courtenay&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 02&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Courtenay.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Courtenay&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 02&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -81,7 +81,7 @@
 					<value>mailto:centre-courtenay@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Vancouver-Island-Coast/Courtenay.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Courtenay.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -107,7 +107,7 @@
 			<name>WorkBC Centre - Nanaimo</name>
 			<address>101 - 155 Skinner Street, Nanaimo, BC V9R 5G9</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Vancouver-Island-Coast/Nanaimo.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Nanaimo&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 04&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Nanaimo.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Nanaimo&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 04&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -141,7 +141,7 @@
 					<value>mailto:centre-nanaimo@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Vancouver-Island-Coast/Nanaimo.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Nanaimo.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -167,7 +167,7 @@
 			<name>WorkBC Centre - Victoria - Douglas</name>
 			<address>201-1483 Douglas St, Victoria, BC V8W 3K4</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Douglas.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 07&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Douglas.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 07&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -201,7 +201,7 @@
 					<value>mailto:centre-victoria-douglas@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Douglas.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Douglas.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -227,7 +227,7 @@
 			<name>WorkBC Centre - Victoria - Borden</name>
 			<address>201-3962 Borden Street, Victoria, BC V8P 3H8</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Borden.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 07&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Borden.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 07&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -261,7 +261,7 @@
 					<value>mailto:centre-victoria-borden@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Borden.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Borden.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -287,7 +287,7 @@
 			<name>WorkBC Centre - Vancouver - 134 East Hastings</name>
 			<address>134 East Hastings Street, Vancouver, BC V6A 1N4</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-134-East-Hastings.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-134-East-Hastings.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -321,7 +321,7 @@
 					<value>mailto:centre-vancouver-134easthastings@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-134-East-Hastings.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-134-East-Hastings.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -347,7 +347,7 @@
 			<name>WorkBC Centre - Vancouver - Burrard</name>
 			<address>900-1200 Burrard Street, Vancouver, BC V6Z 2C7</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-Burrard.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Burrard.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -381,7 +381,7 @@
 					<value>mailto:centre-vancouver-burrard@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-Burrard.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Burrard.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -407,7 +407,7 @@
 			<name>WorkBC Centre - Vancouver - W Pender</name>
 			<address>200-250 W. Pender Street, Vancouver, BC V5B 1S9</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-WPender.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-WPender.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -441,7 +441,7 @@
 					<value>mailto:centre-vancouver-westpender@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-WPender.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-WPender.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -467,7 +467,7 @@
 			<name>WorkBC Centre - Vancouver - East 3rd</name>
 			<address>110 East 3rd Avenue, Vancouver, BC V5T 1C8</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-East-3rd-Ave.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 12&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-East-3rd-Ave.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 12&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -501,7 +501,7 @@
 					<value>mailto:centre-vancouver-east3rd@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-East-3rd-Ave.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-East-3rd-Ave.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -527,7 +527,7 @@
 			<name>WorkBC Centre - Vancouver - Midtown West</name>
 			<address>300 - 2150 West Broadway, Vancouver, BC V6K 4L9</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-West-Broadway.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 12&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-West-Broadway.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 12&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -561,7 +561,7 @@
 					<value>mailto:centre-vancouver-westbroadway@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-West-Broadway.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-West-Broadway.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -587,7 +587,7 @@
 			<name>WorkBC Centre - Vancouver - Commercial</name>
 			<address>312 - 2555 Commercial Drive, Vancouver, BC V5N 4C1</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-Commercial.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 13&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Commercial.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 13&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -621,7 +621,7 @@
 					<value>mailto:centre-vancouver-commercial@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-Commercial.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Commercial.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -647,7 +647,7 @@
 			<name>WorkBC Centre - Vancouver - South</name>
 			<address>Ground Floor - 7575 Cambie Street, Vancouver, BC V6P 3H6</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Vancouver-Cambie.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 14&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Cambie.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 14&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -681,7 +681,7 @@
 					<value>mailto:centre-vancouversouth@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Vancouver-Cambie.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Cambie.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -707,7 +707,7 @@
 			<name>WorkBC Centre - Abbotsford</name>
 			<address>#103 - 33255 S Fraser Way  Abbotsford, BC, V2S 2B2</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/AbbotsfordEnFrancais.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Abbotsford&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 27&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/AbbotsfordEnFrancais.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Abbotsford&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 27&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -741,7 +741,7 @@
 					<value>mailto:info-abbotsford@workbc.ca </value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/AbbotsfordEnFrancais.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/AbbotsfordEnFrancais.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -767,7 +767,7 @@
 			<name>WorkBC Centre - Chilliwack</name>
 			<address>200-45905 Yale Road, Chilliwack, BC V2P 2M6</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Mainland-Southwest/Chilliwack.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Chilliwack&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 28&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Chilliwack.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Chilliwack&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 28&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -801,7 +801,7 @@
 					<value>mailto:centre-chilliwack@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Mainland-Southwest/Chilliwack.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Mainland-Southwest/Chilliwack.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -827,7 +827,7 @@
 			<name>WorkBC Centre - Kamloops - Lansdowne</name>
 			<address>Unit 210 - 450 Lansdowne St, Kamloops, BC V2C 1X8</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Thompson-Okanagan/Kamloops-Lansdowne.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kamloops&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 31&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Lansdowne.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kamloops&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 31&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -861,7 +861,7 @@
 					<value>mailto:centre-kamloops-lansdowne@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Thompson-Okanagan/Kamloops-Lansdowne.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Lansdowne.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -887,7 +887,7 @@
 			<name>WorkBC Centre - Kamloops - Tranquille</name>
 			<address>795 Tranquille Rd., Kamloops, BC V2B 3J3</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Thompson-Okanagan/Kamloops-Tranquille.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kamloops&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 31&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Tranquille.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kamloops&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 31&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -921,7 +921,7 @@
 					<value>mailto:centre-kamloops-tranquille@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Thompson-Okanagan/Kamloops-Tranquille.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Tranquille.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -947,7 +947,7 @@
 			<name>WorkBC Centre - Penticton</name>
 			<address>174 1848 Main Street, Penticton, BC V2A 5H3</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Thompson-Okanagan/Penticton.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Penticton&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 32&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Penticton.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Penticton&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 32&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -981,7 +981,7 @@
 					<value>mailto:centre-penticton@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Thompson-Okanagan/Penticton.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Penticton.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -1007,7 +1007,7 @@
 			<name>WorkBC Centre - Kelowna</name>
 			<address>107 - 1835 Gordon Dr, Kelowna, BC V1Y 3H4</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Thompson-Okanagan/Kelowna.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kelowna&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 33&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kelowna.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kelowna&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 33&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -1041,7 +1041,7 @@
 					<value>mailto:centre-kelowna@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Thompson-Okanagan/Kelowna.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kelowna.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -1067,7 +1067,7 @@
 			<name>WorkBC Centre - Rutland</name>
 			<address>Unit 40-301 Highway 33, Rutland, BC V1X 1X8</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Thompson-Okanagan/Rutland.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Rutland&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 33&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Rutland.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Rutland&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 33&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -1101,7 +1101,7 @@
 					<value>mailto:centre-rutland@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Thompson-Okanagan/Rutland.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Thompson-Okanagan/Rutland.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -1127,7 +1127,7 @@
 			<name>WorkBC Centre - Prince George</name>
 			<address>103-1600 15th Ave, Prince George, BC V2L 3X3</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/Cariboo/Prince-George.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Prince George&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 43&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/Cariboo/Prince-George.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Prince George&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 43&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -1161,7 +1161,7 @@
 					<value>mailto:centre-princegeorge@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/Cariboo/Prince-George.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/Cariboo/Prince-George.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
@@ -1187,7 +1187,7 @@
 			<name>WorkBC Apprentice Services - Coquitlam</name>
 			<address>A1410 - 1250 Pinetree Way, Coquitlam, BC V2B 7X2</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;/WorkBC-Centres/AS/Coquitlam.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Coquitlam&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 46&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://aws-test.workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Coquitlam&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 46&lt;/em&gt;</description>
 			<styleUrl>#AS</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -1221,7 +1221,7 @@
 					<value>mailto:apprenticeservices@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>/WorkBC-Centres/AS/Coquitlam.aspx</value>
+					<value>https://aws-test.workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>Y</value>
