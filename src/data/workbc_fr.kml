@@ -1,0 +1,1248 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+	<Document xmlns="http://www.opengis.net/kml/2.2" id="spreadsheet_to_kml">
+		<open>1</open>
+		<Snippet maxLines="0"/>
+		<description>Ministry of Social Development Mashup</description>
+		<Style id="ATS">
+			<IconStyle>
+				<Icon>
+					<href>https://www.workbc.ca/getmedia/99c97194-b085-4bb8-a4a3-182ebf0d2a96/pin_ats.aspx</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="AS">
+			<IconStyle>
+				<Icon>
+					<href>https://www.workbc.ca/getmedia/033a6c5a-d9a4-4eb6-b57c-85d7c289ca83/pin_as.aspx</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id="WorkBCCentres">
+			<IconStyle>
+				<Icon>
+					<href>https://www.workbc.ca/getmedia/0315844a-a73d-41b0-9d2c-a112a1bedc2f/pin.aspx</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Placemark id="p1">
+			<name>WorkBC Centre - Courtenay</name>
+			<address>103 - 555 4th Street, Courtenay, BC  V9N 1H3</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Courtenay.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Courtenay&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 02&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Courtenay</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Comox Valley - Powell River</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>02</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Comox Valley - Powell River</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Courtenay</value>
+				</Data>
+				<Data name="address">
+					<value>103 - 555 4th Street, Courtenay, BC  V9N 1H3</value>
+				</Data>
+				<Data name="phone">
+					<value>250-334-3119</value>
+				</Data>
+				<Data name="fax">
+					<value>250-338-7594</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-courtenay@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Courtenay.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:00 am to 8:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 12:30 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays, Easter Monday, Boxing Day - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-125.0034181,49.6903991</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p2">
+			<name>WorkBC Centre - Nanaimo</name>
+			<address>101 - 155 Skinner Street, Nanaimo, BC V9R 5G9</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Nanaimo.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Nanaimo&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 04&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Nanaimo</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Nanaimo</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>04</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Nanaimo</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Nanaimo</value>
+				</Data>
+				<Data name="address">
+					<value>101 - 155 Skinner Street, Nanaimo, BC V9R 5G9</value>
+				</Data>
+				<Data name="phone">
+					<value>250-714-0085</value>
+				</Data>
+				<Data name="fax">
+					<value>250-714-0093</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-nanaimo@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Nanaimo.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 6:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 3:00 pm Thursday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.9379006,49.1663253</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p3">
+			<name>WorkBC Centre - Victoria - Douglas</name>
+			<address>201-1483 Douglas St, Victoria, BC V8W 3K4</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Douglas.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 07&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Victoria - Douglas</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Greater Victoria</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>07</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Greater Victoria</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Victoria - Douglas</value>
+				</Data>
+				<Data name="address">
+					<value>201-1483 Douglas St, Victoria, BC V8W 3K4</value>
+				</Data>
+				<Data name="phone">
+					<value>250-388-0858</value>
+				</Data>
+				<Data name="fax">
+					<value>250-388-0814</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-victoria-douglas@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Douglas.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 6:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 3:00 pm Thursday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Saturday, Sunday, Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.3644911,48.427452</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p4">
+			<name>WorkBC Centre - Victoria - Borden</name>
+			<address>201-3962 Borden Street, Victoria, BC V8P 3H8</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Borden.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 07&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Victoria - Borden</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Greater Victoria</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>07</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Greater Victoria</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>2</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Victoria - Borden</value>
+				</Data>
+				<Data name="address">
+					<value>201-3962 Borden Street, Victoria, BC V8P 3H8</value>
+				</Data>
+				<Data name="phone">
+					<value>250-479-9675</value>
+				</Data>
+				<Data name="fax">
+					<value>250-479-9678</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-victoria-borden@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Victoria-Borden.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 6:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 3:00 pm Thursday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Saturday, Sunday, Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.3611325,48.4702305</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p5">
+			<name>WorkBC Centre - Vancouver - 134 East Hastings</name>
+			<address>134 East Hastings Street, Vancouver, BC V6A 1N4</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-134-East-Hastings.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - 134 East Hastings</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver City Centre</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>11</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver City Centre</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - 134 East Hastings</value>
+				</Data>
+				<Data name="address">
+					<value>134 East Hastings Street, Vancouver, BC V6A 1N4</value>
+				</Data>
+				<Data name="phone">
+					<value>604-334-6372</value>
+				</Data>
+				<Data name="fax">
+					<value>604-873-1758</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouver-134easthastings@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-134-East-Hastings.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:00 am to 5:30 pm Monday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:00 am to 4:30 pm Tuesday, Thursday, Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:00 am to 2:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.1012664,49.2813219</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p6">
+			<name>WorkBC Centre - Vancouver - Burrard</name>
+			<address>900-1200 Burrard Street, Vancouver, BC V6Z 2C7</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Burrard.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - Burrard</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver City Centre</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>11</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver City Centre</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>2</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - Burrard</value>
+				</Data>
+				<Data name="address">
+					<value>900-1200 Burrard Street, Vancouver, BC V6Z 2C7</value>
+				</Data>
+				<Data name="phone">
+					<value>604-334-6372</value>
+				</Data>
+				<Data name="fax">
+					<value>604-873-1758</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouver-burrard@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Burrard.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 6:00 pm Monday, Tuesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 2:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 4:30 pm Thursday, Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.129286,49.278588</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p7">
+			<name>WorkBC Centre - Vancouver - W Pender</name>
+			<address>200-250 W. Pender Street, Vancouver, BC V5B 1S9</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-WPender.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 11&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - W Pender</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver City Centre</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>11</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver City Centre</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>3</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - W Pender</value>
+				</Data>
+				<Data name="address">
+					<value>200-250 W. Pender Street, Vancouver, BC V5B 1S9</value>
+				</Data>
+				<Data name="phone">
+					<value>604-334-6372</value>
+				</Data>
+				<Data name="fax">
+					<value>604-873-1758</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouver-westpender@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-WPender.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:30 am to 6:00 pm Monday, Tuesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:30 am to 2:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>9:30 am to 4:30 pm Thursday, Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.1112381,49.2813041</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p8">
+			<name>WorkBC Centre - Vancouver - East 3rd</name>
+			<address>110 East 3rd Avenue, Vancouver, BC V5T 1C8</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-East-3rd-Ave.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 12&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - East 3rd</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver Midtown</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>12</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver Midtown</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - East 3rd</value>
+				</Data>
+				<Data name="address">
+					<value>110 East 3rd Avenue, Vancouver, BC V5T 1C8</value>
+				</Data>
+				<Data name="phone">
+					<value>604-829-2300</value>
+				</Data>
+				<Data name="fax">
+					<value>604-829-0900</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouver-east3rd@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-East-3rd-Ave.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:00 am to 4:30 pm Monday, Thursday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 am to 6:00 pm Tuesday, Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value/>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.1023658,49.268203</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p9">
+			<name>WorkBC Centre - Vancouver - Midtown West</name>
+			<address>300 - 2150 West Broadway, Vancouver, BC V6K 4L9</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-West-Broadway.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 12&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - Midtown West</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver Midtown</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>12</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver Midtown</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>2</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - Midtown West</value>
+				</Data>
+				<Data name="address">
+					<value>300 - 2150 West Broadway, Vancouver, BC V6K 4L9</value>
+				</Data>
+				<Data name="phone">
+					<value>604-688-4666</value>
+				</Data>
+				<Data name="fax">
+					<value>604-688-3774</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouver-westbroadway@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-West-Broadway.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:00 am to 5:00 pm Monday, Wednesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 am to 6:00 pm Tuesday, Thursday</value>
+				</Data>
+				<Data name="hours3">
+					<value>9:00 am to 4:00 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.154107,49.2635368</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p10">
+			<name>WorkBC Centre - Vancouver - Commercial</name>
+			<address>312 - 2555 Commercial Drive, Vancouver, BC V5N 4C1</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Commercial.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 13&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - Commercial</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver Northeast</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>13</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver Northeast</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - Commercial</value>
+				</Data>
+				<Data name="address">
+					<value>312 - 2555 Commercial Drive, Vancouver, BC V5N 4C1</value>
+				</Data>
+				<Data name="phone">
+					<value>604-708-9300</value>
+				</Data>
+				<Data name="fax">
+					<value>604-708-9314</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouver-commercial@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Commercial.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 5:00 pm Monday, Tuesday, Thursday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 3:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 2:00 pm Saturday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0698957,49.2617874</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p11">
+			<name>WorkBC Centre - Vancouver - South</name>
+			<address>Ground Floor - 7575 Cambie Street, Vancouver, BC V6P 3H6</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Cambie.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Vancouver&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 14&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Vancouver - South</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Vancouver South</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>14</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Vancouver South</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Vancouver - South</value>
+				</Data>
+				<Data name="address">
+					<value>Ground Floor - 7575 Cambie Street, Vancouver, BC V6P 3H6</value>
+				</Data>
+				<Data name="phone">
+					<value>604-263-5005</value>
+				</Data>
+				<Data name="fax">
+					<value>604-263-5900</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-vancouversouth@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Vancouver-Cambie.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:00 am to 5:00 pm Monday, Wednesday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 am to 6:00 pm Tuesday, Thursday</value>
+				</Data>
+				<Data name="hours3">
+					<value/>
+				</Data>
+				<Data name="hours4">
+					<value/>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.1172908,49.2162149</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p12">
+			<name>WorkBC Centre - Abbotsford</name>
+			<address>#103 - 33255 S Fraser Way  Abbotsford, BC, V2S 2B2</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/WorkBC-Centres/Mainland-Southwest/AbbotsfordEnFrancais.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Abbotsford&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 27&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Abbotsford</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Abbotsford</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>27</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Abbotsford</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Abbotsford</value>
+				</Data>
+				<Data name="address">
+					<value>#103 - 33255 S Fraser Way  Abbotsford, BC, V2S 2B2</value>
+				</Data>
+				<Data name="phone">
+					<value>833-314-1030 </value>
+				</Data>
+				<Data name="fax">
+					<value>604-852-5074</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:info-abbotsford@workbc.ca </value>
+				</Data>
+				<Data name="website">
+					<value>https://www.workbc.ca/WorkBC-Centres/Mainland-Southwest/AbbotsfordEnFrancais.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday, Tuesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 6:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 3:00 pm Thursday, 8:30 am to 4:30 pm Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.3028545,49.050256</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p13">
+			<name>WorkBC Centre - Chilliwack</name>
+			<address>200-45905 Yale Road, Chilliwack, BC V2P 2M6</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Chilliwack.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Chilliwack&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 28&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Chilliwack</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Fraser Northeast</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>28</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Fraser Northeast</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Chilliwack</value>
+				</Data>
+				<Data name="address">
+					<value>200-45905 Yale Road, Chilliwack, BC V2P 2M6</value>
+				</Data>
+				<Data name="phone">
+					<value>778-860-5452</value>
+				</Data>
+				<Data name="fax">
+					<value>604-792-1108</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-chilliwack@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Mainland-Southwest/Chilliwack.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 AM to 5:30 PM Monday -Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 AM to 4:30 PM Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value>Saturday Closed</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-121.9583882,49.1675974</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p14">
+			<name>WorkBC Centre - Kamloops - Lansdowne</name>
+			<address>Unit 210 - 450 Lansdowne St, Kamloops, BC V2C 1X8</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Lansdowne.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kamloops&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 31&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Kamloops - Lansdowne</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Kamloops - Thompson</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>31</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Kamloops - Thompson</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Kamloops - Lansdowne</value>
+				</Data>
+				<Data name="address">
+					<value>Unit 210 - 450 Lansdowne St, Kamloops, BC V2C 1X8</value>
+				</Data>
+				<Data name="phone">
+					<value>250-377-3670</value>
+				</Data>
+				<Data name="fax">
+					<value>250-828-8755</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-kamloops-lansdowne@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Lansdowne.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 6:00 pm Monday, Tuesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>11:00 am to 4:30 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 4:30 pm Thursday, Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3288178,50.6772202</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p15">
+			<name>WorkBC Centre - Kamloops - Tranquille</name>
+			<address>795 Tranquille Rd., Kamloops, BC V2B 3J3</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Tranquille.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kamloops&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 31&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Kamloops - Tranquille</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Kamloops - Thompson</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>31</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Kamloops - Thompson</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>2</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Kamloops - Tranquille</value>
+				</Data>
+				<Data name="address">
+					<value>795 Tranquille Rd., Kamloops, BC V2B 3J3</value>
+				</Data>
+				<Data name="phone">
+					<value>250-377-3670</value>
+				</Data>
+				<Data name="fax">
+					<value>250-377-3659</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-kamloops-tranquille@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kamloops-Tranquille.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 6:00 pm Monday, Tuesday</value>
+				</Data>
+				<Data name="hours2">
+					<value>11:00 am to 4:30 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 4:30 pm Thursday, Friday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-120.3631851,50.6984055</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p16">
+			<name>WorkBC Centre - Penticton</name>
+			<address>174 1848 Main Street, Penticton, BC V2A 5H3</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Penticton.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Penticton&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 32&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Penticton</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Southern Okanagan</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>32</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Southern Okanagan</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Penticton</value>
+				</Data>
+				<Data name="address">
+					<value>174 1848 Main Street, Penticton, BC V2A 5H3</value>
+				</Data>
+				<Data name="phone">
+					<value>833-313-0547</value>
+				</Data>
+				<Data name="fax">
+					<value>250-493-0185</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-penticton@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Penticton.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Friday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:30 am to 6:00 pm Wednesday</value>
+				</Data>
+				<Data name="hours3">
+					<value>8:30 am to 3:00 pm Thursday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.5837721,49.4779047</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p17">
+			<name>WorkBC Centre - Kelowna</name>
+			<address>107 - 1835 Gordon Dr, Kelowna, BC V1Y 3H4</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kelowna.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Kelowna&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 33&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Kelowna</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Central Okanagan</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>33</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Central Okanagan</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Kelowna</value>
+				</Data>
+				<Data name="address">
+					<value>107 - 1835 Gordon Dr, Kelowna, BC V1Y 3H4</value>
+				</Data>
+				<Data name="phone">
+					<value>778-738-0225</value>
+				</Data>
+				<Data name="fax">
+					<value>TBD</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-kelowna@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Kelowna.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:00 am to 6:00 pm Monday to Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 am to 4:00 pm Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value/>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.4757465,49.8816284</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p18">
+			<name>WorkBC Centre - Rutland</name>
+			<address>Unit 40-301 Highway 33, Rutland, BC V1X 1X8</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Rutland.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Rutland&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 33&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Rutland</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Central Okanagan</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>33</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Central Okanagan</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>3</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Rutland</value>
+				</Data>
+				<Data name="address">
+					<value>Unit 40-301 Highway 33, Rutland, BC V1X 1X8</value>
+				</Data>
+				<Data name="phone">
+					<value>778-738-2909</value>
+				</Data>
+				<Data name="fax">
+					<value>TBD</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-rutland@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Rutland.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:00 am to 5:30pm Monday to Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>8:00 am to 3:30 pm Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value/>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-119.391573,49.8883348</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p19">
+			<name>WorkBC Centre - Prince George</name>
+			<address>103-1600 15th Ave, Prince George, BC V2L 3X3</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Cariboo/Prince-George.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Prince George&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 43&lt;/em&gt;</description>
+			<styleUrl>#WorkBCCentres</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Centre - Prince George</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Prince George</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>43</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Prince George</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>2</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Centre - Prince George</value>
+				</Data>
+				<Data name="address">
+					<value>103-1600 15th Ave, Prince George, BC V2L 3X3</value>
+				</Data>
+				<Data name="phone">
+					<value>236-601-9111</value>
+				</Data>
+				<Data name="fax">
+					<value>250-960-1491</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:centre-princegeorge@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/Cariboo/Prince-George.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>8:30 am to 6:30pm Monday to Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00am to 4:00 pm Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value/>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.7613399,53.9105975</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="p20">
+			<name>WorkBC Apprentice Services - Coquitlam</name>
+			<address>A1410 - 1250 Pinetree Way, Coquitlam, BC V2B 7X2</address>
+			<Snippet maxLines="0"/>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Coquitlam&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 46&lt;/em&gt;</description>
+			<styleUrl>#AS</styleUrl>
+			<ExtendedData>
+				<Data name="Contractor">
+					<value>WorkBC Apprentice Services - Coquitlam</value>
+				</Data>
+				<Data name="CatchmentArea">
+					<value>Apprentice Services (AS)</value>
+				</Data>
+				<Data name="catchmentId">
+					<value>46</value>
+				</Data>
+				<Data name="catchmentName">
+					<value>Apprentice Services (AS)</value>
+				</Data>
+				<Data name="storefrontId">
+					<value>1</value>
+				</Data>
+				<Data name="storefrontName">
+					<value>WorkBC Apprentice Services - Coquitlam</value>
+				</Data>
+				<Data name="address">
+					<value>A1410 - 1250 Pinetree Way, Coquitlam, BC V2B 7X2</value>
+				</Data>
+				<Data name="phone">
+					<value>1-844-428-4730</value>
+				</Data>
+				<Data name="fax">
+					<value>1-844-428-4731</value>
+				</Data>
+				<Data name="email">
+					<value>mailto:apprenticeservices@workbc.ca</value>
+				</Data>
+				<Data name="website">
+					<value>https://workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx</value>
+				</Data>
+				<Data name="hasFrench">
+					<value>Y</value>
+				</Data>
+				<Data name="hours1">
+					<value>9:00 am to 7:00 pm Monday to Thursday</value>
+				</Data>
+				<Data name="hours2">
+					<value>9:00 am to 5:00 pm Friday</value>
+				</Data>
+				<Data name="hours3">
+					<value>10:00 am to 2:00 pm Saturday</value>
+				</Data>
+				<Data name="hours4">
+					<value>Statutory Holidays - Closed</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.7925384,49.2881777</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
+
