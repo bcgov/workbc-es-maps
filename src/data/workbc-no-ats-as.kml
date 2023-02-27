@@ -3199,13 +3199,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>10:30 am to 7:00 pm Monday (Closed 1:30-2:30pm)</value>
+					<value>9:00 am to 5:00 pm Tuesday and Thursday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 4:30 pm  Tuesday to Friday (closed 12-1pm)</value>
+					<value>10:30 am to 6:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>Statutory Holidays - Closed</value>
 				</Data>
 				<Data name="hours4">
 					<value></value>
