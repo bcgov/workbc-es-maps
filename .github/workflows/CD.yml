@@ -33,7 +33,7 @@ jobs:
           image: "workbc-es-maps"
           tags: test
           context: "./src"
-          containerfile: "./src/Dockerfile"
+          containerfiles: "./src/Dockerfile"
           labels: |
               app: workbc-es-maps
               app.kubernetes.io/component: workbc-es-maps
