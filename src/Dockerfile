@@ -1,5 +1,5 @@
 FROM nginx:1.16
-COPY ./* /usr/share/nginx/html
+RUN cp -r ./. /usr/share/nginx/html
 
 # Expose port
 EXPOSE 8080
