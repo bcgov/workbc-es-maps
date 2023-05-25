@@ -1,5 +1,4 @@
 FROM nginxinc/nginx-unprivileged 
-RUN mkdir -p /usr/share/nginx/html/src
 COPY ./. /usr/share/nginx/html/src
 
 # Expose port
