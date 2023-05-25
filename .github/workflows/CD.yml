@@ -33,6 +33,15 @@ jobs:
           image: "workbc-es-maps"
           tags: test
           context: "./src"
+          containerfile: "./openshift/Dockerfile"
+          labels: |
+              app: workbc-es-maps
+              app.kubernetes.io/component: workbc-es-maps
+              app.kubernetes.io/instance: workbc-es-maps
+              app.kubernetes.io/name: nginx
+              app.kubernetes.io/part-of: workbc-es-maps-app
+              app.openshift.io/runtime: nginx
+              app.openshift.io/runtime-version: '1.16'
           tls-verify: false
       - name: Push Static To OpenShift Image repo
         id: push-to-os-static
