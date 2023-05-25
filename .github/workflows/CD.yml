@@ -25,7 +25,7 @@ jobs:
         with:
           from_file: 'map.html'
           to_file: 'map.html'
-          commit: 'false'
+          commit: 'true'
       - name: Test output
         run: echo src/workbc/map.html
       - name: OpenShift4 Action
