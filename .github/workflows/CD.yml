@@ -17,6 +17,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Adding API key
+      - uses: actions/checkout@v2
+      - uses: franzbischoff/replace_envs@v1
+        env:
+          ESRI_API_KEY: ${{ secrets.ESRI_API_KEY }}
+        with:
+          from_file: 'src/workbc/map.html'
+          to_file: 'src/workbc/map.html'
+          commit: 'false'
       - name: OpenShift4 Action
         uses: redhat-developer/openshift-actions@v2.1.0
         env:
