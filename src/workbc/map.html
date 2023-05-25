@@ -115,16 +115,18 @@
       var corner1 = L.latLng(47.768,-145.590),
       corner2 = L.latLng(60.283,-103.403),
       bounds = L.latLngBounds(corner1, corner2);
+      var apiKey = "${ESRI_API_KEY}";
     
       var map = L.map("map", {
         minZoom: 5,
       }).setView([50.65, -129.25], 5);
     
-      L.esri.tiledMapLayer({
-      url: 'https://maps.gov.bc.ca/arcserver/rest/services/Province/web_mercator_cache/MapServer',
-      /*attribution: 'ESRI',*/
-      maxZoom: 17
-    }).addTo(map);
+      const basemapEnum = "bbe05270d3a642f5b62203d6c454f457";
+
+      L.esri.Vector.vectorBasemapLayer(basemapEnum, {
+        apiKey: apiKey,
+        maxZoom: 17
+      }).addTo(map);
     
       //console.log(map.getCenter());
     
