@@ -24,8 +24,7 @@ jobs:
         with:
           find: "${ESRI_API_KEY}"
           replace: "${{ secrets.ESRI_API_KEY }}"
-          include: "src/workbc/**"
-          regex: true
+          regex: false
       - name: Build for pushing static image to OpenShift registry
         id: build-static-image-os
         uses: redhat-actions/buildah-build@v2
