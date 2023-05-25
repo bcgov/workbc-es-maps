@@ -25,18 +25,21 @@ jobs:
           find: "${ESRI_API_KEY}"
           replace: "${{ secrets.ESRI_API_KEY }}"
           include: "src/workbc/**"
-          regex: false
-      - name: OpenShift4 Action
-        uses: redhat-developer/openshift-actions@v2.1.0
-        env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+          regex: true
+      - name: Build for pushing static image to OpenShift registry
+        id: build-static-image-os
+        uses: redhat-actions/buildah-build@v2
         with:
-          # Choose the oc version you want to use to execute the command. It can be a version or an url where to download oc cli desired. If left blank latest oc cli will be used.
-          version: latest
-          # The URL of the Openshift cluster
-          openshift_server_url: ${{secrets.OCP4_SERVER_URL}}
-          # JSON with values to connect to the Openshift cluster
-          parameters: '{"apitoken": "${{ secrets.API_TOKEN_4 }}", "acceptUntrustedCerts": "true"}'
-          # Oc command to be executed
-          cmd: |
-            'start-build workbc-es-maps -n ${{secrets.PROJECT_TOOLS_4}}'
+          image: "workbc-es-maps"
+          tags: test
+          context: "./src"
+          tls-verify: false
+      - name: Push Static To OpenShift Image repo
+        id: push-to-os-static
+        uses: redhat-actions/push-to-registry@v2
+        with:
+          image: ${{ steps.build-static-image-os.outputs.image }}
+          tags: ${{ steps.build-static-image-os.outputs.tags }}
+          registry: image-registry.apps.silver.devops.gov.bc.ca/1c4f9c-tools
+          username: ${{ secrets.API_TOKEN_4 }}
+          password: ${{ secrets.API_TOKEN_4 }}
