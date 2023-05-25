@@ -26,6 +26,8 @@ jobs:
           from_file: 'src/workbc/map.html'
           to_file: 'src/workbc/map.html'
           commit: 'false'
+      - name: Test output
+        run: echo src/workbc/map.html
       - name: OpenShift4 Action
         uses: redhat-developer/openshift-actions@v2.1.0
         env:
