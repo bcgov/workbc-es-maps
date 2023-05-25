@@ -19,15 +19,13 @@ jobs:
     steps:
       - name: Adding API key
         uses: actions/checkout@v2
-      - uses: franzbischoff/replace_envs@v1
-        env:
-          ESRI_API_KEY: ${{ secrets.ESRI_API_KEY }}
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
         with:
-          from_file: 'map.html'
-          to_file: 'map.html'
-          commit: 'true'
-      - name: Test output
-        run: echo src/workbc/map.html
+          find: "${ESRI_API_KEY}"
+          replace: "${{ secrets.ESRI_API_KEY }}"
+          include: "src/workbc/**"
+          regex: false
       - name: OpenShift4 Action
         uses: redhat-developer/openshift-actions@v2.1.0
         env:
