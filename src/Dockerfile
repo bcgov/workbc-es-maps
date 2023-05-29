@@ -1,5 +1,5 @@
 FROM nginxinc/nginx-unprivileged 
-COPY ./. /usr/share/nginx/html/src
+COPY ./. /usr/share/nginx/html
 
 # Expose port
 EXPOSE 8080
