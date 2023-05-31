@@ -1372,7 +1372,7 @@
 					<value>9:00 am to 5:00 pm Monday, Tuesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 8:00 pm Wednesday, Thursday</value>
+					<value>9:00 am to 6:30 pm Wednesday, Thursday</value>
 				</Data>
 				<Data name="hours3">
 					<value>10:00 am to 3:00 pm Saturday</value>
