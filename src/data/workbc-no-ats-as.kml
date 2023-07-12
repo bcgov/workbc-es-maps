@@ -4541,10 +4541,10 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 5:30 pm Monday</value>
+					<value>8:30 am to 5:30 pm Wednesdays</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 4:30 pm Tuesday to Friday</value>
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Thursday, Friday</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
