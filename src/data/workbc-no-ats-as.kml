@@ -3035,7 +3035,7 @@
 	
 		<Placemark id="p52">
 			<name>WorkBC Centre - Sooke</name>
-			<address>Unit D 6625 Sooke Road, Sooke, BC V9Z 0A3</address>
+			<address>2096 Church Road Sooke BC V9Z 0W7</address>
 			<Snippet maxLines="0"/>
 			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Vancouver-Island-Coast/Sooke.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Sooke&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 06&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
@@ -3059,7 +3059,7 @@
 					<value>WorkBC Centre - Sooke</value>
 				</Data>
 				<Data name="address">
-					<value>Unit D 6625 Sooke Road, Sooke, BC V9Z 0A3</value>
+					<value>2096 Church Road Sooke BC V9Z 0W7</value>
 				</Data>
 				<Data name="phone">
 					<value>250-642-3685</value>
