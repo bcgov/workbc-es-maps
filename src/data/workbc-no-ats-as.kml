@@ -2101,13 +2101,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 5:30 pm Monday, Tuesday, Thursday</value>
+					<value>8:30 am to 4:30 pm Monday, Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 6:30 pm Wednesday</value>
+					<value>9:30 am to 5:30 pm Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value>8:30 am to 4:30 pm Friday</value>
+					<value></value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays, Easter Monday, Boxing Day - Closed</value>
@@ -2165,7 +2165,7 @@
 					<value>8:00 am to 4:00 pm Monday, Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:00 am to 6:00 pm Thursday</value>
+					<value>9:30 am to 5:30 pm Thursday</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
@@ -4236,10 +4236,10 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 4:30 pm Monday, Tuesday, Wednesday, and Friday</value>
+					<value>8:30 am to 4:30 pm Monday, Wednesday, and Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 6:30 pm Thursday</value>
+					<value>9:30 am to 5:30 pm Thursday</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
@@ -4297,10 +4297,10 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 6:30 pm Monday to Thursday</value>
+					<value>8:30 am to 6:30 pm Monday, Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 4:30 pm Friday</value>
+					<value>9:30 am to 5:30 pm Thursday</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
@@ -5578,10 +5578,10 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 4:30 pm Monday, Wednesday, Thursday, Friday</value>
+					<value>8:30 am to 4:30 pm Monday, Thursday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 6:00 pm Tuesday</value>
+					<value>9:30 am to 5:30 pm Tuesday</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
@@ -5642,7 +5642,7 @@
 					<value>8:30 am to 4:30 pm Monday, Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 6:00 pm Thursday</value>
+					<value>9:30 am to 5:30 pm Thursday</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
