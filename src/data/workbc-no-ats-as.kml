@@ -4236,7 +4236,7 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 4:30 pm Monday, Wednesday, and Friday</value>
+					<value>8:30am to 4:30pm Monday, Tuesday, Wednesday and Friday</value>
 				</Data>
 				<Data name="hours2">
 					<value>9:30 am to 5:30 pm Thursday</value>
@@ -4297,7 +4297,7 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 6:30 pm Monday, Tuesday, Wednesday, Friday</value>
+					<value>8:30am to 4:30pm Monday, Tuesday, Wednesday and Friday</value>
 				</Data>
 				<Data name="hours2">
 					<value>9:30 am to 5:30 pm Thursday</value>
@@ -5578,7 +5578,7 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 4:30 pm Monday, Thursday, Friday</value>
+					<value>8:30am to 4:30pm Monday, Wednesday, Thursday and Friday</value>
 				</Data>
 				<Data name="hours2">
 					<value>9:30 am to 5:30 pm Tuesday</value>
