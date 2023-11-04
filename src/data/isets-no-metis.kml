@@ -810,7 +810,7 @@
 					<value>1717 Boucher Lake Rd., Moberly Lake, BC, V0C 1X0</value>
 				</Data>
 				<Data name="colour">
-					<value>O</value>
+					<value>B</value>
 				</Data>
 				<Data name="phone">
 					<value>250-788-3955</value>
@@ -823,7 +823,7 @@
 				</Data>
 			</ExtendedData>
 			<Point>
-				<coordinates>55.851859, -121.652305</coordinates>
+				<coordinates>-121.652305,55.851859</coordinates>
 			</Point>
 		</Placemark>
 	</Document>
