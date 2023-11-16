@@ -25,7 +25,7 @@ on:
         type: environment
         required: true
   push:
-    branches: [ prod,test ]
+    branches: [ prod,test,main ]
     paths-ignore:
     - '.github/workflows/**'
 
@@ -55,7 +55,7 @@ jobs:
         uses: redhat-actions/buildah-build@v2
         with:
           image: "workbc-es-maps"
-          tags: ${{ steps.extract_branch.outputs.branch }}
+          tags: ${{ steps.extract_branch.outputs.branch == 'main' && 'latest' || steps.extract_branch.outputs.branch}}
           context: "./src"
           containerfiles: "./src/Dockerfile"
           labels: |

@@ -141,7 +141,7 @@
 					<value>250-793-0367</value>
 				</Data>
 				<Data name="website">
-					<value>https://www.bcafn.ca/first-nations-bc/northeast/doig-river</value>
+					<value>https://doigriverfn.com/</value>
 				</Data>
 				<Data name="email">
 					<value/>
@@ -1042,6 +1042,32 @@
 				<coordinates>-122.9100031,49.2024621</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="p38">
+			<name>Saulteau First Nation</name>
+			<address>Office</address>
+			<Snippet maxLines="0"/>
+			<description>Office&lt;br/&gt;1717 Boucher Lake Rd.&lt;br/&gt;Moberly Lake, B.C., V0C 1X0&lt;br/&gt;Phone: (250) 788-3955&lt;br/&gt;Website: &lt;a href=&quot;https://www.saulteau.com&quot; target=&quot;_blank&quot;&gt;https://www.saulteau.com&lt;/a&gt;&lt;br/&gt;Email: &lt;a href=&quot;mailto: trichter@saulteau.com&quot;&gt;trichter@saulteau.com&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;For a full list of offices click &lt;a href=&quot;https://www.workbc.ca/Employment-Services/ISETs-Listing.aspx#SAFN&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;</description>
+			<styleUrl>#SAFN</styleUrl>
+			<ExtendedData>
+				<Data name="address">
+					<value>1717 Boucher Lake Rd., Moberly Lake, BC, V0C 1X0</value>
+				</Data>
+				<Data name="colour">
+					<value>G</value>
+				</Data>
+				<Data name="phone">
+					<value>250-788-3955</value>
+				</Data>
+				<Data name="website">
+					<value>https://www.saulteau.com</value>
+				</Data>
+				<Data name="email">
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.851859, -121.652305</coordinates>
+			</Point>
+		</Placemark>
 	</Document>
 </kml>
-
