@@ -2284,10 +2284,10 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>10:00 am to 6:00 pm Monday</value>
+					<value>Monday 9:30am to 5:30pm</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 5:00 pm Tuesday to Friday</value>
+					<value>Tuesday to Friday 9:00am to 5:00pm</value>
 				</Data>
 				<Data name="hours3">
 					<value></value>
@@ -4419,13 +4419,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>10:00 am to 6:00 pm Monday</value>
+					<value>Monday 9:30am to 5:30pm</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 5:00 pm Tuesday to Thursday</value>
+					<value>Tuesday to Friday 9:00am to 5:00pm</value>
 				</Data>
 				<Data name="hours3">
-					<value>9:00 am to 3:00 pm Friday</value>
+					<value></value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
