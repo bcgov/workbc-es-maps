@@ -2284,13 +2284,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>10:00 am to 6:00 pm Monday</value>
+					<value>9:00 am to 5:30 pm Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 5:00 pm Tuesday to Friday</value>
+					<value>9:00 am to 5:00 pm Tuesday to Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>9:00 am to 4:30 pm Friday</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
@@ -4133,7 +4133,7 @@
 	
 		<Placemark id="p70">
 			<name>WorkBC Centre - Sicamous</name>
-			<address>1217 Shuswap Ave Unit C, Sicamous, BC V0E 2V0</address>
+			<address>1133 Eagle Pass Way, Sicamous BC V0E 2V0</address>
 			<Snippet maxLines="0"/>
 			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/Thompson-Okanagan/Sicamous.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Sicamous&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 34&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
@@ -4157,7 +4157,7 @@
 					<value>WorkBC Centre - Sicamous</value>
 				</Data>
 				<Data name="address">
-					<value>1217 Shuswap Ave Unit C, Sicamous, BC V0E 2V0</value>
+					<value>1133 Eagle Pass Way, Sicamous BC  V0E 2V0</value>
 				</Data>
 				<Data name="phone">
 					<value>250-836-2655</value>
