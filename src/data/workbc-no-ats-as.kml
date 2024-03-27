@@ -2210,9 +2210,6 @@
 				<Data name="phone">
 					<value>250-423-4204</value>
 				</Data>
-				<Data name="fax">
-					<value>250-423-6238</value>
-				</Data>
 				<Data name="email">
 					<value>mailto:centre-fernie@workbc.ca</value>
 				</Data>
@@ -4342,9 +4339,6 @@
 				<Data name="phone">
 					<value>250-489-5117</value>
 				</Data>
-				<Data name="fax">
-					<value>250-489-0663</value>
-				</Data>
 				<Data name="email">
 					<value>mailto:centre-cranbrook@workbc.ca</value>
 				</Data>
@@ -5683,9 +5677,6 @@
 				</Data>
 				<Data name="phone">
 					<value>250-341-6889</value>
-				</Data>
-				<Data name="fax">
-					<value>250-341-6886</value>
 				</Data>
 				<Data name="email">
 					<value>mailto:centre-invermere@workbc.ca</value>
