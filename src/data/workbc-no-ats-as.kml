@@ -2211,8 +2211,8 @@
 					<value>250-423-4204</value>
 				</Data>
 				<Data name="fax">
-                    <value></value>
-                </Data>
+					<value></value>
+				</Data>
 				<Data name="email">
 					<value>mailto:centre-fernie@workbc.ca</value>
 				</Data>
@@ -2223,16 +2223,16 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:00 am to 4:00 pm Tuesday, Wednesday</value>
+					<value>8:00 am to 4:00 pm Monday, Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:30am to 5:30pm Thursdays</value>
+					<value>9:30am to 5:30pm Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value>Monday, Friday - Closed</value>
+					<value>Statutory Holidays - Closed</value>
 				</Data>
 				<Data name="hours4">
-					<value>Statutory Holidays - Closed</value>
+					<value></value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -4346,7 +4346,7 @@
 					<value>250-489-5117</value>
 				</Data>
 				<Data name="fax">
-					<value>250-489-0663</value>
+					<value></value>
 				</Data>
 				<Data name="email">
 					<value>mailto:centre-cranbrook@workbc.ca</value>
@@ -5688,7 +5688,7 @@
 					<value>250-341-6889</value>
 				</Data>
 				<Data name="fax">
-					<value>250-341-6886</value>
+					<value></value>
 				</Data>
 				<Data name="email">
 					<value>mailto:centre-invermere@workbc.ca</value>
@@ -5700,13 +5700,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:00 am to 4:00 pm Tuesday, Wednesday</value>
+					<value>8:00 am to 4:00 pm Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:30am to 5:30pm Thursdays</value>
+					<value>9:30am to 5:30pm Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value>Moday, Friday - Closed</value>
+					<value>Monday - Closed</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
