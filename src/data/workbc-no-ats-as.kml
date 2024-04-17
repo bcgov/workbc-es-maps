@@ -5719,7 +5719,7 @@
 	
 		<Placemark id="p97">
 			<name>WorkBC Centre - Daajing Giids</name>
-			<address>101 Causeway, Queen Charlotte, V0T 1S0</address>
+			<address>101 Causeway, Daajing Giids, V0T 1S0</address>
 			<Snippet maxLines="0"/>
 			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/workbc-centres/workbc-centre-daajing-giids&quot; target=&quot;_blank&quot;&gt;WorkBC Centre - Daajing Giids&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 39&lt;/em&gt;</description>
 			<styleUrl>#WorkBCCentres</styleUrl>
@@ -5743,7 +5743,7 @@
 					<value>WorkBC Centre - Daajing Giids</value>
 				</Data>
 				<Data name="address">
-					<value>101 Causeway, Queen Charlotte, V0T 1S0</value>
+					<value>101 Causeway, Daajing Giids, V0T 1S0</value>
 				</Data>
 				<Data name="phone">
 					<value>250-559-0049</value>
@@ -5752,25 +5752,25 @@
 					<value>250- 559-7709</value>
 				</Data>
 				<Data name="email">
-					<value>mailto:centre-queencharlotte@workbc.ca</value>
+					<value>mailto:centre-daajinggiids@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>https://workbc.ca/WorkBC-Centres/North-Coast-Nechako/Queen-Charlotte.aspx</value>
+					<value>https://www.workbc.ca/workbc-centres/workbc-centre-daajing-giids</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 4:30 pm Tuesday and Thursday</value>
+					<value>8:30 am to 4:30 pm Tuesday, Wednesday and Thursday</value>
 				</Data>
 				<Data name="hours2">
-					<value>10:00am to 6:00pm Wednesday</value>
-				</Data>
-				<Data name="hours3">
 					<value>Monday and Friday - Closed</value>
 				</Data>
-				<Data name="hours4">
+				<Data name="hours3">
 					<value>Statutory Holidays - Closed</value>
+				</Data>
+				<Data name="hours4">
+					<value></value>
 				</Data>
 			</ExtendedData>
 			<Point>
