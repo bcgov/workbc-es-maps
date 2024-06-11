@@ -4788,10 +4788,10 @@
 					<value>8:30 am to 5:30 pm Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 3:30 pm Tuesday</value>
+					<value>8:30 am to 3:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
-					<value>8:30 am to 4:30 pm Wednesday to Friday </value>
+					<value>8:30 am to 4:30 pm Tuesday, Thursday and Friday </value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
