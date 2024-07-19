@@ -6127,13 +6127,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>9:00 am to 4:00 pm Monday to Friday</value>
+					<value>9:00 am to 4:00 pm Monday, Tuesday, Thursday and Friday</value>
 				</Data>
 				<Data name="hours2">
-					<value>Statutory Holidays - Closed</value>
+					<value>9:00 am to 5:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>Statutory Holidays - Closed</value>
 				</Data>
 				<Data name="hours4">
 					<value></value>
