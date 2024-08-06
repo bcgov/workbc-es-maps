@@ -2711,13 +2711,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>9:00 am to 7:00 pm to Monday</value>
+					<value>8:30 am to 5:30 pm to Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 4:30 pm Tuesday to Friday</value>
+					<value>8:30 am to 4:30 pm Tuesday to Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>8:30 am to 3:30 pm Friday</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
@@ -3870,13 +3870,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>9:00 am to 7:00 pm Monday</value>
+					<value>8:30 am to 5:30 pm Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 4:30 pm Tuesday to Friday</value>
+					<value>8:30 am to 4:30 pm Tuesday to Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>8:30 am to 3:30 pm Friday</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
@@ -5212,13 +5212,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>9:00 am to 7 pm Monday</value>
+					<value>8:30 am to 5:30 pm Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:00 am to 4:30 pm Tuesday to Friday</value>
+					<value>8:30 am to 4:30 pm Tuesday to Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>8:30 am to 3:30 pm Friday</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
