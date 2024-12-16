@@ -327,16 +327,16 @@
 					<value>Y</value>
 				</Data>
 				<Data name="hours1">
-					<value>9:00 am to 5:30 pm Monday</value>
+					<value>9:30 am to 5:30 pm Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:00 am to 4:30 pm Tuesday, Thursday, Friday</value>
+					<value>8:30 am to 4:30 pm Tuesday, Thursday</value>
 				</Data>
 				<Data name="hours3">
-					<value>8:00 am to 2:00 pm Wednesday</value>
+					<value>11:30 am to 4:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours4">
-					<value>Statutory Holidays - Closed</value>
+					<value>Friday & Statutory Holidays - Closed</value>
 				</Data>
 			</ExtendedData>
 			<Point>
@@ -390,7 +390,7 @@
 					<value>8:30 am to 6:00 pm Monday, Tuesday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 2:00 pm Wednesday</value>
+					<value>11:30 am to 4:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
 					<value>8:30 am to 4:30 pm Thursday, Friday</value>
@@ -447,13 +447,13 @@
 					<value>Y</value>
 				</Data>
 				<Data name="hours1">
-					<value>9:30 am to 6:00 pm Monday, Tuesday</value>
+					<value>8:30 am to 6:00 pm Monday, Tuesday</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:30 am to 2:00 pm Wednesday</value>
+					<value>11:00 am to 4:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
-					<value>9:30 am to 4:30 pm Thursday, Friday</value>
+					<value>8:30 am to 4:30 pm Thursday, Friday</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
