@@ -515,13 +515,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:30 am to 7:00 pm Monday</value>
+					<value>8:30 am to 4:30 pm Monday, Tuesday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 4:30 pm Tuesday to Friday</value>
+					<value>8:30 am to 7:00 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
-					<value></value>
+					<value>8:30 am to 4:30pm Thursday, Friday</value>
 				</Data>
 				<Data name="hours4">
 					<value></value>
