@@ -701,13 +701,13 @@
 					<value>9:30 am to 5:30 pm Monday</value>
 				</Data>
 				<Data name="hours2">
-					<value>8:30 am to 4:30 pm Tuesday, Thursday</value>
+					<value>8:30 am to 4:30 pm Tuesday, Thursday, Friday</value>
 				</Data>
 				<Data name="hours3">
 					<value>11:30 am to 4:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours4">
-					<value>Friday and Statutory Holidays - Closed</value>
+					<value>Saturday, Sunday, and Statutory Holidays - Closed</value>
 				</Data>
 			</ExtendedData>
 			<Point>
