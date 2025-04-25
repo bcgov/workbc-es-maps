@@ -6013,6 +6013,9 @@
 				<Data name="hours3">
 					<value>Statutory Holidays - Closed</value>
 				</Data>
+				<Data name="hours4">
+					<value></value>
+				</Data>
 			</ExtendedData>
 			<Point>
 				<coordinates>-126.7597315,52.3721502</coordinates>
