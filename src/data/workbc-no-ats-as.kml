@@ -6005,15 +6005,12 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>11:00 am to 5:30 pm Monday (closed 1:30 pm to 2:00 pm)</value>
+					<value>Monday to Thursday 9:30 to 12:30 and 1 pm to 4 pm (closed 12:30 to 1:00 pm - lunch)</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:30 am to 4:00 pm Tuesday to Thursday (closed 12:30 pm to 1:00 pm)</value>
-				</Data>
-				<Data name="hours3">
 					<value>Friday - Closed</value>
 				</Data>
-				<Data name="hours4">
+				<Data name="hours3">
 					<value>Statutory Holidays - Closed</value>
 				</Data>
 			</ExtendedData>
