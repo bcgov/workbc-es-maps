@@ -2223,13 +2223,13 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>8:00 am to 4:00 pm Tuesday, Wednesday, Friday</value>
+					<value>Monday - Virtual services available – please call for service</value>
 				</Data>
 				<Data name="hours2">
-					<value>9:30am to 5:30pm Thursday</value>
+					<value>8:00 am to 4:00 pm Tuesday, Wednesday, Friday</value>
 				</Data>
 				<Data name="hours3">
-					<value>Monday - Closed</value>
+					<value>9:30 am to 5:30 pm Thursday</value>
 				</Data>
 				<Data name="hours4">
 					<value>Statutory Holidays - Closed</value>
@@ -3260,10 +3260,10 @@
 					<value>N</value>
 				</Data>
 				<Data name="hours1">
-					<value>10:30 am to 6:00 pm Monday, Tuesday</value>
+					<value>8:30 am to 6:00 pm Monday, Tuesday</value>
 				</Data>
 				<Data name="hours2">
-					<value>11:30am to 4:30 pm Wednesday</value>
+					<value>11:00am to 4:30 pm Wednesday</value>
 				</Data>
 				<Data name="hours3">
 					<value>8:30 am to 4:30 pm Thursday, Friday</value>
