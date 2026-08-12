@@ -49,7 +49,7 @@
 			<name>WorkBC Apprentice Services - Coquitlam</name>
 			<address>A1410 - 1250 Pinetree Way, Coquitlam, BC V2B 7X2</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Apprentice Services - Coquitlam&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 46&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/workbc-centres/workbc-apprentice-services-coquitlam&quot; target=&quot;_blank&quot;&gt;WorkBC Apprentice Services - Coquitlam&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 46&lt;/em&gt;</description>
 			<styleUrl>#AS</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -83,7 +83,7 @@
 					<value>mailto:apprenticeservices@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>https://workbc.ca/WorkBC-Centres/AS/Coquitlam.aspx</value>
+					<value>https://www.workbc.ca/workbc-centres/workbc-apprentice-services-coquitlam</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>N</value>
@@ -110,7 +110,7 @@
 			<name>WorkBC Assistive Technology Services - Burnaby</name>
 			<address>400-3999 Henning Drive, Burnaby, BC V6C 6P9</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Burnaby.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Burnaby&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/workbc-centres/assistive-technology-services-burnaby&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Burnaby&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 1&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
 			<styleUrl>#ATS</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -144,7 +144,7 @@
 					<value>mailto:ats@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>https://workbc.ca/WorkBC-Centres/ATS/Burnaby.aspx</value>
+					<value>https://www.workbc.ca/workbc-centres/assistive-technology-services-burnaby</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>N</value>
@@ -173,7 +173,7 @@
 			<name>WorkBC Assistive Technology Services - Nanaimo</name>
 			<address>305-155 Skinner Street, Nanaimo, BC V9R 5E8</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Nanaimo.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Nanaimo&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/workbc-centres/assistive-technology-services-nanaimo&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Nanaimo&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 2&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
 			<styleUrl>#ATS</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -207,7 +207,7 @@
 					<value>mailto:ats@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>https://workbc.ca/WorkBC-Centres/ATS/Nanaimo.aspx</value>
+					<value>https://www.workbc.ca/workbc-centres/assistive-technology-services-nanaimo</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>N</value>
@@ -234,7 +234,7 @@
 			<name>WorkBC Assistive Technology Services - Kelowna</name>
 			<address>202-437 Glenmore Road, Kelowna, BC V1V 1Y5</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Kelowna.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Kelowna&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/workbc-centres/assistive-technology-services-kelowna&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Kelowna&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 3&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
 			<styleUrl>#ATS</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -268,7 +268,7 @@
 					<value>mailto:ats@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>https://workbc.ca/WorkBC-Centres/ATS/Kelowna.aspx</value>
+					<value>https://www.workbc.ca/workbc-centres/assistive-technology-services-kelowna</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>N</value>
@@ -295,7 +295,7 @@
 			<name>WorkBC Assistive Technology Services - Victoria</name>
 			<address>817A Fort Street, Victoria, BC  V8W 1H6</address>
 			<Snippet maxLines="0"/>
-			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://workbc.ca/WorkBC-Centres/ATS/Victoria.aspx&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 4&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
+			<description>&lt;![CDATA[&lt;p&gt;&lt;h3&gt;&lt;a href=&quot;https://www.workbc.ca/workbc-centres/assistive-technology-services-victoria&quot; target=&quot;_blank&quot;&gt;WorkBC Assistive Technology Services - Victoria&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;&lt;em&gt;STORE FRONT: 4&lt;/em&gt;&lt;br/&gt;&lt;em&gt;CATCHMENT AREA: 47&lt;/em&gt;</description>
 			<styleUrl>#ATS</styleUrl>
 			<ExtendedData>
 				<Data name="Contractor">
@@ -329,7 +329,7 @@
 					<value>mailto:ats@workbc.ca</value>
 				</Data>
 				<Data name="website">
-					<value>https://workbc.ca/WorkBC-Centres/ATS/Victoria.aspx</value>
+					<value>https://www.workbc.ca/workbc-centres/assistive-technology-services-victoria</value>
 				</Data>
 				<Data name="hasFrench">
 					<value>N</value>
